@@ -1,0 +1,105 @@
+candidate_id,bucket,tier,title,yoe,company,note
+CAND_0042029,ds,5,Senior Data Scientist,6.5,Flipkart,ds/ml_prod/current_good/yoe6/mh3/mid/s=5.00
+CAND_0016163,strong_core_product,5,Applied ML Engineer,6.7,Dream11,core_ai/ml_prod/current_good/yoe7/mh2/good/s=5.50
+CAND_0076251,strong_core_product,5,Search Engineer,7.6,Haptik,core_ai/ml_prod/current_good/yoe8/mh2/good/s=5.50
+CAND_0043228,strong_core_product,5,Applied ML Engineer,6.8,Zoho,core_ai/ml_prod/current_good/yoe7/mh3/mid/s=5.60
+CAND_0008425,strong_core_product,5,Senior NLP Engineer,7.8,Ola,core_ai/senior_search/current_good/yoe8/mh3/good/s=6.30
+CAND_0040117,strong_core_product,5,Recommendation Systems Engineer,6.5,PhonePe,core_ai/ml_prod/current_good/yoe6/mh3/good/s=5.80
+CAND_0041696,strong_core_product,5,Senior Software Engineer (ML),6.2,Saarthi.ai,core_ai/ds/current_good/yoe6/mh3/mid/s=5.00
+CAND_0015581,strong_core_product,5,Senior Software Engineer (ML),6.0,Niramai,core_ai/ds/current_good/yoe6/mh2/good/s=4.90
+CAND_0001930,strong_core_product,5,Senior Software Engineer (ML),6.9,Dream11,core_ai/ds/current_good/yoe7/mh3/good/s=5.20
+CAND_0068811,strong_core_product,5,Applied ML Engineer,8.0,Freshworks,core_ai/ml_prod/current_good/yoe8/mh2/mid/s=5.30
+CAND_0018653,strong_core_product,5,ML Engineer,6.5,Vedantu,core_ai/ds/current_good/yoe6/mh2/mid/s=4.70
+CAND_0006557,strong_core_product,5,NLP Engineer,7.9,Paytm,core_ai/ml_prod/current_good/yoe8/mh2/good/s=5.50
+CAND_0057563,strong_core_product,5,NLP Engineer,6.8,Locobuzz,core_ai/ml_prod/current_good/yoe7/mh2/mid/s=5.30
+CAND_0003557,strong_core_product,5,ML Engineer,6.8,Krutrim,core_ai/ds/current_good/yoe7/mh3/good/s=5.20
+CAND_0081563,strong_core_product,5,ML Engineer,6.9,Dream11,core_ai/ds/current_good/yoe7/mh3/good/s=5.20
+CAND_0015967,strong_core_product,5,Senior Software Engineer (ML),5.4,Razorpay,core_ai/ds/current_good/yoe5/mh3/good/s=4.90
+CAND_0058412,strong_core_product,5,Senior Software Engineer (ML),6.6,InMobi,core_ai/ds/current_good/yoe7/mh3/mid/s=5.00
+CAND_0041308,adjacent_product,4,Software Engineer,5.2,Swiggy,data_adjacent/other/current_good/yoe5/mh2/good/s=3.60
+CAND_0018320,adjacent_product,4,Software Engineer,7.0,CRED,data_adjacent/data/current_good/yoe7/mh2/good/s=3.60
+CAND_0025923,core_services,4,Senior Software Engineer (ML),5.0,HCL,core_ai/ds/prior_good/yoe5/mh2/mid/s=3.50
+CAND_0067201,core_services,4,ML Engineer,6.0,Wipro,core_ai/ds/prior_good/yoe6/mh2/mid/s=3.80
+CAND_0057162,core_services,4,ML Engineer,4.2,Genpact AI,core_ai/ds/prior_good/yoe4/mh3/good/s=3.80
+CAND_0045475,core_services,4,ML Engineer,4.9,Genpact AI,core_ai/ds/prior_good/yoe5/mh2/good/s=3.50
+CAND_0019159,core_services,4,ML Engineer,6.1,Genpact AI,core_ai/ds/prior_good/yoe6/mh3/mid/s=4.10
+CAND_0033839,ds,4,AI Specialist,5.3,Rephrase.ai,ds/ds/current_good/yoe5/mh2/good/s=4.00
+CAND_0043318,ds,4,Data Scientist,6.2,Freshworks,ds/ds/current_good/yoe6/mh2/mid/s=4.10
+CAND_0091580,ds,4,Data Scientist,5.5,Niramai,ds/ds/current_good/yoe6/mh2/mid/s=3.80
+CAND_0005191,ds,4,AI Specialist,6.2,Flipkart,ds/ds/current_good/yoe6/mh1/good/s=3.70
+CAND_0095457,ds,4,Data Scientist,4.1,Locobuzz,ds/ds/current_good/yoe4/mh2/good/s=3.80
+CAND_0096823,ds,4,Data Scientist,4.4,Glance,ds/ds/current_good/yoe4/mh3/good/s=4.10
+CAND_0092989,ds,4,Data Scientist,6.1,PharmEasy,ds/ds/current_good/yoe6/mh2/good/s=4.30
+CAND_0054100,junior,4,Junior ML Engineer,6.0,Zoho,junior/ds/current_good/yoe6/mh2/good/s=3.60
+CAND_0049615,strong_core_product,4,ML Engineer,5.1,Krutrim,core_ai/ds/current_good/yoe5/mh2/mid/s=4.40
+CAND_0082913,strong_core_product,4,Senior Software Engineer (ML),5.5,InMobi,core_ai/ds/current_good/yoe6/mh2/mid/s=4.40
+CAND_0042008,strong_core_product,4,ML Engineer,5.6,Dream11,core_ai/ds/current_good/yoe6/mh2/poor/s=4.00
+CAND_0033842,strong_core_product,4,Senior Software Engineer (ML),5.8,Rephrase.ai,core_ai/ds/current_good/yoe6/mh2/mid/s=4.40
+CAND_0008218,strong_core_product,4,Senior Software Engineer (ML),7.0,Aganitha,core_ai/ds/current_good/yoe7/mh2/poor/s=4.30
+CAND_0062707,strong_core_product,4,Senior Software Engineer (ML),5.6,Locobuzz,core_ai/ds/current_good/yoe6/mh2/mid/s=4.40
+CAND_0051507,adjacent_product,3,Senior Software Engineer,4.6,BYJU'S,data_adjacent/data/current_good/yoe5/mh2/mid/s=2.90
+CAND_0055289,adjacent_product,3,Backend Engineer,6.6,PhonePe,data_adjacent/data/current_good/yoe7/mh2/poor/s=3.00
+CAND_0070496,adjacent_product,3,Senior Software Engineer,6.0,PolicyBazaar,data_adjacent/data/current_good/yoe6/mh2/mid/s=3.40
+CAND_0067710,adjacent_product,3,Senior Data Engineer,4.5,Nykaa,data_adjacent/data/current_good/yoe4/mh2/good/s=3.10
+CAND_0056936,adjacent_product,3,Senior Data Engineer,7.8,CRED,data_adjacent/data/current_good/yoe8/mh2/mid/s=3.40
+CAND_0092489,adjacent_product,3,Software Engineer,4.5,Meesho,data_adjacent/data/current_good/yoe4/mh2/mid/s=2.90
+CAND_0072263,core_services,3,Senior Software Engineer (ML),6.7,Infosys,core_ai/ds/prior_good/yoe7/mh1/good/s=3.40
+CAND_0065450,core_services,3,ML Engineer,4.0,Tech Mahindra,core_ai/ds/prior_good/yoe4/mh2/mid/s=3.30
+CAND_0044576,core_services,3,Senior Software Engineer (ML),5.4,HCL,core_ai/ds/prior_good/yoe5/mh1/mid/s=2.90
+CAND_0097176,core_services,3,ML Engineer,5.9,TCS,core_ai/ds/prior_good/yoe6/mh1/good/s=3.10
+CAND_0056584,ds,3,AI Specialist,3.5,BYJU'S,ds/ds/current_good/yoe4/mh2/mid/s=2.90
+CAND_0047327,junior,3,Junior ML Engineer,5.0,Vedantu,junior/ds/current_good/yoe5/mh2/mid/s=3.10
+CAND_0043304,junior,3,Junior ML Engineer,6.5,TCS,junior/ds/prior_good/yoe6/mh3/good/s=3.00
+CAND_0068393,junior,3,Junior ML Engineer,4.4,Haptik,junior/ds/current_good/yoe4/mh2/good/s=3.10
+CAND_0066104,adjacent_product,2,Software Engineer,3.0,Nykaa,data_adjacent/data/current_good/yoe3/mh2/good/s=2.40
+CAND_0031390,adjacent_product,2,Data Engineer,3.8,Vedantu,data_adjacent/data/current_good/yoe4/mh2/good/s=2.40
+CAND_0016801,core_services,2,ML Engineer,5.3,Infosys,core_ai/ds/all_services/yoe5/mh2/mid/s=1.70
+CAND_0071821,cv,2,Computer Vision Engineer,6.8,HCL,cv_current
+CAND_0013314,cv,2,Computer Vision Engineer,3.6,Wipro,cv_current
+CAND_0077956,cv,2,Computer Vision Engineer,6.4,Niramai,cv_current
+CAND_0008297,cv,2,Computer Vision Engineer,5.3,Rephrase.ai,cv_current
+CAND_0058504,cv,2,Computer Vision Engineer,4.8,Wipro,cv_current
+CAND_0043384,cv,2,Computer Vision Engineer,5.2,Razorpay,cv_current
+CAND_0048375,cv,2,Computer Vision Engineer,4.4,Saarthi.ai,cv_current
+CAND_0084090,junior,2,Junior ML Engineer,3.9,Ola,junior/ds/current_good/yoe4/mh2/good/s=2.40
+CAND_0080189,junior,2,Junior ML Engineer,4.4,Saarthi.ai,junior/ds/current_good/yoe4/mh1/good/s=2.50
+CAND_0021486,cv,1,Computer Vision Engineer,6.4,Paytm,cv_current
+CAND_0016170,research,1,AI Research Engineer,6.8,Dream11,pure_research_current
+CAND_0085199,research,1,AI Research Engineer,4.1,Observe.AI,pure_research_current
+CAND_0004402,research,1,AI Research Engineer,6.0,Yellow.ai,pure_research_current
+CAND_0075175,research,1,AI Research Engineer,3.1,BYJU'S,pure_research_current
+CAND_0044890,research,1,AI Research Engineer,5.0,Haptik,pure_research_current
+CAND_0070333,research,1,AI Research Engineer,4.7,TCS,pure_research_current
+CAND_0069248,research,1,AI Research Engineer,5.4,Unacademy,pure_research_current
+CAND_0051219,research,1,AI Research Engineer,3.8,Observe.AI,pure_research_current
+CAND_0081932,ds,0,Data Scientist,4.4,Tech Mahindra,ds/ds/all_services/yoe4/mh1/mid/s=0.30
+CAND_0071115,honeypot,0,Recommendation Systems Engineer,16.5,Meta,honeypot:H4:yoe(198m)>elapsed(69m)
+CAND_0095140,honeypot,0,Backend Engineer,5.0,Razorpay,honeypot:H1:expert_skill_with_0_months
+CAND_0055992,honeypot,0,AI Engineer,16.9,CRED,honeypot:H4:yoe(203m)>elapsed(80m)
+CAND_0039754,honeypot,0,Senior Applied Scientist,16.2,Meta,honeypot:H4:yoe(194m)>elapsed(97m)
+CAND_0095619,honeypot,0,NLP Engineer,15.6,Nykaa,honeypot:H4:yoe(187m)>elapsed(50m)
+CAND_0093547,honeypot,0,Senior Machine Learning Engineer,2.9,PhonePe,honeypot:H2a:documented(74m)>yoe(35m)
+CAND_0039521,honeypot,0,Search Engineer,3.0,Salesforce,honeypot:H2a:documented(59m)>yoe(36m)
+CAND_0013536,honeypot,0,Applied ML Engineer,14.1,Haptik,honeypot:H4:yoe(169m)>elapsed(56m)
+CAND_0090900,honeypot,0,Senior Data Engineer,11.7,PolicyBazaar,honeypot:H4:yoe(140m)>elapsed(38m)
+CAND_0019480,honeypot,0,NLP Engineer,2.8,Meesho,honeypot:H2a:documented(87m)>yoe(34m)
+CAND_0037000,honeypot,0,Search Engineer,2.7,Unacademy,honeypot:H2a:documented(75m)>yoe(32m)
+CAND_0093331,honeypot,0,NLP Engineer,16.1,Genpact AI,honeypot:H4:yoe(193m)>elapsed(86m)
+CAND_0001610,honeypot,0,Machine Learning Engineer,3.0,Dream11,honeypot:H2a:documented(61m)>yoe(36m)
+CAND_0010770,honeypot,0,Recommendation Systems Engineer,15.2,Aganitha,honeypot:H4:yoe(182m)>elapsed(86m)
+CAND_0091534,honeypot,0,AI Engineer,16.6,Flipkart,honeypot:H4:yoe(199m)>elapsed(87m)
+CAND_0005668,nontech_plain,0,Civil Engineer,7.0,Initech,nontech
+CAND_0092120,nontech_plain,0,Sales Executive,10.9,Wipro,nontech
+CAND_0075347,nontech_plain,0,Customer Support,11.7,Infosys,nontech
+CAND_0080568,nontech_plain,0,HR Manager,6.9,Globex Inc,nontech
+CAND_0005176,nontech_plain,0,Business Analyst,11.7,Dunder Mifflin,nontech
+CAND_0050741,stuffer,0,Marketing Manager,11.2,Initech,nontech
+CAND_0001820,stuffer,0,Civil Engineer,8.7,Infosys,nontech
+CAND_0091938,stuffer,0,Project Manager,2.3,Globex Inc,nontech
+CAND_0024835,stuffer,0,Marketing Manager,5.5,Pied Piper,nontech
+CAND_0003676,stuffer,0,Mechanical Engineer,13.8,Acme Corp,nontech
+CAND_0047112,stuffer,0,Content Writer,3.6,Globex Inc,nontech
+CAND_0079201,stuffer,0,Marketing Manager,3.8,TCS,nontech
+CAND_0061686,stuffer,0,Project Manager,7.7,Hooli,nontech
+CAND_0004569,stuffer,0,Mechanical Engineer,15.0,Dunder Mifflin,nontech
+CAND_0091460,stuffer,0,Mechanical Engineer,1.4,TCS,nontech

@@ -1,0 +1,1146 @@
+### CAND_0071115  [bucket=honeypot]
+  title=Recommendation Systems Engineer | yoe=16.5 | Meta (Internet) | Ahmedabad, Gujarat,India
+  summary: Machine learning engineer with 5.8 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, my main project for the last 18 months has been the recommendation system that powers our discovery feed. I care a lot about evaluation rigor — too 
+   - Recommendation Systems Engineer @ Meta (Internet) 45m CUR
+       Built and operated production ML pipelines using MLflow for experiment tracking, Kubeflow for orchestration, and our internal feature store. My main project was a churn prediction model that's now used by the customer success team to prioritize outreach. Designed the model monito
+   - AI Engineer @ Krutrim (AI/ML) 24m 
+       Built and operated production ML pipelines using MLflow for experiment tracking, Kubeflow for orchestration, and our internal feature store. My main project was a churn prediction model that's now used by the customer success team to prioritize outreach. Designed the model monito
+  skills: Kubeflow(int,21m,e5), Weaviate(exp,96m,e2), BM25(exp,92m,e53), Forecasting(int,10m,e8), Image Classification(int,18m,e7), Computer Vision(adv,22m,e49), scikit-learn(exp,86m,e33), YOLO(int,27m,e2), LLMs(exp,62m,e20), Diffusion Models(adv,50m,e46), Python(exp,41m,e15), Embeddings(exp,96m,e22), Semantic Search(exp,66m,e55), Java(beg,14m,e0)
+  signals: last_active=2026-04-13 resp=0.5 otw=True saved=29 gh=31.4 notice=90 complete=75.8
+
+### CAND_0095140  [bucket=honeypot]
+  title=Backend Engineer | yoe=5.0 | Razorpay (Fintech) | Toronto,Canada
+  summary: Software / data professional with 5.0 years of experience building data pipelines, backend systems, and analytics infrastructure. I've been the engineer who makes ML possible by getting the data pipelines right; now I want to do more of the ML itself. My toolkit is solid on the data engineering side — Python, SQL, Spark, Airflow, warehouse design — and I've completed a couple of self-directed ML p
+   - Backend Engineer @ Razorpay (Fintech) 16m CUR
+       Built and maintained data pipelines on Apache Airflow processing ~500GB of daily transactional data across 12 source systems. Worked extensively with Spark (PySpark) for batch processing and dbt for the transformation/modeling layer in our Snowflake warehouse. Owned the on-call r
+   - Data Analyst @ CRED (Fintech) 14m 
+       Designed and maintained the analytical data warehouse on Snowflake supporting the BI team's ~50 dashboards. Wrote complex SQL — heavy on window functions, CTEs, and incremental modeling patterns via dbt. Worked on the data modeling side (dimensional modeling, slowly changing dime
+   - Data Engineer @ Pied Piper (Software) 28m 
+       Implemented streaming data pipelines on Kafka and Spark Streaming for a real-time user-activity processing platform. Designed the schema-registry integration, the watermark/state management approach, and the deduplication logic for late-arriving events. Worked closely with the da
+  skills: Kafka(exp,0m,e3), Information Retrieval(adv,44m,e20), QLoRA(exp,0m,e1), Milvus(adv,51m,e3), Photoshop(int,31m,e3), CNN(exp,0m,e2), Vector Search(adv,54m,e17), BentoML(int,13m,e9), Go(beg,8m,e11), Forecasting(int,8m,e6), ETL(beg,10m,e0), OpenCV(int,18m,e8)
+  signals: last_active=2026-04-04 resp=0.28 otw=True saved=11 gh=-1 notice=60 complete=65.0
+
+### CAND_0055992  [bucket=honeypot]
+  title=AI Engineer | yoe=16.9 | CRED (Fintech) | Sydney,Australia
+  summary: Machine learning engineer with 6.8 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I led the team that migrated our keyword-search-based product to embedding-based retrieval. I care a lot about evaluation rigor — too many teams shi
+   - AI Engineer @ CRED (Fintech) 16m CUR
+       Implemented a RAG-based customer support chatbot integrated with our existing ticketing system. Built the document ingestion pipeline (chunking, embedding via OpenAI embeddings, storing in Pinecone) and the answer-generation layer (initially GPT-4, then a fine-tuned smaller model
+   - Senior Data Scientist @ Aganitha (AI/ML) 15m 
+       Developed a semantic search feature for an internal knowledge base of ~500K documents. Used sentence-transformers (all-MiniLM-L6-v2 initially, later upgraded to bge-base) with FAISS for fast nearest-neighbor retrieval. Designed the query expansion module that handles vocabulary m
+   - AI Engineer @ Observe.AI (AI/ML) 37m 
+       Built a content recommendation system serving 10M+ users that combined collaborative filtering with content-based ranking. The system uses item-item similarity (via sentence-transformer embeddings) for cold starts and a gradient-boosted model trained on engagement signals for war
+   - Machine Learning Engineer @ Ola (Transportation) 12m 
+       Owned the ranking layer for an e-commerce search product, evolving it from a hand-tuned scoring function to a learning-to-rank model over 9 months. Designed the relevance labeling pipeline (mix of click-through data and explicit human judgments), the feature pipeline, and the tra
+  skills: Information Retrieval(exp,38m,e54), MLflow(adv,57m,e54), FAISS(exp,96m,e21), RAG(adv,52m,e1), Feature Engineering(int,14m,e9), Data Science(adv,22m,e59), LangChain(exp,53m,e16), SQL(int,16m,e15), OpenSearch(exp,52m,e32), Embeddings(adv,56m,e46), Prompt Engineering(adv,25m,e19), Accounting(beg,10m,e11), Vue.js(int,10m,e13), Fine-tuning LLMs(exp,62m,e43), Milvus(exp,62m,e17), Deep Learning(exp,68m,e60)
+  signals: last_active=2026-03-28 resp=0.72 otw=True saved=57 gh=65.3 notice=60 complete=61.1
+
+### CAND_0039754  [bucket=honeypot]
+  title=Senior Applied Scientist | yoe=16.2 | Meta (Internet) | Indore, Madhya Pradesh,India
+  summary: Senior AI engineer with 8.3 years of hands-on experience building production ML systems, with a focus on search, retrieval, and ranking. Most recently, I rebuilt the candidate-JD matching pipeline from scratch, taking it from 0.72 to 0.91 NDCG@10, serving 50M+ queries per month. My day-to-day work spans embedding model selection and fine-tuning, hybrid retrieval architecture, learning-to-rank, beh
+   - Senior Applied Scientist @ Meta (Internet) 37m CUR
+       Owned the end-to-end ranking pipeline at a recommendations-heavy consumer product: candidate sourcing → embedding generation (using a fine-tuned BGE-large) → Pinecone retrieval → learning-to-rank re-scoring (XGBoost) → behavioral-signal integration. The hardest part wasn't the ML
+   - Senior ML Engineer — Search & Ranking @ Apple (Consumer Electronics) 40m 
+       Owned the design and rollout of a large-scale semantic search system serving an internal corpus of 35M+ items. Migrated the existing BM25-only retrieval to a hybrid setup combining sparse and dense vectors (sentence-transformers, MPNet-base initially, later fine-tuned BGE-large f
+   - Senior Applied Scientist @ Observe.AI (AI/ML) 21m 
+       Built a RAG-based ranking pipeline serving 50M+ queries per month for an internal recruiter-facing search product. The architecture combined BM25 + dense retrieval (BGE embeddings, FAISS HNSW) with an LLM-based re-ranker on the top-50, falling back to a learning-to-rank model whe
+  skills: Fine-tuning LLMs(exp,57m,e7), LlamaIndex(adv,19m,e11), Qdrant(exp,67m,e28), Reinforcement Learning(int,34m,e4), NLP(exp,46m,e58), Statistical Modeling(int,22m,e5), Kubeflow(adv,53m,e34), ASR(int,29m,e8), OpenSearch(exp,71m,e41), Deep Learning(exp,68m,e46), Machine Learning(exp,50m,e2), LLMs(adv,33m,e22), BM25(adv,50m,e43), Weaviate(exp,64m,e33), Python(exp,95m,e44), TensorFlow(exp,60m,e7), CI/CD(beg,3m,e9), pgvector(exp,70m,e30), Speech Recognition(int,24m,e14), Elasticsearch(exp,46m,e43)
+  signals: last_active=2026-05-14 resp=0.81 otw=True saved=51 gh=77.5 notice=30 complete=67.1
+
+### CAND_0095619  [bucket=honeypot]
+  title=NLP Engineer | yoe=15.6 | Nykaa (E-commerce) | Mumbai, Maharashtra,India
+  summary: Machine learning engineer with 4.2 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I shipped our first RAG-based feature this year and now own the eval framework for it. I've spent enough time debugging production ranking issues to
+   - NLP Engineer @ Nykaa (E-commerce) 50m CUR
+       Owned the ranking layer for an e-commerce search product, evolving it from a hand-tuned scoring function to a learning-to-rank model over 9 months. Designed the relevance labeling pipeline (mix of click-through data and explicit human judgments), the feature pipeline, and the tra
+  skills: Feature Engineering(adv,41m,e45), Pinecone(exp,74m,e15), MLflow(adv,58m,e29), Learning to Rank(exp,57m,e11), scikit-learn(exp,57m,e32), Hugging Face Transformers(adv,28m,e56), NLP(exp,59m,e13), Weaviate(exp,60m,e11), Information Retrieval(adv,52m,e8), Time Series(int,30m,e11), Figma(int,16m,e12), TTS(adv,58m,e13), BM25(exp,48m,e8), Sentence Transformers(adv,41m,e49), Fine-tuning LLMs(adv,21m,e41), Elasticsearch(adv,37m,e7), YOLO(adv,22m,e55)
+  signals: last_active=2026-04-16 resp=0.9 otw=True saved=55 gh=29.7 notice=30 complete=92.6
+
+### CAND_0093547  [bucket=honeypot]
+  title=Senior Machine Learning Engineer | yoe=2.9 | PhonePe (Fintech) | Coimbatore, Tamil Nadu,India
+  summary: Senior AI engineer with 6.3 years of hands-on experience building production ML systems, with a focus on search, retrieval, and ranking. Most recently, I rebuilt the candidate-JD matching pipeline from scratch, taking it from 0.72 to 0.91 NDCG@10, handling peak QPS of 8K with sub-200ms p95. My day-to-day work spans embedding model selection and fine-tuning, hybrid retrieval architecture, learning-
+   - Senior Machine Learning Engineer @ PhonePe (Fintech) 22m CUR
+       Owned the end-to-end ranking pipeline at a recommendations-heavy consumer product: candidate sourcing → embedding generation (using a fine-tuned BGE-large) → Pinecone retrieval → learning-to-rank re-scoring (XGBoost) → behavioral-signal integration. The hardest part wasn't the ML
+   - Senior Machine Learning Engineer @ Sarvam AI (AI/ML) 43m 
+       Fine-tuned LLaMA-2-7B and Mistral-7B variants using LoRA and QLoRA for domain-specific candidate-JD matching. Built the data curation pipeline that generated 200K high-quality preference pairs from recruiter labels, plus the eval harness using both ranking metrics and human-quali
+   - Lead AI Engineer @ Aganitha (AI/ML) 9m 
+       Fine-tuned LLaMA-2-7B and Mistral-7B variants using LoRA and QLoRA for domain-specific candidate-JD matching. Built the data curation pipeline that generated 200K high-quality preference pairs from recruiter labels, plus the eval harness using both ranking metrics and human-quali
+  skills: LLMs(exp,42m,e24), RAG(exp,94m,e48), Python(adv,59m,e9), QLoRA(adv,49m,e21), Kubeflow(adv,25m,e24), PEFT(exp,93m,e50), GANs(int,26m,e5), Machine Learning(adv,18m,e34), Diffusion Models(int,36m,e9), PyTorch(adv,22m,e53), Haystack(exp,86m,e22), Milvus(exp,70m,e15), FAISS(adv,26m,e26), Learning to Rank(adv,43m,e43), TensorFlow(adv,49m,e12), Apache Flink(beg,3m,e1), scikit-learn(adv,41m,e4), SEO(int,35m,e1), Weaviate(exp,62m,e30), Reinforcement Learning(int,9m,e6), Information Retrieval(exp,70m,e32)
+  signals: last_active=2026-04-10 resp=0.75 otw=False saved=57 gh=59.5 notice=60 complete=62.6
+
+### CAND_0039521  [bucket=honeypot]
+  title=Search Engineer | yoe=3.0 | Salesforce (Software) | Coimbatore, Tamil Nadu,India
+  summary: Machine learning engineer with 5.0 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I've been the de-facto ML lead on a small team, shipping models across NLP and recsys. I care a lot about evaluation rigor — too many teams ship mod
+   - Search Engineer @ Salesforce (Software) 27m CUR
+       Trained and shipped multiple ranking models for our product's discovery feed using XGBoost and LightGBM. Designed features across three families: content metadata, user behavior signals, and item engagement history. Owned the offline-online correlation analysis that determined wh
+   - Machine Learning Engineer @ Salesforce (Software) 32m 
+       Implemented a RAG-based customer support chatbot integrated with our existing ticketing system. Built the document ingestion pipeline (chunking, embedding via OpenAI embeddings, storing in Pinecone) and the answer-generation layer (initially GPT-4, then a fine-tuned smaller model
+  skills: Accounting(int,26m,e2), Time Series(adv,26m,e53), Hugging Face Transformers(exp,68m,e55), BentoML(int,31m,e15), Forecasting(int,24m,e12), Marketing(beg,18m,e6), PEFT(adv,19m,e17), Weaviate(exp,88m,e7), BM25(exp,36m,e49), Haystack(exp,74m,e58), Semantic Search(exp,51m,e35), Object Detection(adv,49m,e53), Embeddings(adv,20m,e41), Sentence Transformers(adv,35m,e39), RAG(adv,18m,e0), Qdrant(adv,31m,e28), Machine Learning(exp,49m,e60), ASR(adv,41m,e52), PyTorch(exp,44m,e6)
+  signals: last_active=2026-04-11 resp=0.41 otw=False saved=43 gh=-1 notice=30 complete=67.2
+
+### CAND_0013536  [bucket=honeypot]
+  title=Applied ML Engineer | yoe=14.1 | Haptik (Conversational AI) | Trivandrum, Kerala,India
+  summary: Machine learning engineer with 4.8 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I led the team that migrated our keyword-search-based product to embedding-based retrieval. I've learned that most retrieval problems are actually e
+   - Applied ML Engineer @ Haptik (Conversational AI) 34m CUR
+       Trained and shipped multiple ranking models for our product's discovery feed using XGBoost and LightGBM. Designed features across three families: content metadata, user behavior signals, and item engagement history. Owned the offline-online correlation analysis that determined wh
+   - Recommendation Systems Engineer @ Rephrase.ai (AI/ML) 22m 
+       Trained and shipped multiple ranking models for our product's discovery feed using XGBoost and LightGBM. Designed features across three families: content metadata, user behavior signals, and item engagement history. Owned the offline-online correlation analysis that determined wh
+  skills: PyTorch(adv,47m,e2), Prompt Engineering(exp,59m,e54), LLMs(adv,24m,e48), NLP(adv,25m,e4), Embeddings(exp,55m,e59), QLoRA(exp,74m,e36), Pinecone(exp,41m,e17), Elasticsearch(exp,71m,e43), Milvus(exp,39m,e55), Image Classification(adv,57m,e12), MLOps(int,18m,e0), Vector Search(exp,75m,e25), FAISS(exp,36m,e41), Content Writing(beg,13m,e11), Hadoop(beg,7m,e1), Computer Vision(adv,33m,e58), LlamaIndex(exp,82m,e57), Weights & Biases(int,20m,e1)
+  signals: last_active=2026-04-28 resp=0.87 otw=True saved=36 gh=51.8 notice=90 complete=54.2
+
+### CAND_0090900  [bucket=honeypot]
+  title=Senior Data Engineer | yoe=11.7 | PolicyBazaar (Insurance Tech) | San Francisco,USA
+  summary: Software / data professional with 3.2 years of experience building data pipelines, backend systems, and analytics infrastructure. Most of my work has been data pipelines and analytics infrastructure; I've shipped a couple of small ML features but it's not the core of my day. My toolkit is solid on the data engineering side — Python, SQL, Spark, Airflow, warehouse design — and I've completed a coup
+   - Senior Data Engineer @ PolicyBazaar (Insurance Tech) 9m CUR
+       Mixed data science and analytics-engineering role at a marketing-analytics startup. Spent maybe 30% of my time on lightweight ML (clustering, classification, churn prediction in sklearn/XGBoost) and 70% on data infrastructure and dashboards. Comfortable with the modeling work but
+  skills: Computer Vision(int,33m,e2), QLoRA(adv,37m,e44), Excel(int,34m,e14), Forecasting(int,25m,e8), Redux(int,12m,e13), Object Detection(adv,37m,e52), CNN(int,10m,e4), Rust(beg,8m,e7), MLOps(adv,49m,e14), Node.js(int,25m,e9), FastAPI(int,26m,e9), Airflow(int,24m,e11), MLflow(int,35m,e15), Docker(int,17m,e13), LangChain(adv,35m,e55)
+  signals: last_active=2026-03-28 resp=0.52 otw=False saved=15 gh=42.4 notice=60 complete=70.6
+
+### CAND_0019480  [bucket=honeypot]
+  title=NLP Engineer | yoe=2.8 | Meesho (E-commerce) | Chennai, Tamil Nadu,India
+  summary: Machine learning engineer with 7.4 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I led the team that migrated our keyword-search-based product to embedding-based retrieval. I care a lot about evaluation rigor — too many teams shi
+   - NLP Engineer @ Meesho (E-commerce) 19m CUR
+       Trained and shipped multiple ranking models for our product's discovery feed using XGBoost and LightGBM. Designed features across three families: content metadata, user behavior signals, and item engagement history. Owned the offline-online correlation analysis that determined wh
+   - Senior Data Scientist @ InMobi (AdTech) 26m 
+       Implemented a RAG-based customer support chatbot integrated with our existing ticketing system. Built the document ingestion pipeline (chunking, embedding via OpenAI embeddings, storing in Pinecone) and the answer-generation layer (initially GPT-4, then a fine-tuned smaller model
+   - Senior Data Scientist @ Vedantu (EdTech) 27m 
+       Trained and shipped multiple ranking models for our product's discovery feed using XGBoost and LightGBM. Designed features across three families: content metadata, user behavior signals, and item engagement history. Owned the offline-online correlation analysis that determined wh
+   - Search Engineer @ Freshworks (SaaS) 15m 
+       Trained and shipped multiple ranking models for our product's discovery feed using XGBoost and LightGBM. Designed features across three families: content metadata, user behavior signals, and item engagement history. Owned the offline-online correlation analysis that determined wh
+  skills: Terraform(beg,14m,e2), LLMs(exp,82m,e32), Forecasting(int,20m,e8), TensorFlow(exp,55m,e47), TTS(int,12m,e7), Weights & Biases(int,29m,e6), GANs(int,34m,e9), Feature Engineering(int,28m,e6), Milvus(exp,58m,e31), LangChain(adv,29m,e8), Image Classification(int,20m,e4), BM25(adv,26m,e13), OpenSearch(exp,41m,e5), Prompt Engineering(adv,53m,e8)
+  signals: last_active=2026-05-13 resp=0.87 otw=True saved=59 gh=69.8 notice=90 complete=78.6
+
+### CAND_0037000  [bucket=honeypot]
+  title=Search Engineer | yoe=2.7 | Unacademy (EdTech) | Noida, Uttar Pradesh,India
+  summary: Machine learning engineer with 6.3 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I led the team that migrated our keyword-search-based product to embedding-based retrieval. I care a lot about evaluation rigor — too many teams shi
+   - Search Engineer @ Unacademy (EdTech) 19m CUR
+       Implemented a RAG-based customer support chatbot integrated with our existing ticketing system. Built the document ingestion pipeline (chunking, embedding via OpenAI embeddings, storing in Pinecone) and the answer-generation layer (initially GPT-4, then a fine-tuned smaller model
+   - Machine Learning Engineer @ CRED (Fintech) 48m 
+       Trained and shipped multiple ranking models for our product's discovery feed using XGBoost and LightGBM. Designed features across three families: content metadata, user behavior signals, and item engagement history. Owned the offline-online correlation analysis that determined wh
+   - Search Engineer @ upGrad (EdTech) 8m 
+       Owned the ranking layer for an e-commerce search product, evolving it from a hand-tuned scoring function to a learning-to-rank model over 9 months. Designed the relevance labeling pipeline (mix of click-through data and explicit human judgments), the feature pipeline, and the tra
+  skills: Embeddings(adv,39m,e15), LangChain(exp,87m,e9), TTS(adv,51m,e20), Semantic Search(adv,39m,e24), TensorFlow(adv,31m,e43), MLflow(int,21m,e10), GANs(int,36m,e12), Hugging Face Transformers(adv,47m,e42), Speech Recognition(adv,45m,e39), Reinforcement Learning(int,27m,e7), FAISS(exp,77m,e10), Pinecone(adv,55m,e48), MLOps(adv,58m,e48), Next.js(beg,11m,e9), BM25(adv,43m,e49), Marketing(int,23m,e14), Sentence Transformers(adv,43m,e42)
+  signals: last_active=2026-05-16 resp=0.61 otw=False saved=20 gh=66.8 notice=15 complete=75.3
+
+### CAND_0093331  [bucket=honeypot]
+  title=NLP Engineer | yoe=16.1 | Genpact AI (AI Services) | Kochi, Kerala,India
+  summary: Machine learning engineer with 7.2 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I led the team that migrated our keyword-search-based product to embedding-based retrieval. I care a lot about evaluation rigor — too many teams shi
+   - NLP Engineer @ Genpact AI (AI Services) 49m CUR
+       Built and operated production ML pipelines using MLflow for experiment tracking, Kubeflow for orchestration, and our internal feature store. My main project was a churn prediction model that's now used by the customer success team to prioritize outreach. Designed the model monito
+   - NLP Engineer @ InMobi (AdTech) 13m 
+       Developed a semantic search feature for an internal knowledge base of ~500K documents. Used sentence-transformers (all-MiniLM-L6-v2 initially, later upgraded to bge-base) with FAISS for fast nearest-neighbor retrieval. Designed the query expansion module that handles vocabulary m
+   - Recommendation Systems Engineer @ Observe.AI (AI/ML) 24m 
+       Developed a semantic search feature for an internal knowledge base of ~500K documents. Used sentence-transformers (all-MiniLM-L6-v2 initially, later upgraded to bge-base) with FAISS for fast nearest-neighbor retrieval. Designed the query expansion module that handles vocabulary m
+  skills: PyTorch(exp,58m,e43), Prompt Engineering(exp,47m,e20), Accounting(int,10m,e11), QLoRA(adv,35m,e46), Embeddings(adv,58m,e10), LangChain(exp,76m,e58), Milvus(exp,38m,e8), BM25(adv,56m,e57), BentoML(adv,50m,e23), Time Series(int,14m,e9), PEFT(exp,63m,e32), Reinforcement Learning(int,33m,e15)
+  signals: last_active=2026-04-08 resp=0.41 otw=False saved=30 gh=74.0 notice=30 complete=77.4
+
+### CAND_0001610  [bucket=honeypot]
+  title=Machine Learning Engineer | yoe=3.0 | Dream11 (Gaming) | Trivandrum, Kerala,India
+  summary: Machine learning engineer with 5.2 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I built our semantic search infrastructure from scratch — sentence-transformers, FAISS, the works. I've spent enough time debugging production ranki
+   - Machine Learning Engineer @ Dream11 (Gaming) 31m CUR
+       Developed a semantic search feature for an internal knowledge base of ~500K documents. Used sentence-transformers (all-MiniLM-L6-v2 initially, later upgraded to bge-base) with FAISS for fast nearest-neighbor retrieval. Designed the query expansion module that handles vocabulary m
+   - Senior Data Scientist @ Flipkart (E-commerce) 21m 
+       Built a content recommendation system serving 10M+ users that combined collaborative filtering with content-based ranking. The system uses item-item similarity (via sentence-transformer embeddings) for cold starts and a gradient-boosted model trained on engagement signals for war
+   - Machine Learning Engineer @ Zoho (SaaS) 9m 
+       Trained and shipped multiple ranking models for our product's discovery feed using XGBoost and LightGBM. Designed features across three families: content metadata, user behavior signals, and item engagement history. Owned the offline-online correlation analysis that determined wh
+  skills: Speech Recognition(adv,50m,e51), Haystack(exp,67m,e34), Deep Learning(exp,84m,e3), Kubeflow(adv,45m,e45), Pinecone(exp,72m,e16), Salesforce CRM(beg,11m,e7), Feature Engineering(adv,53m,e36), scikit-learn(exp,64m,e60), Fine-tuning LLMs(exp,92m,e18), Data Science(int,10m,e6), Milvus(exp,51m,e17), Sentence Transformers(exp,59m,e7), Reinforcement Learning(int,23m,e6), Information Retrieval(adv,34m,e45), NLP(adv,29m,e50), PyTorch(exp,61m,e39), Computer Vision(int,28m,e1), FAISS(exp,85m,e39)
+  signals: last_active=2026-04-12 resp=0.57 otw=True saved=53 gh=40.0 notice=90 complete=98.0
+
+### CAND_0010770  [bucket=honeypot]
+  title=Recommendation Systems Engineer | yoe=15.2 | Aganitha (AI/ML) | Kolkata, West Bengal,India
+  summary: Machine learning engineer with 7.2 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I've been the de-facto ML lead on a small team, shipping models across NLP and recsys. I've spent enough time debugging production ranking issues to
+   - Recommendation Systems Engineer @ Aganitha (AI/ML) 48m CUR
+       Trained and shipped multiple ranking models for our product's discovery feed using XGBoost and LightGBM. Designed features across three families: content metadata, user behavior signals, and item engagement history. Owned the offline-online correlation analysis that determined wh
+   - AI Engineer @ Verloop.io (Conversational AI) 20m 
+       Developed a semantic search feature for an internal knowledge base of ~500K documents. Used sentence-transformers (all-MiniLM-L6-v2 initially, later upgraded to bge-base) with FAISS for fast nearest-neighbor retrieval. Designed the query expansion module that handles vocabulary m
+   - Senior Data Scientist @ Observe.AI (AI/ML) 12m 
+       Owned the ranking layer for an e-commerce search product, evolving it from a hand-tuned scoring function to a learning-to-rank model over 9 months. Designed the relevance labeling pipeline (mix of click-through data and explicit human judgments), the feature pipeline, and the tra
+   - Applied ML Engineer @ Locobuzz (AI/ML) 6m 
+       Developed a semantic search feature for an internal knowledge base of ~500K documents. Used sentence-transformers (all-MiniLM-L6-v2 initially, later upgraded to bge-base) with FAISS for fast nearest-neighbor retrieval. Designed the query expansion module that handles vocabulary m
+  skills: Haystack(exp,76m,e8), YOLO(adv,34m,e11), Qdrant(exp,53m,e35), LlamaIndex(adv,53m,e34), Diffusion Models(int,27m,e6), Deep Learning(adv,45m,e1), Learning to Rank(exp,54m,e6), TensorFlow(exp,66m,e10), Java(beg,11m,e8), REST APIs(beg,8m,e15), Computer Vision(adv,27m,e28), LLMs(adv,52m,e11), Vue.js(int,26m,e3), TTS(adv,27m,e50), Statistical Modeling(adv,27m,e5), BM25(adv,24m,e54), MLOps(int,33m,e2), pgvector(exp,43m,e45)
+  signals: last_active=2026-05-05 resp=0.73 otw=True saved=12 gh=-1 notice=30 complete=72.1
+
+### CAND_0091534  [bucket=honeypot]
+  title=AI Engineer | yoe=16.6 | Flipkart (E-commerce) | Gurgaon, Haryana,India
+  summary: Machine learning engineer with 7.2 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I led the team that migrated our keyword-search-based product to embedding-based retrieval. Along the way I've gotten comfortable with the operation
+   - AI Engineer @ Flipkart (E-commerce) 52m CUR
+       Owned the ranking layer for an e-commerce search product, evolving it from a hand-tuned scoring function to a learning-to-rank model over 9 months. Designed the relevance labeling pipeline (mix of click-through data and explicit human judgments), the feature pipeline, and the tra
+   - Machine Learning Engineer @ Adobe (Software) 13m 
+       Developed a semantic search feature for an internal knowledge base of ~500K documents. Used sentence-transformers (all-MiniLM-L6-v2 initially, later upgraded to bge-base) with FAISS for fast nearest-neighbor retrieval. Designed the query expansion module that handles vocabulary m
+   - NLP Engineer @ Glance (AI/ML) 20m 
+       Implemented a RAG-based customer support chatbot integrated with our existing ticketing system. Built the document ingestion pipeline (chunking, embedding via OpenAI embeddings, storing in Pinecone) and the answer-generation layer (initially GPT-4, then a fine-tuned smaller model
+  skills: Hugging Face Transformers(adv,43m,e0), scikit-learn(exp,64m,e28), Diffusion Models(adv,29m,e52), Qdrant(adv,31m,e3), Sentence Transformers(exp,48m,e5), RAG(exp,73m,e19), Data Science(int,28m,e5), LlamaIndex(exp,43m,e44), Kubeflow(int,23m,e15), LangChain(exp,50m,e38)
+  signals: last_active=2026-05-05 resp=0.84 otw=False saved=49 gh=66.0 notice=30 complete=57.5
+
+### CAND_0016163  [bucket=strong_core_product]
+  title=Applied ML Engineer | yoe=6.7 | Dream11 (Gaming) | Gurgaon, Haryana,India
+  summary: Machine learning engineer with 6.7 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I led the team that migrated our keyword-search-based product to embedding-based retrieval. I've spent enough time debugging production ranking issu
+   - Applied ML Engineer @ Dream11 (Gaming) 27m CUR
+       Built and operated production ML pipelines using MLflow for experiment tracking, Kubeflow for orchestration, and our internal feature store. My main project was a churn prediction model that's now used by the customer success team to prioritize outreach. Designed the model monito
+   - Applied ML Engineer @ Verloop.io (Conversational AI) 40m 
+       Developed a semantic search feature for an internal knowledge base of ~500K documents. Used sentence-transformers (all-MiniLM-L6-v2 initially, later upgraded to bge-base) with FAISS for fast nearest-neighbor retrieval. Designed the query expansion module that handles vocabulary m
+   - NLP Engineer @ Amazon (Internet) 12m 
+       Built and operated production ML pipelines using MLflow for experiment tracking, Kubeflow for orchestration, and our internal feature store. My main project was a churn prediction model that's now used by the customer success team to prioritize outreach. Designed the model monito
+  skills: Hugging Face Transformers(adv,41m,e14), Computer Vision(adv,47m,e32), gRPC(int,33m,e0), Time Series(adv,45m,e53), Weaviate(exp,36m,e6), CNN(int,33m,e15), Deep Learning(adv,30m,e1), TensorFlow(exp,83m,e45), ASR(int,36m,e4), Embeddings(adv,48m,e17), Tailwind(int,9m,e15), Reinforcement Learning(adv,24m,e25), LoRA(adv,40m,e56), pgvector(exp,64m,e53), Statistical Modeling(int,21m,e11), Pinecone(adv,40m,e29), Machine Learning(exp,69m,e37)
+  signals: last_active=2026-04-11 resp=0.72 otw=True saved=13 gh=95.0 notice=120 complete=89.5
+
+### CAND_0049615  [bucket=strong_core_product]
+  title=ML Engineer | yoe=5.1 | Krutrim (AI/ML) | Indore, Madhya Pradesh,India
+  summary: Data scientist / ML engineer with 5.1 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. Most of my recent work has been on predictive modeling for customer-facing problems — churn, conversion, lifetime value. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and sta
+   - ML Engineer @ Krutrim (AI/ML) 30m CUR
+       Built recommendation-style features at a mid-stage startup — lighter weight than ranking systems at FAANG, but production. Used a combination of collaborative filtering (matrix factorization in implicit-feedback library) and gradient-boosted re-ranking over engagement signals. Pu
+   - AI Specialist @ InMobi (AdTech) 31m 
+       Built recommendation-style features at a mid-stage startup — lighter weight than ranking systems at FAANG, but production. Used a combination of collaborative filtering (matrix factorization in implicit-feedback library) and gradient-boosted re-ranking over engagement signals. Pu
+  skills: NLP(adv,57m,e52), Deep Learning(int,9m,e10), Recommendation Systems(int,24m,e4), Kubeflow(int,24m,e4), YOLO(int,15m,e15), Reinforcement Learning(adv,26m,e36), Terraform(beg,15m,e2), QLoRA(adv,27m,e26), Docker(beg,2m,e5), ASR(int,34m,e7), PEFT(adv,57m,e43), PyTorch(int,17m,e3), Pinecone(int,14m,e8)
+  signals: last_active=2026-05-15 resp=0.28 otw=True saved=19 gh=77.8 notice=60 complete=74.4
+
+### CAND_0076251  [bucket=strong_core_product]
+  title=Search Engineer | yoe=7.6 | Haptik (Conversational AI) | Bhubaneswar, Odisha,India
+  summary: Machine learning engineer with 7.6 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I led the team that migrated our keyword-search-based product to embedding-based retrieval. I care a lot about evaluation rigor — too many teams shi
+   - Search Engineer @ Haptik (Conversational AI) 30m CUR
+       Developed a semantic search feature for an internal knowledge base of ~500K documents. Used sentence-transformers (all-MiniLM-L6-v2 initially, later upgraded to bge-base) with FAISS for fast nearest-neighbor retrieval. Designed the query expansion module that handles vocabulary m
+   - Senior Data Scientist @ CRED (Fintech) 42m 
+       Built and operated production ML pipelines using MLflow for experiment tracking, Kubeflow for orchestration, and our internal feature store. My main project was a churn prediction model that's now used by the customer success team to prioritize outreach. Designed the model monito
+   - Machine Learning Engineer @ Microsoft (Software) 19m 
+       Built and operated production ML pipelines using MLflow for experiment tracking, Kubeflow for orchestration, and our internal feature store. My main project was a churn prediction model that's now used by the customer success team to prioritize outreach. Designed the model monito
+  skills: Fine-tuning LLMs(adv,32m,e41), Reinforcement Learning(int,22m,e3), Hugging Face Transformers(exp,42m,e56), Weaviate(adv,29m,e29), Time Series(adv,22m,e8), LlamaIndex(adv,38m,e2), LLMs(adv,34m,e51), SAP(int,26m,e3), Feature Engineering(int,22m,e6), Image Classification(adv,18m,e55), Kafka(beg,18m,e2), Forecasting(adv,57m,e52), Learning to Rank(exp,92m,e5), Elasticsearch(adv,20m,e36), Semantic Search(adv,33m,e45), PEFT(exp,43m,e0)
+  signals: last_active=2026-04-15 resp=0.51 otw=True saved=47 gh=-1 notice=60 complete=85.5
+
+### CAND_0043228  [bucket=strong_core_product]
+  title=Applied ML Engineer | yoe=6.8 | Zoho (SaaS) | Chennai, Tamil Nadu,India
+  summary: Machine learning engineer with 6.8 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I built our semantic search infrastructure from scratch — sentence-transformers, FAISS, the works. I've learned that most retrieval problems are act
+   - Applied ML Engineer @ Zoho (SaaS) 25m CUR
+       Owned the ranking layer for an e-commerce search product, evolving it from a hand-tuned scoring function to a learning-to-rank model over 9 months. Designed the relevance labeling pipeline (mix of click-through data and explicit human judgments), the feature pipeline, and the tra
+   - Applied ML Engineer @ Vedantu (EdTech) 44m 
+       Built and operated production ML pipelines using MLflow for experiment tracking, Kubeflow for orchestration, and our internal feature store. My main project was a churn prediction model that's now used by the customer success team to prioritize outreach. Designed the model monito
+   - Search Engineer @ Yellow.ai (AI/ML) 11m 
+       Developed a semantic search feature for an internal knowledge base of ~500K documents. Used sentence-transformers (all-MiniLM-L6-v2 initially, later upgraded to bge-base) with FAISS for fast nearest-neighbor retrieval. Designed the query expansion module that handles vocabulary m
+  skills: BigQuery(beg,4m,e4), NLP(exp,66m,e20), ASR(adv,24m,e45), Hugging Face Transformers(exp,86m,e31), FastAPI(int,13m,e11), Haystack(adv,45m,e47), Image Classification(adv,51m,e14), Machine Learning(adv,27m,e17), Vector Search(adv,32m,e44), Sentence Transformers(exp,82m,e53), YOLO(int,27m,e11), TTS(int,16m,e6), Weaviate(exp,43m,e0), Kubeflow(adv,26m,e8), React(beg,7m,e0), Learning to Rank(adv,29m,e41), OpenSearch(exp,51m,e31), pgvector(exp,76m,e23)
+  signals: last_active=2026-05-22 resp=0.41 otw=False saved=65 gh=47.6 notice=30 complete=88.3
+
+### CAND_0008425  [bucket=strong_core_product]
+  title=Senior NLP Engineer | yoe=7.8 | Ola (Transportation) | Kolkata, West Bengal,India
+  summary: Senior AI engineer with 7.8 years of hands-on experience building production ML systems, with a focus on search, retrieval, and ranking. Most recently, I rebuilt the candidate-JD matching pipeline from scratch, taking it from 0.72 to 0.91 NDCG@10, operating at single-digit-millisecond p95 retrieval latency. My day-to-day work spans embedding model selection and fine-tuning, hybrid retrieval archit
+   - Senior NLP Engineer @ Ola (Transportation) 25m CUR
+       Owned the design and rollout of a large-scale semantic search system serving an internal corpus of 35M+ items. Migrated the existing BM25-only retrieval to a hybrid setup combining sparse and dense vectors (sentence-transformers, MPNet-base initially, later fine-tuned BGE-large f
+   - Senior ML Engineer — Search & Ranking @ Zomato (Food Delivery) 46m 
+       Fine-tuned LLaMA-2-7B and Mistral-7B variants using LoRA and QLoRA for domain-specific candidate-JD matching. Built the data curation pipeline that generated 200K high-quality preference pairs from recruiter labels, plus the eval harness using both ranking metrics and human-quali
+   - Lead AI Engineer @ Amazon (Internet) 21m 
+       Owned the end-to-end ranking pipeline at a recommendations-heavy consumer product: candidate sourcing → embedding generation (using a fine-tuned BGE-large) → Pinecone retrieval → learning-to-rank re-scoring (XGBoost) → behavioral-signal integration. The hardest part wasn't the ML
+  skills: Learning to Rank(exp,87m,e19), Qdrant(exp,92m,e4), Weights & Biases(adv,19m,e6), pgvector(exp,58m,e47), Sentence Transformers(exp,96m,e56), NLP(exp,41m,e1), Haystack(exp,93m,e8), TensorFlow(adv,40m,e58), Python(exp,55m,e38), Prompt Engineering(adv,46m,e26), Image Classification(int,36m,e1), Object Detection(adv,36m,e13), Semantic Search(adv,26m,e30), LoRA(exp,57m,e49), Recommendation Systems(exp,87m,e52), Information Retrieval(exp,45m,e57), Hugging Face Transformers(exp,65m,e40)
+  signals: last_active=2026-04-25 resp=0.66 otw=True saved=55 gh=53.3 notice=90 complete=57.2
+
+### CAND_0040117  [bucket=strong_core_product]
+  title=Recommendation Systems Engineer | yoe=6.5 | PhonePe (Fintech) | Vizag, Andhra Pradesh,India
+  summary: Machine learning engineer with 6.5 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, my main project for the last 18 months has been the recommendation system that powers our discovery feed. Along the way I've gotten comfortable with
+   - Recommendation Systems Engineer @ PhonePe (Fintech) 51m CUR
+       Built a content recommendation system serving 10M+ users that combined collaborative filtering with content-based ranking. The system uses item-item similarity (via sentence-transformer embeddings) for cold starts and a gradient-boosted model trained on engagement signals for war
+   - Applied ML Engineer @ Salesforce (Software) 26m 
+       Implemented a RAG-based customer support chatbot integrated with our existing ticketing system. Built the document ingestion pipeline (chunking, embedding via OpenAI embeddings, storing in Pinecone) and the answer-generation layer (initially GPT-4, then a fine-tuned smaller model
+  skills: OpenCV(int,13m,e7), LlamaIndex(exp,85m,e60), Embeddings(exp,63m,e58), RAG(exp,95m,e31), FAISS(exp,73m,e25), BM25(exp,37m,e31), Prompt Engineering(exp,47m,e37), LoRA(exp,67m,e20), Diffusion Models(int,27m,e15), LangChain(adv,48m,e5), Reinforcement Learning(int,21m,e5), QLoRA(exp,68m,e5)
+  signals: last_active=2026-03-17 resp=0.66 otw=True saved=28 gh=-1 notice=15 complete=82.8
+
+### CAND_0041696  [bucket=strong_core_product]
+  title=Senior Software Engineer (ML) | yoe=6.2 | Saarthi.ai (Voice AI) | Hyderabad, Telangana,India
+  summary: Data scientist / ML engineer with 6.2 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've been working on recommendation-style features but lighter on the deep-learning side — mostly classical methods like collaborative filtering and gradient-boosted models. I'm strongest at the modeling and analysis side; c
+   - Senior Software Engineer (ML) @ Saarthi.ai (Voice AI) 30m CUR
+       Worked on customer-facing predictive modeling for an e-commerce platform — churn prediction, conversion likelihood, lifetime value estimation. Used scikit-learn and XGBoost; main models were gradient-boosted trees with ~80 hand-engineered features. The work was split roughly 60/4
+   - AI Research Engineer @ HCL (IT Services) 44m 
+       Built NLP pipelines for sentiment analysis and document classification — primarily for an internal feedback-analytics dashboard. Started with sklearn-based bag-of-words models, then moved to transformer-based classifiers (DistilBERT) for the harder classes. Comfortable with PyTor
+  skills: TypeScript(beg,11m,e2), Feature Engineering(int,19m,e15), LoRA(adv,27m,e35), Sentence Transformers(int,29m,e10), LLMs(int,26m,e12), GANs(int,15m,e2), Forecasting(int,35m,e0), Weaviate(adv,27m,e29), Object Detection(adv,45m,e16), Haystack(adv,26m,e41)
+  signals: last_active=2026-02-22 resp=0.26 otw=True saved=14 gh=-1 notice=60 complete=57.8
+
+### CAND_0015581  [bucket=strong_core_product]
+  title=Senior Software Engineer (ML) | yoe=6.0 | Niramai (HealthTech AI) | Coimbatore, Tamil Nadu,India
+  summary: Data scientist / ML engineer with 6.0 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. My current role is split between dashboarding/analytics and shipping production ML models. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm s
+   - Senior Software Engineer (ML) @ Niramai (HealthTech AI) 28m CUR
+       Contributed to ML feature engineering and model deployment for a fraud-detection product. My main role was engineering: building the Flask-based prediction API, integrating with the feature store, and writing the model-serving observability layer. I worked closely with senior dat
+   - AI Research Engineer @ Saarthi.ai (Voice AI) 24m 
+       Contributed to ML feature engineering and model deployment for a fraud-detection product. My main role was engineering: building the Flask-based prediction API, integrating with the feature store, and writing the model-serving observability layer. I worked closely with senior dat
+   - AI Specialist @ BYJU'S (EdTech) 19m 
+       Contributed to ML feature engineering and model deployment for a fraud-detection product. My main role was engineering: building the Flask-based prediction API, integrating with the feature store, and writing the model-serving observability layer. I worked closely with senior dat
+  skills: Python(int,15m,e11), gRPC(beg,18m,e3), TTS(int,18m,e9), QLoRA(adv,51m,e19), Node.js(int,33m,e12), Diffusion Models(int,36m,e0), LangChain(int,12m,e12), Redux(beg,10m,e13), Prompt Engineering(adv,23m,e32), Speech Recognition(int,14m,e14), BM25(int,17m,e11), Weights & Biases(adv,58m,e1), BentoML(adv,51m,e55), PyTorch(int,31m,e5), MLflow(adv,49m,e5), Vector Search(adv,22m,e59), Learning to Rank(int,29m,e8), Statistical Modeling(adv,31m,e55), AWS(beg,5m,e14)
+  signals: last_active=2026-03-18 resp=0.58 otw=True saved=15 gh=76.0 notice=60 complete=51.2
+
+### CAND_0082913  [bucket=strong_core_product]
+  title=Senior Software Engineer (ML) | yoe=5.5 | InMobi (AdTech) | Trivandrum, Kerala,India
+  summary: Data scientist / ML engineer with 5.5 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've spent the last couple of years building NLP-based classification and information extraction pipelines. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps t
+   - Senior Software Engineer (ML) @ InMobi (AdTech) 43m CUR
+       Built recommendation-style features at a mid-stage startup — lighter weight than ranking systems at FAANG, but production. Used a combination of collaborative filtering (matrix factorization in implicit-feedback library) and gradient-boosted re-ranking over engagement signals. Pu
+   - AI Specialist @ Ola (Transportation) 22m 
+       Built recommendation-style features at a mid-stage startup — lighter weight than ranking systems at FAANG, but production. Used a combination of collaborative filtering (matrix factorization in implicit-feedback library) and gradient-boosted re-ranking over engagement signals. Pu
+  skills: YOLO(adv,56m,e24), FAISS(int,31m,e11), CSS(int,25m,e0), BentoML(adv,41m,e54), LoRA(adv,33m,e14), scikit-learn(adv,52m,e40), Object Detection(adv,43m,e55), MLOps(int,15m,e11), OpenCV(int,26m,e6), LLMs(adv,56m,e54), Speech Recognition(adv,60m,e0), TensorFlow(adv,42m,e53), Elasticsearch(adv,32m,e17), Deep Learning(int,28m,e9)
+  signals: last_active=2026-04-08 resp=0.73 otw=False saved=29 gh=10.9 notice=45 complete=48.2
+
+### CAND_0042008  [bucket=strong_core_product]
+  title=ML Engineer | yoe=5.6 | Dream11 (Gaming) | Hyderabad, Telangana,India
+  summary: Data scientist / ML engineer with 5.6 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. My current role is split between dashboarding/analytics and shipping production ML models. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm s
+   - ML Engineer @ Dream11 (Gaming) 42m CUR
+       Worked on time-series forecasting models for supply-chain demand prediction at a logistics company. Built models in Prophet, LightGBM, and (for one project) a small LSTM — the LightGBM model ended up shipping. Also ran some reinforcement learning experiments for dynamic pricing b
+   - Computer Vision Engineer @ Wipro (IT Services) 25m 
+       Contributed to ML feature engineering and model deployment for a fraud-detection product. My main role was engineering: building the Flask-based prediction API, integrating with the feature store, and writing the model-serving observability layer. I worked closely with senior dat
+  skills: ASR(adv,60m,e11), CNN(int,29m,e13), Embeddings(adv,54m,e18), Excel(beg,18m,e12), RAG(adv,60m,e14), BigQuery(int,17m,e9), PyTorch(adv,56m,e6), Deep Learning(adv,52m,e58), MLflow(int,33m,e0), YOLO(int,25m,e12), Image Classification(int,22m,e7)
+  signals: last_active=2026-02-22 resp=0.29 otw=False saved=27 gh=80.2 notice=90 complete=52.4
+
+### CAND_0001930  [bucket=strong_core_product]
+  title=Senior Software Engineer (ML) | yoe=6.9 | Dream11 (Gaming) | Kolkata, West Bengal,India
+  summary: Data scientist / ML engineer with 6.9 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. My current role is split between dashboarding/analytics and shipping production ML models. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm s
+   - Senior Software Engineer (ML) @ Dream11 (Gaming) 44m CUR
+       Built recommendation-style features at a mid-stage startup — lighter weight than ranking systems at FAANG, but production. Used a combination of collaborative filtering (matrix factorization in implicit-feedback library) and gradient-boosted re-ranking over engagement signals. Pu
+   - Computer Vision Engineer @ Flipkart (E-commerce) 22m 
+       Built recommendation-style features at a mid-stage startup — lighter weight than ranking systems at FAANG, but production. Used a combination of collaborative filtering (matrix factorization in implicit-feedback library) and gradient-boosted re-ranking over engagement signals. Pu
+   - Data Scientist @ Nykaa (E-commerce) 15m 
+       Worked on time-series forecasting models for supply-chain demand prediction at a logistics company. Built models in Prophet, LightGBM, and (for one project) a small LSTM — the LightGBM model ended up shipping. Also ran some reinforcement learning experiments for dynamic pricing b
+  skills: Machine Learning(int,34m,e0), GraphQL(int,27m,e7), Webpack(beg,9m,e6), CSS(beg,9m,e10), Kubeflow(int,33m,e3), NLP(int,19m,e8), Embeddings(int,24m,e5), Statistical Modeling(adv,27m,e2), BentoML(adv,30m,e17), Milvus(adv,46m,e46), Fine-tuning LLMs(int,19m,e0), Data Pipelines(beg,18m,e0), CNN(adv,38m,e23), Haystack(int,28m,e7), QLoRA(int,14m,e8)
+  signals: last_active=2026-03-08 resp=0.65 otw=True saved=40 gh=76.3 notice=120 complete=68.3
+
+### CAND_0068811  [bucket=strong_core_product]
+  title=Applied ML Engineer | yoe=8.0 | Freshworks (SaaS) | Pune, Maharashtra,India
+  summary: Machine learning engineer with 8.0 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I led the team that migrated our keyword-search-based product to embedding-based retrieval. I care a lot about evaluation rigor — too many teams shi
+   - Applied ML Engineer @ Freshworks (SaaS) 19m CUR
+       Built a content recommendation system serving 10M+ users that combined collaborative filtering with content-based ranking. The system uses item-item similarity (via sentence-transformer embeddings) for cold starts and a gradient-boosted model trained on engagement signals for war
+   - AI Engineer @ Yellow.ai (AI/ML) 26m 
+       Implemented a RAG-based customer support chatbot integrated with our existing ticketing system. Built the document ingestion pipeline (chunking, embedding via OpenAI embeddings, storing in Pinecone) and the answer-generation layer (initially GPT-4, then a fine-tuned smaller model
+   - Recommendation Systems Engineer @ Meesho (E-commerce) 25m 
+       Owned the ranking layer for an e-commerce search product, evolving it from a hand-tuned scoring function to a learning-to-rank model over 9 months. Designed the relevance labeling pipeline (mix of click-through data and explicit human judgments), the feature pipeline, and the tra
+   - Search Engineer @ Salesforce (Software) 25m 
+       Built and operated production ML pipelines using MLflow for experiment tracking, Kubeflow for orchestration, and our internal feature store. My main project was a churn prediction model that's now used by the customer success team to prioritize outreach. Designed the model monito
+  skills: Data Science(int,23m,e9), Vector Search(exp,79m,e16), Speech Recognition(adv,32m,e44), TTS(adv,33m,e47), Kubeflow(int,18m,e7), Qdrant(exp,70m,e41), scikit-learn(exp,52m,e20), TensorFlow(exp,74m,e19), Embeddings(adv,30m,e33), pgvector(exp,47m,e14), Pinecone(exp,86m,e49), Time Series(adv,51m,e5), PEFT(adv,38m,e2), gRPC(beg,3m,e3), Haystack(exp,53m,e48), OpenSearch(exp,70m,e42), Weaviate(adv,60m,e54), Agile(beg,16m,e12), React(int,22m,e9)
+  signals: last_active=2026-05-21 resp=0.42 otw=True saved=4 gh=23.1 notice=30 complete=71.4
+
+### CAND_0018653  [bucket=strong_core_product]
+  title=ML Engineer | yoe=6.5 | Vedantu (EdTech) | Kochi, Kerala,India
+  summary: Data scientist / ML engineer with 6.5 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. My current role is split between dashboarding/analytics and shipping production ML models. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm s
+   - ML Engineer @ Vedantu (EdTech) 36m CUR
+       Built recommendation-style features at a mid-stage startup — lighter weight than ranking systems at FAANG, but production. Used a combination of collaborative filtering (matrix factorization in implicit-feedback library) and gradient-boosted re-ranking over engagement signals. Pu
+   - Computer Vision Engineer @ Locobuzz (AI/ML) 42m 
+       Built recommendation-style features at a mid-stage startup — lighter weight than ranking systems at FAANG, but production. Used a combination of collaborative filtering (matrix factorization in implicit-feedback library) and gradient-boosted re-ranking over engagement signals. Pu
+  skills: LangChain(int,23m,e15), GCP(int,25m,e1), YOLO(int,27m,e8), REST APIs(beg,2m,e13), BM25(int,21m,e0), Excel(int,32m,e9), Data Science(adv,26m,e20), CNN(adv,34m,e3), Weights & Biases(adv,54m,e55), Deep Learning(int,25m,e0), RAG(adv,39m,e59), Vector Search(adv,19m,e12), FAISS(adv,57m,e40)
+  signals: last_active=2026-04-13 resp=0.72 otw=False saved=31 gh=13.5 notice=90 complete=62.2
+
+### CAND_0006557  [bucket=strong_core_product]
+  title=NLP Engineer | yoe=7.9 | Paytm (Fintech) | Jaipur, Rajasthan,India
+  summary: Machine learning engineer with 7.9 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I shipped our first RAG-based feature this year and now own the eval framework for it. I care a lot about evaluation rigor — too many teams ship mod
+   - NLP Engineer @ Paytm (Fintech) 54m CUR
+       Owned the ranking layer for an e-commerce search product, evolving it from a hand-tuned scoring function to a learning-to-rank model over 9 months. Designed the relevance labeling pipeline (mix of click-through data and explicit human judgments), the feature pipeline, and the tra
+   - Recommendation Systems Engineer @ Apple (Consumer Electronics) 40m 
+       Built a content recommendation system serving 10M+ users that combined collaborative filtering with content-based ranking. The system uses item-item similarity (via sentence-transformer embeddings) for cold starts and a gradient-boosted model trained on engagement signals for war
+  skills: Kubeflow(adv,45m,e50), Data Science(adv,38m,e49), Elasticsearch(adv,40m,e35), OpenSearch(exp,72m,e54), LlamaIndex(exp,66m,e28), OpenCV(adv,40m,e58), Vector Search(exp,91m,e39), Agile(beg,16m,e15), Weaviate(adv,44m,e45), Vue.js(int,36m,e5), FAISS(exp,85m,e51), Pinecone(adv,41m,e41), Hugging Face Transformers(exp,84m,e4), Qdrant(exp,74m,e59), Databricks(int,30m,e7), LoRA(exp,80m,e4), LangChain(exp,42m,e22), Information Retrieval(adv,30m,e42)
+  signals: last_active=2026-04-10 resp=0.63 otw=True saved=53 gh=-1 notice=120 complete=52.7
+
+### CAND_0033842  [bucket=strong_core_product]
+  title=Senior Software Engineer (ML) | yoe=5.8 | Rephrase.ai (AI/ML) | Gurgaon, Haryana,India
+  summary: Data scientist / ML engineer with 5.8 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've spent the last couple of years building NLP-based classification and information extraction pipelines. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps t
+   - Senior Software Engineer (ML) @ Rephrase.ai (AI/ML) 33m CUR
+       Built computer vision models for our product's image moderation feature using PyTorch — fine-tuned ResNet variants on a labeled dataset of ~200K images. Set up the training pipeline (data loading, augmentation, evaluation) and the inference service. Most of my project work has be
+   - AI Specialist @ Dream11 (Gaming) 18m 
+       Contributed to ML feature engineering and model deployment for a fraud-detection product. My main role was engineering: building the Flask-based prediction API, integrating with the feature store, and writing the model-serving observability layer. I worked closely with senior dat
+   - Senior Software Engineer (ML) @ Krutrim (AI/ML) 18m 
+       Built computer vision models for our product's image moderation feature using PyTorch — fine-tuned ResNet variants on a labeled dataset of ~200K images. Set up the training pipeline (data loading, augmentation, evaluation) and the inference service. Most of my project work has be
+  skills: Haystack(int,36m,e15), Image Classification(int,11m,e13), OpenSearch(int,27m,e15), MLOps(adv,25m,e39), BentoML(int,17m,e2), PEFT(adv,27m,e18), NLP(adv,26m,e52), Vue.js(int,26m,e3), Computer Vision(int,30m,e12), Qdrant(int,35m,e4), YOLO(adv,41m,e30), Reinforcement Learning(int,35m,e4), HTML(beg,8m,e0), Data Science(int,27m,e11), TTS(adv,22m,e33), Pinecone(int,13m,e13)
+  signals: last_active=2026-03-29 resp=0.34 otw=True saved=35 gh=-1 notice=60 complete=51.1
+
+### CAND_0057563  [bucket=strong_core_product]
+  title=NLP Engineer | yoe=6.8 | Locobuzz (AI/ML) | Indore, Madhya Pradesh,India
+  summary: Machine learning engineer with 6.8 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I built our semantic search infrastructure from scratch — sentence-transformers, FAISS, the works. I've learned that most retrieval problems are act
+   - NLP Engineer @ Locobuzz (AI/ML) 20m CUR
+       Owned the ranking layer for an e-commerce search product, evolving it from a hand-tuned scoring function to a learning-to-rank model over 9 months. Designed the relevance labeling pipeline (mix of click-through data and explicit human judgments), the feature pipeline, and the tra
+   - Machine Learning Engineer @ Yellow.ai (AI/ML) 34m 
+       Built a content recommendation system serving 10M+ users that combined collaborative filtering with content-based ranking. The system uses item-item similarity (via sentence-transformer embeddings) for cold starts and a gradient-boosted model trained on engagement signals for war
+   - Senior Data Scientist @ Zoho (SaaS) 26m 
+       Developed a semantic search feature for an internal knowledge base of ~500K documents. Used sentence-transformers (all-MiniLM-L6-v2 initially, later upgraded to bge-base) with FAISS for fast nearest-neighbor retrieval. Designed the query expansion module that handles vocabulary m
+  skills: Deep Learning(exp,45m,e24), Speech Recognition(int,14m,e11), RAG(exp,68m,e27), Rust(int,21m,e6), Elasticsearch(exp,61m,e11), Feature Engineering(adv,52m,e50), OpenSearch(exp,94m,e3), SQL(beg,9m,e7), QLoRA(exp,48m,e24), Prompt Engineering(exp,54m,e42), Hugging Face Transformers(exp,54m,e32), Machine Learning(exp,39m,e35), Time Series(int,11m,e0), Forecasting(adv,40m,e11)
+  signals: last_active=2026-04-21 resp=0.83 otw=False saved=33 gh=22.8 notice=60 complete=85.3
+
+### CAND_0003557  [bucket=strong_core_product]
+  title=ML Engineer | yoe=6.8 | Krutrim (AI/ML) | Chandigarh, Chandigarh,India
+  summary: Data scientist / ML engineer with 6.8 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've spent the last couple of years building NLP-based classification and information extraction pipelines. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps t
+   - ML Engineer @ Krutrim (AI/ML) 26m CUR
+       Built recommendation-style features at a mid-stage startup — lighter weight than ranking systems at FAANG, but production. Used a combination of collaborative filtering (matrix factorization in implicit-feedback library) and gradient-boosted re-ranking over engagement signals. Pu
+   - Computer Vision Engineer @ Paytm (Fintech) 55m 
+       Built recommendation-style features at a mid-stage startup — lighter weight than ranking systems at FAANG, but production. Used a combination of collaborative filtering (matrix factorization in implicit-feedback library) and gradient-boosted re-ranking over engagement signals. Pu
+  skills: Time Series(int,11m,e10), BM25(adv,18m,e37), SQL(int,15m,e12), Elasticsearch(adv,54m,e32), TypeScript(beg,12m,e9), LangChain(adv,51m,e33), Computer Vision(int,32m,e15), OpenCV(int,33m,e0), Flask(int,17m,e15), TTS(adv,60m,e13), Weaviate(adv,59m,e51), Figma(int,20m,e15), Feature Engineering(int,36m,e6), Sentence Transformers(int,34m,e14)
+  signals: last_active=2026-02-24 resp=0.47 otw=True saved=33 gh=22.5 notice=90 complete=80.8
+
+### CAND_0008218  [bucket=strong_core_product]
+  title=Senior Software Engineer (ML) | yoe=7.0 | Aganitha (AI/ML) | Coimbatore, Tamil Nadu,India
+  summary: Data scientist / ML engineer with 7.0 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. Most of my recent work has been on predictive modeling for customer-facing problems — churn, conversion, lifetime value. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and sta
+   - Senior Software Engineer (ML) @ Aganitha (AI/ML) 15m CUR
+       Built NLP pipelines for sentiment analysis and document classification — primarily for an internal feedback-analytics dashboard. Started with sklearn-based bag-of-words models, then moved to transformer-based classifiers (DistilBERT) for the harder classes. Comfortable with PyTor
+   - Data Scientist @ Freshworks (SaaS) 39m 
+       Built NLP pipelines for sentiment analysis and document classification — primarily for an internal feedback-analytics dashboard. Started with sklearn-based bag-of-words models, then moved to transformer-based classifiers (DistilBERT) for the harder classes. Comfortable with PyTor
+   - Computer Vision Engineer @ Tech Mahindra (IT Services) 28m 
+       Built computer vision models for our product's image moderation feature using PyTorch — fine-tuned ResNet variants on a labeled dataset of ~200K images. Set up the training pipeline (data loading, augmentation, evaluation) and the inference service. Most of my project work has be
+  skills: TensorFlow(int,22m,e10), Forecasting(int,32m,e8), SQL(beg,12m,e4), OpenCV(int,25m,e4), Statistical Modeling(int,30m,e4), LangChain(int,18m,e5), Vector Search(adv,43m,e21), Milvus(int,35m,e4), OpenSearch(adv,22m,e46), YOLO(adv,37m,e42), RAG(int,10m,e14)
+  signals: last_active=2026-04-05 resp=0.39 otw=False saved=19 gh=-1 notice=45 complete=46.9
+
+### CAND_0081563  [bucket=strong_core_product]
+  title=ML Engineer | yoe=6.9 | Dream11 (Gaming) | Kochi, Kerala,India
+  summary: Data scientist / ML engineer with 6.9 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've been working on recommendation-style features but lighter on the deep-learning side — mostly classical methods like collaborative filtering and gradient-boosted models. I'm strongest at the modeling and analysis side; c
+   - ML Engineer @ Dream11 (Gaming) 50m CUR
+       Contributed to ML feature engineering and model deployment for a fraud-detection product. My main role was engineering: building the Flask-based prediction API, integrating with the feature store, and writing the model-serving observability layer. I worked closely with senior dat
+   - Senior Software Engineer (ML) @ Yellow.ai (AI/ML) 32m 
+       Contributed to ML feature engineering and model deployment for a fraud-detection product. My main role was engineering: building the Flask-based prediction API, integrating with the feature store, and writing the model-serving observability layer. I worked closely with senior dat
+  skills: Sentence Transformers(adv,30m,e40), YOLO(int,20m,e7), Feature Engineering(int,25m,e1), Reinforcement Learning(int,23m,e15), PyTorch(adv,47m,e58), Tally(int,12m,e2), Computer Vision(int,24m,e12), Object Detection(int,16m,e12), Pinecone(adv,21m,e42), Statistical Modeling(int,14m,e2), NLP(adv,28m,e52), GANs(int,16m,e4), Time Series(int,34m,e13)
+  signals: last_active=2026-03-24 resp=0.59 otw=True saved=35 gh=44.4 notice=60 complete=72.6
+
+### CAND_0015967  [bucket=strong_core_product]
+  title=Senior Software Engineer (ML) | yoe=5.4 | Razorpay (Fintech) | Hyderabad, Telangana,India
+  summary: Data scientist / ML engineer with 5.4 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've been working on recommendation-style features but lighter on the deep-learning side — mostly classical methods like collaborative filtering and gradient-boosted models. I'm strongest at the modeling and analysis side; c
+   - Senior Software Engineer (ML) @ Razorpay (Fintech) 42m CUR
+       Built recommendation-style features at a mid-stage startup — lighter weight than ranking systems at FAANG, but production. Used a combination of collaborative filtering (matrix factorization in implicit-feedback library) and gradient-boosted re-ranking over engagement signals. Pu
+   - AI Research Engineer @ CRED (Fintech) 15m 
+       Worked on customer-facing predictive modeling for an e-commerce platform — churn prediction, conversion likelihood, lifetime value estimation. Used scikit-learn and XGBoost; main models were gradient-boosted trees with ~80 hand-engineered features. The work was split roughly 60/4
+   - Computer Vision Engineer @ Locobuzz (AI/ML) 7m 
+       Contributed to ML feature engineering and model deployment for a fraud-detection product. My main role was engineering: building the Flask-based prediction API, integrating with the feature store, and writing the model-serving observability layer. I worked closely with senior dat
+  skills: QLoRA(int,36m,e13), YOLO(adv,26m,e25), Pinecone(int,21m,e2), Object Detection(adv,47m,e50), Semantic Search(int,26m,e2), ASR(adv,45m,e60), Feature Engineering(int,24m,e3), Flask(int,32m,e14), LLMs(adv,31m,e46), TensorFlow(adv,42m,e6), Time Series(int,22m,e11), Django(int,36m,e6), Embeddings(int,30m,e1), Deep Learning(adv,50m,e49), Forecasting(adv,40m,e13), Reinforcement Learning(int,24m,e13), Weights & Biases(adv,41m,e40)
+  signals: last_active=2026-05-13 resp=0.45 otw=True saved=3 gh=26.1 notice=30 complete=65.6
+
+### CAND_0058412  [bucket=strong_core_product]
+  title=Senior Software Engineer (ML) | yoe=6.6 | InMobi (AdTech) | Indore, Madhya Pradesh,India
+  summary: Data scientist / ML engineer with 6.6 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've spent the last couple of years building NLP-based classification and information extraction pipelines. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps t
+   - Senior Software Engineer (ML) @ InMobi (AdTech) 31m CUR
+       Built recommendation-style features at a mid-stage startup — lighter weight than ranking systems at FAANG, but production. Used a combination of collaborative filtering (matrix factorization in implicit-feedback library) and gradient-boosted re-ranking over engagement signals. Pu
+   - AI Specialist @ Nykaa (E-commerce) 18m 
+       Built computer vision models for our product's image moderation feature using PyTorch — fine-tuned ResNet variants on a labeled dataset of ~200K images. Set up the training pipeline (data loading, augmentation, evaluation) and the inference service. Most of my project work has be
+   - Junior ML Engineer @ BYJU'S (EdTech) 19m 
+       Built recommendation-style features at a mid-stage startup — lighter weight than ranking systems at FAANG, but production. Used a combination of collaborative filtering (matrix factorization in implicit-feedback library) and gradient-boosted re-ranking over engagement signals. Pu
+   - AI Research Engineer @ Meesho (E-commerce) 10m 
+       Worked on time-series forecasting models for supply-chain demand prediction at a logistics company. Built models in Prophet, LightGBM, and (for one project) a small LSTM — the LightGBM model ended up shipping. Also ran some reinforcement learning experiments for dynamic pricing b
+  skills: Embeddings(adv,57m,e3), Speech Recognition(adv,59m,e24), Data Science(int,28m,e5), Object Detection(adv,51m,e13), Milvus(adv,47m,e28), Time Series(adv,38m,e56), gRPC(int,24m,e9), Statistical Modeling(int,23m,e7), Webpack(int,15m,e3), Fine-tuning LLMs(int,30m,e7), Weights & Biases(int,36m,e9), Reinforcement Learning(int,31m,e9), RAG(int,22m,e14), Prompt Engineering(int,8m,e4), OpenCV(int,24m,e5), Machine Learning(int,17m,e13), TensorFlow(int,29m,e7)
+  signals: last_active=2026-03-13 resp=0.43 otw=False saved=31 gh=31.0 notice=60 complete=85.8
+
+### CAND_0062707  [bucket=strong_core_product]
+  title=Senior Software Engineer (ML) | yoe=5.6 | Locobuzz (AI/ML) | Kolkata, West Bengal,India
+  summary: Data scientist / ML engineer with 5.6 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. My current role is split between dashboarding/analytics and shipping production ML models. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm s
+   - Senior Software Engineer (ML) @ Locobuzz (AI/ML) 20m CUR
+       Worked on time-series forecasting models for supply-chain demand prediction at a logistics company. Built models in Prophet, LightGBM, and (for one project) a small LSTM — the LightGBM model ended up shipping. Also ran some reinforcement learning experiments for dynamic pricing b
+   - Data Scientist @ Verloop.io (Conversational AI) 46m 
+       Contributed to ML feature engineering and model deployment for a fraud-detection product. My main role was engineering: building the Flask-based prediction API, integrating with the feature store, and writing the model-serving observability layer. I worked closely with senior dat
+  skills: Elasticsearch(adv,34m,e28), YOLO(int,19m,e6), Speech Recognition(adv,43m,e42), Python(adv,18m,e14), Content Writing(int,16m,e10), Milvus(int,24m,e14), Deep Learning(int,14m,e13), Object Detection(int,26m,e11), LangChain(int,30m,e3), Weights & Biases(int,20m,e7), Feature Engineering(int,25m,e2), Information Retrieval(int,29m,e6), Haystack(int,27m,e4), SQL(int,11m,e0), Time Series(int,29m,e6)
+  signals: last_active=2026-03-16 resp=0.3 otw=True saved=34 gh=25.4 notice=45 complete=60.2
+
+### CAND_0025923  [bucket=core_services]
+  title=Senior Software Engineer (ML) | yoe=5.0 | HCL (IT Services) | Kolkata, West Bengal,India
+  summary: Data scientist / ML engineer with 5.0 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. My current role is split between dashboarding/analytics and shipping production ML models. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm s
+   - Senior Software Engineer (ML) @ HCL (IT Services) 38m CUR
+       Built NLP pipelines for sentiment analysis and document classification — primarily for an internal feedback-analytics dashboard. Started with sklearn-based bag-of-words models, then moved to transformer-based classifiers (DistilBERT) for the harder classes. Comfortable with PyTor
+   - AI Specialist @ Krutrim (AI/ML) 21m 
+       Contributed to ML feature engineering and model deployment for a fraud-detection product. My main role was engineering: building the Flask-based prediction API, integrating with the feature store, and writing the model-serving observability layer. I worked closely with senior dat
+  skills: TTS(adv,43m,e31), Reinforcement Learning(adv,18m,e3), Speech Recognition(adv,57m,e24), pgvector(adv,29m,e15), Data Science(adv,34m,e42), Qdrant(int,25m,e10), MLflow(int,14m,e10), Kubeflow(adv,47m,e9), dbt(beg,5m,e14), RAG(int,36m,e14), Pinecone(adv,30m,e48), Scrum(beg,11m,e3)
+  signals: last_active=2026-04-18 resp=0.84 otw=False saved=11 gh=-1 notice=30 complete=53.8
+
+### CAND_0072263  [bucket=core_services]
+  title=Senior Software Engineer (ML) | yoe=6.7 | Infosys (IT Services) | Delhi, Delhi,India
+  summary: Data scientist / ML engineer with 6.7 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've been working on recommendation-style features but lighter on the deep-learning side — mostly classical methods like collaborative filtering and gradient-boosted models. I'm strongest at the modeling and analysis side; c
+   - Senior Software Engineer (ML) @ Infosys (IT Services) 37m CUR
+       Worked on time-series forecasting models for supply-chain demand prediction at a logistics company. Built models in Prophet, LightGBM, and (for one project) a small LSTM — the LightGBM model ended up shipping. Also ran some reinforcement learning experiments for dynamic pricing b
+   - ML Engineer @ upGrad (EdTech) 43m 
+       Worked on customer-facing predictive modeling for an e-commerce platform — churn prediction, conversion likelihood, lifetime value estimation. Used scikit-learn and XGBoost; main models were gradient-boosted trees with ~80 hand-engineered features. The work was split roughly 60/4
+  skills: OpenCV(adv,37m,e5), Pinecone(adv,46m,e51), Prompt Engineering(adv,33m,e44), Fine-tuning LLMs(int,31m,e1), Marketing(int,27m,e9), Apache Flink(beg,13m,e10), Illustrator(beg,6m,e7), Image Classification(adv,36m,e20), MLflow(adv,32m,e55), Object Detection(int,8m,e9), scikit-learn(int,36m,e2), Machine Learning(int,22m,e13)
+  signals: last_active=2026-05-17 resp=0.55 otw=True saved=23 gh=35.1 notice=90 complete=85.4
+
+### CAND_0065450  [bucket=core_services]
+  title=ML Engineer | yoe=4.0 | Tech Mahindra (IT Services) | Jaipur, Rajasthan,India
+  summary: Data scientist / ML engineer with 4.0 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've spent the last couple of years building NLP-based classification and information extraction pipelines. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps t
+   - ML Engineer @ Tech Mahindra (IT Services) 32m CUR
+       Contributed to ML feature engineering and model deployment for a fraud-detection product. My main role was engineering: building the Flask-based prediction API, integrating with the feature store, and writing the model-serving observability layer. I worked closely with senior dat
+   - ML Engineer @ Sarvam AI (AI/ML) 15m 
+       Built computer vision models for our product's image moderation feature using PyTorch — fine-tuned ResNet variants on a labeled dataset of ~200K images. Set up the training pipeline (data loading, augmentation, evaluation) and the inference service. Most of my project work has be
+  skills: MLOps(int,30m,e4), Object Detection(int,28m,e1), Deep Learning(adv,53m,e55), Apache Beam(beg,16m,e7), SAP(int,12m,e11), Pinecone(int,15m,e9), Embeddings(adv,46m,e42), PyTorch(int,36m,e9), Machine Learning(adv,19m,e58), OpenCV(adv,45m,e32), YOLO(int,22m,e10), Databricks(int,24m,e1), PostgreSQL(int,29m,e7)
+  signals: last_active=2026-03-03 resp=0.3 otw=True saved=33 gh=-1 notice=45 complete=92.9
+
+### CAND_0067201  [bucket=core_services]
+  title=ML Engineer | yoe=6.0 | Wipro (IT Services) | Sydney,Australia
+  summary: Data scientist / ML engineer with 6.0 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. Most of my recent work has been on predictive modeling for customer-facing problems — churn, conversion, lifetime value. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and sta
+   - ML Engineer @ Wipro (IT Services) 40m CUR
+       Built NLP pipelines for sentiment analysis and document classification — primarily for an internal feedback-analytics dashboard. Started with sklearn-based bag-of-words models, then moved to transformer-based classifiers (DistilBERT) for the harder classes. Comfortable with PyTor
+   - Junior ML Engineer @ Nykaa (E-commerce) 31m 
+       Contributed to ML feature engineering and model deployment for a fraud-detection product. My main role was engineering: building the Flask-based prediction API, integrating with the feature store, and writing the model-serving observability layer. I worked closely with senior dat
+  skills: FAISS(adv,58m,e41), TTS(adv,46m,e21), Milvus(int,25m,e5), Feature Engineering(adv,43m,e7), Recommendation Systems(int,23m,e15), Deep Learning(int,15m,e3), gRPC(beg,7m,e2), GANs(adv,36m,e48), Prompt Engineering(adv,41m,e50), Image Classification(adv,58m,e44), ASR(adv,57m,e49), MLflow(adv,57m,e20), TensorFlow(adv,20m,e36), OpenCV(adv,52m,e25), RAG(int,14m,e4)
+  signals: last_active=2026-04-13 resp=0.77 otw=False saved=40 gh=23.8 notice=90 complete=75.2
+
+### CAND_0044576  [bucket=core_services]
+  title=Senior Software Engineer (ML) | yoe=5.4 | HCL (IT Services) | Coimbatore, Tamil Nadu,India
+  summary: Data scientist / ML engineer with 5.4 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've been working on recommendation-style features but lighter on the deep-learning side — mostly classical methods like collaborative filtering and gradient-boosted models. I'm strongest at the modeling and analysis side; c
+   - Senior Software Engineer (ML) @ HCL (IT Services) 24m CUR
+       Worked on customer-facing predictive modeling for an e-commerce platform — churn prediction, conversion likelihood, lifetime value estimation. Used scikit-learn and XGBoost; main models were gradient-boosted trees with ~80 hand-engineered features. The work was split roughly 60/4
+   - AI Research Engineer @ Haptik (Conversational AI) 33m 
+       Contributed to ML feature engineering and model deployment for a fraud-detection product. My main role was engineering: building the Flask-based prediction API, integrating with the feature store, and writing the model-serving observability layer. I worked closely with senior dat
+   - ML Engineer @ Yellow.ai (AI/ML) 7m 
+       Built computer vision models for our product's image moderation feature using PyTorch — fine-tuned ResNet variants on a labeled dataset of ~200K images. Set up the training pipeline (data loading, augmentation, evaluation) and the inference service. Most of my project work has be
+  skills: Salesforce CRM(int,13m,e5), Angular(int,18m,e11), Feature Engineering(adv,29m,e15), Data Science(adv,25m,e16), Haystack(int,24m,e5), Speech Recognition(int,13m,e6), Vector Search(adv,31m,e3), LangChain(int,17m,e3), YOLO(adv,42m,e1), OpenSearch(adv,29m,e29), BentoML(int,27m,e12), Webpack(beg,16m,e9)
+  signals: last_active=2026-05-05 resp=0.34 otw=True saved=26 gh=-1 notice=90 complete=63.2
+
+### CAND_0057162  [bucket=core_services]
+  title=ML Engineer | yoe=4.2 | Genpact AI (AI Services) | Trivandrum, Kerala,India
+  summary: Data scientist / ML engineer with 4.2 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. My current role is split between dashboarding/analytics and shipping production ML models. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm s
+   - ML Engineer @ Genpact AI (AI Services) 38m CUR
+       Built NLP pipelines for sentiment analysis and document classification — primarily for an internal feedback-analytics dashboard. Started with sklearn-based bag-of-words models, then moved to transformer-based classifiers (DistilBERT) for the harder classes. Comfortable with PyTor
+   - AI Specialist @ Niramai (HealthTech AI) 12m 
+       Worked on time-series forecasting models for supply-chain demand prediction at a logistics company. Built models in Prophet, LightGBM, and (for one project) a small LSTM — the LightGBM model ended up shipping. Also ran some reinforcement learning experiments for dynamic pricing b
+  skills: RAG(int,25m,e10), Time Series(int,24m,e7), Machine Learning(adv,50m,e25), LLMs(int,32m,e10), Forecasting(int,9m,e8), Speech Recognition(int,21m,e7), FAISS(int,10m,e7), Data Science(adv,51m,e42), Diffusion Models(adv,21m,e19), Sentence Transformers(adv,18m,e18), QLoRA(adv,49m,e58), CNN(int,16m,e11), TypeScript(beg,7m,e15), OpenSearch(adv,27m,e41), GANs(adv,40m,e39)
+  signals: last_active=2026-04-03 resp=0.54 otw=True saved=10 gh=-1 notice=60 complete=70.0
+
+### CAND_0045475  [bucket=core_services]
+  title=ML Engineer | yoe=4.9 | Genpact AI (AI Services) | Delhi, Delhi,India
+  summary: Data scientist / ML engineer with 4.9 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've spent the last couple of years building NLP-based classification and information extraction pipelines. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps t
+   - ML Engineer @ Genpact AI (AI Services) 34m CUR
+       Built computer vision models for our product's image moderation feature using PyTorch — fine-tuned ResNet variants on a labeled dataset of ~200K images. Set up the training pipeline (data loading, augmentation, evaluation) and the inference service. Most of my project work has be
+   - Data Scientist @ Razorpay (Fintech) 24m 
+       Built computer vision models for our product's image moderation feature using PyTorch — fine-tuned ResNet variants on a labeled dataset of ~200K images. Set up the training pipeline (data loading, augmentation, evaluation) and the inference service. Most of my project work has be
+  skills: PyTorch(adv,33m,e17), Vue.js(int,11m,e12), Speech Recognition(adv,47m,e54), Photoshop(int,13m,e6), Pinecone(adv,46m,e58), Feature Engineering(int,29m,e7), Image Classification(int,16m,e11), YOLO(adv,36m,e46), QLoRA(adv,59m,e55), Forecasting(adv,44m,e30), ETL(int,21m,e7), OpenSearch(int,29m,e12), FAISS(adv,56m,e23), Deep Learning(adv,24m,e28), BentoML(adv,30m,e8), scikit-learn(adv,40m,e2), BM25(int,15m,e2)
+  signals: last_active=2026-05-12 resp=0.55 otw=True saved=27 gh=41.1 notice=60 complete=80.9
+
+### CAND_0097176  [bucket=core_services]
+  title=ML Engineer | yoe=5.9 | TCS (IT Services) | Gurgaon, Haryana,India
+  summary: Data scientist / ML engineer with 5.9 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. Most of my recent work has been on predictive modeling for customer-facing problems — churn, conversion, lifetime value. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and sta
+   - ML Engineer @ TCS (IT Services) 13m CUR
+       Built NLP pipelines for sentiment analysis and document classification — primarily for an internal feedback-analytics dashboard. Started with sklearn-based bag-of-words models, then moved to transformer-based classifiers (DistilBERT) for the harder classes. Comfortable with PyTor
+   - AI Research Engineer @ Haptik (Conversational AI) 40m 
+       Worked on customer-facing predictive modeling for an e-commerce platform — churn prediction, conversion likelihood, lifetime value estimation. Used scikit-learn and XGBoost; main models were gradient-boosted trees with ~80 hand-engineered features. The work was split roughly 60/4
+   - Junior ML Engineer @ Rephrase.ai (AI/ML) 16m 
+       Built recommendation-style features at a mid-stage startup — lighter weight than ranking systems at FAANG, but production. Used a combination of collaborative filtering (matrix factorization in implicit-feedback library) and gradient-boosted re-ranking over engagement signals. Pu
+  skills: Angular(beg,13m,e12), FAISS(int,15m,e4), Speech Recognition(adv,33m,e3), LlamaIndex(adv,32m,e45), GANs(adv,26m,e8), Sales(int,14m,e5), CNN(int,13m,e9), GraphQL(int,19m,e13), PyTorch(adv,43m,e2), LangChain(adv,54m,e46), Image Classification(int,11m,e8)
+  signals: last_active=2026-04-05 resp=0.76 otw=True saved=15 gh=45.4 notice=30 complete=74.2
+
+### CAND_0016801  [bucket=core_services]
+  title=ML Engineer | yoe=5.3 | Infosys (IT Services) | Kochi, Kerala,India
+  summary: Data scientist / ML engineer with 5.3 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've been working on recommendation-style features but lighter on the deep-learning side — mostly classical methods like collaborative filtering and gradient-boosted models. I'm strongest at the modeling and analysis side; c
+   - ML Engineer @ Infosys (IT Services) 18m CUR
+       Worked on time-series forecasting models for supply-chain demand prediction at a logistics company. Built models in Prophet, LightGBM, and (for one project) a small LSTM — the LightGBM model ended up shipping. Also ran some reinforcement learning experiments for dynamic pricing b
+   - ML Engineer @ Wipro (IT Services) 45m 
+       Worked on time-series forecasting models for supply-chain demand prediction at a logistics company. Built models in Prophet, LightGBM, and (for one project) a small LSTM — the LightGBM model ended up shipping. Also ran some reinforcement learning experiments for dynamic pricing b
+  skills: scikit-learn(int,33m,e8), TypeScript(int,25m,e3), pgvector(adv,21m,e30), Image Classification(adv,50m,e54), Time Series(int,36m,e4), Feature Engineering(adv,54m,e49), Reinforcement Learning(adv,24m,e53), Deep Learning(int,29m,e4), OpenCV(adv,32m,e9), Weights & Biases(int,31m,e0), FAISS(int,8m,e9), Microservices(int,25m,e1), NLP(int,24m,e12), Docker(beg,18m,e8), ASR(adv,46m,e14), Prompt Engineering(adv,18m,e11), CI/CD(int,15m,e12), Milvus(int,20m,e13), TTS(adv,51m,e1)
+  signals: last_active=2026-04-02 resp=0.44 otw=False saved=17 gh=-1 notice=90 complete=52.1
+
+### CAND_0019159  [bucket=core_services]
+  title=ML Engineer | yoe=6.1 | Genpact AI (AI Services) | Seattle,USA
+  summary: Data scientist / ML engineer with 6.1 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've been working on recommendation-style features but lighter on the deep-learning side — mostly classical methods like collaborative filtering and gradient-boosted models. I'm strongest at the modeling and analysis side; c
+   - ML Engineer @ Genpact AI (AI Services) 19m CUR
+       Worked on time-series forecasting models for supply-chain demand prediction at a logistics company. Built models in Prophet, LightGBM, and (for one project) a small LSTM — the LightGBM model ended up shipping. Also ran some reinforcement learning experiments for dynamic pricing b
+   - AI Research Engineer @ Observe.AI (AI/ML) 31m 
+       Built computer vision models for our product's image moderation feature using PyTorch — fine-tuned ResNet variants on a labeled dataset of ~200K images. Set up the training pipeline (data loading, augmentation, evaluation) and the inference service. Most of my project work has be
+   - Data Scientist @ Krutrim (AI/ML) 22m 
+       Built NLP pipelines for sentiment analysis and document classification — primarily for an internal feedback-analytics dashboard. Started with sklearn-based bag-of-words models, then moved to transformer-based classifiers (DistilBERT) for the harder classes. Comfortable with PyTor
+  skills: Spark(int,16m,e10), Vector Search(int,9m,e1), Forecasting(int,33m,e3), Machine Learning(adv,38m,e14), ASR(adv,26m,e22), Excel(beg,12m,e10), Qdrant(adv,56m,e55), MLOps(int,15m,e1), Docker(int,30m,e5), Information Retrieval(int,24m,e5), Sentence Transformers(adv,19m,e15), Figma(beg,14m,e14), Recommendation Systems(adv,27m,e35), Time Series(adv,38m,e39), Milvus(adv,20m,e13), PEFT(adv,59m,e55)
+  signals: last_active=2026-05-12 resp=0.75 otw=False saved=33 gh=-1 notice=45 complete=61.7
+
+### CAND_0033839  [bucket=ds]
+  title=AI Specialist | yoe=5.3 | Rephrase.ai (AI/ML) | Jaipur, Rajasthan,India
+  summary: Data scientist / ML engineer with 5.3 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've been working on recommendation-style features but lighter on the deep-learning side — mostly classical methods like collaborative filtering and gradient-boosted models. I'm strongest at the modeling and analysis side; c
+   - AI Specialist @ Rephrase.ai (AI/ML) 24m CUR
+       Built computer vision models for our product's image moderation feature using PyTorch — fine-tuned ResNet variants on a labeled dataset of ~200K images. Set up the training pipeline (data loading, augmentation, evaluation) and the inference service. Most of my project work has be
+   - AI Research Engineer @ Ola (Transportation) 26m 
+       Built computer vision models for our product's image moderation feature using PyTorch — fine-tuned ResNet variants on a labeled dataset of ~200K images. Set up the training pipeline (data loading, augmentation, evaluation) and the inference service. Most of my project work has be
+   - Junior ML Engineer @ Observe.AI (AI/ML) 13m 
+       Contributed to ML feature engineering and model deployment for a fraud-detection product. My main role was engineering: building the Flask-based prediction API, integrating with the feature store, and writing the model-serving observability layer. I worked closely with senior dat
+  skills: Kubernetes(beg,18m,e8), Tailwind(beg,2m,e5), YOLO(adv,34m,e10), Weaviate(adv,41m,e28), Prompt Engineering(int,36m,e10), Semantic Search(int,24m,e13), Time Series(adv,46m,e0), GANs(adv,32m,e23), React(beg,13m,e2), PyTorch(adv,21m,e0), LlamaIndex(int,34m,e6), Pinecone(int,25m,e1), Deep Learning(adv,25m,e19), Object Detection(adv,30m,e38), OpenCV(int,10m,e12), Accounting(int,23m,e12)
+  signals: last_active=2026-03-15 resp=0.74 otw=True saved=30 gh=-1 notice=90 complete=64.9
+
+### CAND_0043318  [bucket=ds]
+  title=Data Scientist | yoe=6.2 | Freshworks (SaaS) | Sydney,Australia
+  summary: Data scientist / ML engineer with 6.2 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've been working on recommendation-style features but lighter on the deep-learning side — mostly classical methods like collaborative filtering and gradient-boosted models. I'm strongest at the modeling and analysis side; c
+   - Data Scientist @ Freshworks (SaaS) 45m CUR
+       Built NLP pipelines for sentiment analysis and document classification — primarily for an internal feedback-analytics dashboard. Started with sklearn-based bag-of-words models, then moved to transformer-based classifiers (DistilBERT) for the harder classes. Comfortable with PyTor
+   - AI Research Engineer @ Swiggy (Food Delivery) 28m 
+       Worked on customer-facing predictive modeling for an e-commerce platform — churn prediction, conversion likelihood, lifetime value estimation. Used scikit-learn and XGBoost; main models were gradient-boosted trees with ~80 hand-engineered features. The work was split roughly 60/4
+  skills: PEFT(int,23m,e3), Spark(int,33m,e1), RAG(adv,40m,e40), MLflow(int,26m,e9), pgvector(adv,26m,e8), MLOps(int,20m,e5), ETL(int,24m,e1), Object Detection(int,14m,e15), Reinforcement Learning(adv,32m,e8), Learning to Rank(int,33m,e9), LangChain(int,11m,e2), ASR(adv,48m,e58), Forecasting(int,13m,e13), Speech Recognition(int,20m,e14), Time Series(int,24m,e3), Weaviate(int,14m,e6), Recommendation Systems(int,20m,e2), Rust(int,30m,e5)
+  signals: last_active=2026-04-21 resp=0.42 otw=True saved=6 gh=78.3 notice=120 complete=46.5
+
+### CAND_0091580  [bucket=ds]
+  title=Data Scientist | yoe=5.5 | Niramai (HealthTech AI) | Noida, Uttar Pradesh,India
+  summary: Data scientist / ML engineer with 5.5 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've been working on recommendation-style features but lighter on the deep-learning side — mostly classical methods like collaborative filtering and gradient-boosted models. I'm strongest at the modeling and analysis side; c
+   - Data Scientist @ Niramai (HealthTech AI) 14m CUR
+       Built NLP pipelines for sentiment analysis and document classification — primarily for an internal feedback-analytics dashboard. Started with sklearn-based bag-of-words models, then moved to transformer-based classifiers (DistilBERT) for the harder classes. Comfortable with PyTor
+   - Data Scientist @ Meesho (E-commerce) 15m 
+       Worked on time-series forecasting models for supply-chain demand prediction at a logistics company. Built models in Prophet, LightGBM, and (for one project) a small LSTM — the LightGBM model ended up shipping. Also ran some reinforcement learning experiments for dynamic pricing b
+   - Computer Vision Engineer @ Vedantu (EdTech) 36m 
+       Built recommendation-style features at a mid-stage startup — lighter weight than ranking systems at FAANG, but production. Used a combination of collaborative filtering (matrix factorization in implicit-feedback library) and gradient-boosted re-ranking over engagement signals. Pu
+  skills: Illustrator(int,8m,e2), Data Science(int,29m,e4), FAISS(int,35m,e2), YOLO(int,15m,e6), Node.js(beg,18m,e14), BentoML(int,25m,e1), Angular(beg,16m,e5), QLoRA(int,32m,e13), MLflow(int,25m,e12), LlamaIndex(int,18m,e14), Qdrant(int,21m,e13), Diffusion Models(int,27m,e1), NLP(int,29m,e3), Feature Engineering(int,17m,e14)
+  signals: last_active=2026-05-14 resp=0.25 otw=True saved=17 gh=83.1 notice=60 complete=76.3
+
+### CAND_0042029  [bucket=ds]
+  title=Senior Data Scientist | yoe=6.5 | Flipkart (E-commerce) | Delhi, Delhi,India
+  summary: Machine learning engineer with 6.5 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I built our semantic search infrastructure from scratch — sentence-transformers, FAISS, the works. I care a lot about evaluation rigor — too many te
+   - Senior Data Scientist @ Flipkart (E-commerce) 36m CUR
+       Trained and shipped multiple ranking models for our product's discovery feed using XGBoost and LightGBM. Designed features across three families: content metadata, user behavior signals, and item engagement history. Owned the offline-online correlation analysis that determined wh
+   - Machine Learning Engineer @ Observe.AI (AI/ML) 42m 
+       Implemented a RAG-based customer support chatbot integrated with our existing ticketing system. Built the document ingestion pipeline (chunking, embedding via OpenAI embeddings, storing in Pinecone) and the answer-generation layer (initially GPT-4, then a fine-tuned smaller model
+  skills: YOLO(adv,29m,e30), PyTorch(exp,90m,e40), NLP(exp,88m,e41), RAG(exp,72m,e18), Haystack(exp,70m,e26), Statistical Modeling(adv,52m,e46), TypeScript(beg,14m,e1), Elasticsearch(adv,54m,e37), Embeddings(exp,54m,e26), REST APIs(int,29m,e15), Speech Recognition(int,25m,e4), OpenSearch(exp,96m,e8), Image Classification(adv,21m,e11), Feature Engineering(int,22m,e12), Weaviate(adv,41m,e8), Learning to Rank(adv,34m,e60), Deep Learning(exp,84m,e52), Hugging Face Transformers(adv,50m,e9)
+  signals: last_active=2026-04-13 resp=0.67 otw=False saved=16 gh=78.7 notice=45 complete=53.0
+
+### CAND_0005191  [bucket=ds]
+  title=AI Specialist | yoe=6.2 | Flipkart (E-commerce) | Vizag, Andhra Pradesh,India
+  summary: Data scientist / ML engineer with 6.2 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. Most of my recent work has been on predictive modeling for customer-facing problems — churn, conversion, lifetime value. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and sta
+   - AI Specialist @ Flipkart (E-commerce) 31m CUR
+       Built NLP pipelines for sentiment analysis and document classification — primarily for an internal feedback-analytics dashboard. Started with sklearn-based bag-of-words models, then moved to transformer-based classifiers (DistilBERT) for the harder classes. Comfortable with PyTor
+   - Computer Vision Engineer @ Haptik (Conversational AI) 15m 
+       Worked on customer-facing predictive modeling for an e-commerce platform — churn prediction, conversion likelihood, lifetime value estimation. Used scikit-learn and XGBoost; main models were gradient-boosted trees with ~80 hand-engineered features. The work was split roughly 60/4
+   - Senior Software Engineer (ML) @ Sarvam AI (AI/ML) 27m 
+       Contributed to ML feature engineering and model deployment for a fraud-detection product. My main role was engineering: building the Flask-based prediction API, integrating with the feature store, and writing the model-serving observability layer. I worked closely with senior dat
+  skills: PyTorch(int,14m,e2), Recommendation Systems(int,34m,e15), Hugging Face Transformers(adv,60m,e25), CNN(int,21m,e3), BentoML(int,36m,e3), Time Series(int,15m,e0), LlamaIndex(int,34m,e8), Speech Recognition(adv,29m,e24), Machine Learning(int,17m,e4), YOLO(int,15m,e8), BM25(int,8m,e2), Image Classification(int,36m,e4), pgvector(int,20m,e0), SAP(int,29m,e13), Photoshop(beg,9m,e4), Elasticsearch(int,20m,e8), Data Science(int,35m,e14)
+  signals: last_active=2026-03-08 resp=0.45 otw=True saved=8 gh=35.4 notice=60 complete=75.2
+
+### CAND_0095457  [bucket=ds]
+  title=Data Scientist | yoe=4.1 | Locobuzz (AI/ML) | Gurgaon, Haryana,India
+  summary: Data scientist / ML engineer with 4.1 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. Most of my recent work has been on predictive modeling for customer-facing problems — churn, conversion, lifetime value. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and sta
+   - Data Scientist @ Locobuzz (AI/ML) 28m CUR
+       Built computer vision models for our product's image moderation feature using PyTorch — fine-tuned ResNet variants on a labeled dataset of ~200K images. Set up the training pipeline (data loading, augmentation, evaluation) and the inference service. Most of my project work has be
+   - Junior ML Engineer @ Freshworks (SaaS) 20m 
+       Contributed to ML feature engineering and model deployment for a fraud-detection product. My main role was engineering: building the Flask-based prediction API, integrating with the feature store, and writing the model-serving observability layer. I worked closely with senior dat
+  skills: NLP(adv,37m,e13), Feature Engineering(int,31m,e10), Diffusion Models(int,22m,e7), TypeScript(int,8m,e1), MLOps(int,33m,e5), RAG(adv,55m,e26), GANs(adv,18m,e59), TTS(int,34m,e8), BigQuery(int,17m,e6), PyTorch(adv,24m,e18), YOLO(adv,41m,e54), Data Science(adv,20m,e6), Weaviate(adv,25m,e40), MongoDB(beg,13m,e2), Milvus(int,23m,e9), PEFT(int,17m,e1), Hugging Face Transformers(adv,33m,e31)
+  signals: last_active=2026-05-20 resp=0.54 otw=True saved=30 gh=-1 notice=60 complete=55.6
+
+### CAND_0081932  [bucket=ds]
+  title=Data Scientist | yoe=4.4 | Tech Mahindra (IT Services) | Bangalore, Karnataka,India
+  summary: Data scientist / ML engineer with 4.4 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. My current role is split between dashboarding/analytics and shipping production ML models. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm s
+   - Data Scientist @ Tech Mahindra (IT Services) 52m CUR
+       Built NLP pipelines for sentiment analysis and document classification — primarily for an internal feedback-analytics dashboard. Started with sklearn-based bag-of-words models, then moved to transformer-based classifiers (DistilBERT) for the harder classes. Comfortable with PyTor
+  skills: Forecasting(adv,42m,e40), Feature Engineering(adv,46m,e48), Data Science(int,11m,e1), MLOps(adv,49m,e9), Information Retrieval(int,17m,e3), ASR(adv,43m,e8), LoRA(adv,27m,e47), Object Detection(adv,59m,e54), pgvector(int,35m,e5), Image Classification(adv,55m,e1), scikit-learn(int,16m,e9), GCP(int,23m,e3), Time Series(adv,18m,e10)
+  signals: last_active=2026-04-09 resp=0.29 otw=True saved=16 gh=51.1 notice=60 complete=65.4
+
+### CAND_0056584  [bucket=ds]
+  title=AI Specialist | yoe=3.5 | BYJU'S (EdTech) | Chandigarh, Chandigarh,India
+  summary: Data scientist / ML engineer with 3.5 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. Most of my recent work has been on predictive modeling for customer-facing problems — churn, conversion, lifetime value. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and sta
+   - AI Specialist @ BYJU'S (EdTech) 42m CUR
+       Built NLP pipelines for sentiment analysis and document classification — primarily for an internal feedback-analytics dashboard. Started with sklearn-based bag-of-words models, then moved to transformer-based classifiers (DistilBERT) for the harder classes. Comfortable with PyTor
+  skills: Speech Recognition(int,10m,e10), Machine Learning(int,14m,e13), Image Classification(adv,34m,e53), Time Series(int,12m,e10), SEO(beg,14m,e0), Deep Learning(int,13m,e8), LoRA(int,28m,e14), Weights & Biases(int,29m,e6), LangChain(int,36m,e14), RAG(adv,27m,e47), Qdrant(int,19m,e4), OpenSearch(int,30m,e10), Weaviate(int,24m,e10)
+  signals: last_active=2026-05-22 resp=0.69 otw=False saved=19 gh=-1 notice=90 complete=75.2
+
+### CAND_0096823  [bucket=ds]
+  title=Data Scientist | yoe=4.4 | Glance (AI/ML) | Jaipur, Rajasthan,India
+  summary: Data scientist / ML engineer with 4.4 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've been working on recommendation-style features but lighter on the deep-learning side — mostly classical methods like collaborative filtering and gradient-boosted models. I'm strongest at the modeling and analysis side; c
+   - Data Scientist @ Glance (AI/ML) 16m CUR
+       Worked on customer-facing predictive modeling for an e-commerce platform — churn prediction, conversion likelihood, lifetime value estimation. Used scikit-learn and XGBoost; main models were gradient-boosted trees with ~80 hand-engineered features. The work was split roughly 60/4
+   - Data Scientist @ Niramai (HealthTech AI) 27m 
+       Built computer vision models for our product's image moderation feature using PyTorch — fine-tuned ResNet variants on a labeled dataset of ~200K images. Set up the training pipeline (data loading, augmentation, evaluation) and the inference service. Most of my project work has be
+   - AI Research Engineer @ Krutrim (AI/ML) 8m 
+       Contributed to ML feature engineering and model deployment for a fraud-detection product. My main role was engineering: building the Flask-based prediction API, integrating with the feature store, and writing the model-serving observability layer. I worked closely with senior dat
+  skills: Data Science(adv,44m,e12), NLP(int,16m,e11), Sentence Transformers(int,31m,e0), Statistical Modeling(adv,35m,e38), Image Classification(adv,58m,e58), Databricks(int,30m,e0), Elasticsearch(adv,57m,e38), Reinforcement Learning(int,13m,e7), TTS(int,28m,e6), Pinecone(int,12m,e0), Kubernetes(int,30m,e9), Recommendation Systems(int,36m,e10), Weaviate(int,18m,e6), Microservices(int,27m,e7), ASR(adv,36m,e39), BentoML(adv,55m,e30), Diffusion Models(int,15m,e9), pgvector(int,9m,e11), Milvus(int,11m,e10)
+  signals: last_active=2026-05-04 resp=0.5 otw=True saved=19 gh=-1 notice=60 complete=89.2
+
+### CAND_0092989  [bucket=ds]
+  title=Data Scientist | yoe=6.1 | PharmEasy (HealthTech) | Dubai,UAE
+  summary: Data scientist / ML engineer with 6.1 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've spent the last couple of years building NLP-based classification and information extraction pipelines. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps t
+   - Data Scientist @ PharmEasy (HealthTech) 32m CUR
+       Built recommendation-style features at a mid-stage startup — lighter weight than ranking systems at FAANG, but production. Used a combination of collaborative filtering (matrix factorization in implicit-feedback library) and gradient-boosted re-ranking over engagement signals. Pu
+   - Junior ML Engineer @ Infosys (IT Services) 40m 
+       Worked on customer-facing predictive modeling for an e-commerce platform — churn prediction, conversion likelihood, lifetime value estimation. Used scikit-learn and XGBoost; main models were gradient-boosted trees with ~80 hand-engineered features. The work was split roughly 60/4
+  skills: Qdrant(int,20m,e12), Statistical Modeling(adv,47m,e42), TensorFlow(adv,46m,e22), BM25(int,20m,e15), Photoshop(beg,17m,e0), Reinforcement Learning(int,26m,e8), Flask(int,22m,e6), MongoDB(int,17m,e10), Object Detection(adv,35m,e54), GANs(adv,54m,e55), RAG(int,32m,e5), Feature Engineering(int,25m,e4), Data Science(adv,29m,e8), ASR(adv,55m,e12)
+  signals: last_active=2026-05-25 resp=0.69 otw=True saved=29 gh=-1 notice=90 complete=92.8
+
+### CAND_0016170  [bucket=research]
+  title=AI Research Engineer | yoe=6.8 | Dream11 (Gaming) | Sydney,Australia
+  summary: Data scientist / ML engineer with 6.8 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've spent the last couple of years building NLP-based classification and information extraction pipelines. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps t
+   - AI Research Engineer @ Dream11 (Gaming) 44m CUR
+       Built recommendation-style features at a mid-stage startup — lighter weight than ranking systems at FAANG, but production. Used a combination of collaborative filtering (matrix factorization in implicit-feedback library) and gradient-boosted re-ranking over engagement signals. Pu
+   - Data Scientist @ Krutrim (AI/ML) 30m 
+       Worked on time-series forecasting models for supply-chain demand prediction at a logistics company. Built models in Prophet, LightGBM, and (for one project) a small LSTM — the LightGBM model ended up shipping. Also ran some reinforcement learning experiments for dynamic pricing b
+   - Data Scientist @ Infosys (IT Services) 7m 
+       Built NLP pipelines for sentiment analysis and document classification — primarily for an internal feedback-analytics dashboard. Started with sklearn-based bag-of-words models, then moved to transformer-based classifiers (DistilBERT) for the harder classes. Comfortable with PyTor
+  skills: Sentence Transformers(int,11m,e0), Reinforcement Learning(adv,36m,e20), Time Series(adv,41m,e60), PostgreSQL(beg,5m,e7), Embeddings(adv,21m,e2), Kubeflow(adv,47m,e8), Kafka(int,29m,e2), LangChain(int,10m,e8), Prompt Engineering(int,15m,e12), RAG(int,11m,e7), BentoML(int,12m,e12), Accounting(int,30m,e0), Hugging Face Transformers(adv,49m,e16), Computer Vision(int,17m,e13)
+  signals: last_active=2026-03-24 resp=0.52 otw=True saved=7 gh=50.4 notice=90 complete=66.1
+
+### CAND_0085199  [bucket=research]
+  title=AI Research Engineer | yoe=4.1 | Observe.AI (AI/ML) | Berlin,Germany
+  summary: Data scientist / ML engineer with 4.1 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've been working on recommendation-style features but lighter on the deep-learning side — mostly classical methods like collaborative filtering and gradient-boosted models. I'm strongest at the modeling and analysis side; c
+   - AI Research Engineer @ Observe.AI (AI/ML) 15m CUR
+       Worked on customer-facing predictive modeling for an e-commerce platform — churn prediction, conversion likelihood, lifetime value estimation. Used scikit-learn and XGBoost; main models were gradient-boosted trees with ~80 hand-engineered features. The work was split roughly 60/4
+   - Data Scientist @ CRED (Fintech) 25m 
+       Built computer vision models for our product's image moderation feature using PyTorch — fine-tuned ResNet variants on a labeled dataset of ~200K images. Set up the training pipeline (data loading, augmentation, evaluation) and the inference service. Most of my project work has be
+   - Junior ML Engineer @ Flipkart (E-commerce) 8m 
+       Worked on time-series forecasting models for supply-chain demand prediction at a logistics company. Built models in Prophet, LightGBM, and (for one project) a small LSTM — the LightGBM model ended up shipping. Also ran some reinforcement learning experiments for dynamic pricing b
+  skills: BentoML(adv,53m,e49), ASR(int,34m,e1), MLOps(int,20m,e8), Elasticsearch(int,12m,e5), PEFT(adv,55m,e49), Data Science(adv,51m,e23), Project Management(int,21m,e8), Fine-tuning LLMs(adv,35m,e2), Information Retrieval(int,34m,e13), Hugging Face Transformers(int,30m,e10), Haystack(int,29m,e0), MLflow(adv,37m,e57), Forecasting(adv,31m,e25)
+  signals: last_active=2026-04-16 resp=0.33 otw=False saved=18 gh=13.1 notice=30 complete=90.6
+
+### CAND_0004402  [bucket=research]
+  title=AI Research Engineer | yoe=6.0 | Yellow.ai (AI/ML) | Delhi, Delhi,India
+  summary: Data scientist / ML engineer with 6.0 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. My current role is split between dashboarding/analytics and shipping production ML models. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm s
+   - AI Research Engineer @ Yellow.ai (AI/ML) 32m CUR
+       Built recommendation-style features at a mid-stage startup — lighter weight than ranking systems at FAANG, but production. Used a combination of collaborative filtering (matrix factorization in implicit-feedback library) and gradient-boosted re-ranking over engagement signals. Pu
+   - Data Scientist @ Zomato (Food Delivery) 39m 
+       Built computer vision models for our product's image moderation feature using PyTorch — fine-tuned ResNet variants on a labeled dataset of ~200K images. Set up the training pipeline (data loading, augmentation, evaluation) and the inference service. Most of my project work has be
+  skills: TypeScript(int,9m,e13), TTS(adv,46m,e34), OpenSearch(int,34m,e2), Speech Recognition(adv,38m,e7), Object Detection(int,23m,e11), Kubeflow(int,22m,e5), PEFT(adv,29m,e53), PyTorch(adv,32m,e31), BentoML(adv,54m,e49), REST APIs(beg,2m,e5), Learning to Rank(adv,45m,e11), Data Pipelines(int,9m,e1), Qdrant(int,24m,e4), Computer Vision(adv,41m,e14), Sentence Transformers(int,24m,e4), Fine-tuning LLMs(int,18m,e14)
+  signals: last_active=2026-05-25 resp=0.83 otw=True saved=27 gh=-1 notice=60 complete=93.4
+
+### CAND_0075175  [bucket=research]
+  title=AI Research Engineer | yoe=3.1 | BYJU'S (EdTech) | Kolkata, West Bengal,India
+  summary: Data scientist / ML engineer with 3.1 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've spent the last couple of years building NLP-based classification and information extraction pipelines. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps t
+   - AI Research Engineer @ BYJU'S (EdTech) 37m CUR
+       Built computer vision models for our product's image moderation feature using PyTorch — fine-tuned ResNet variants on a labeled dataset of ~200K images. Set up the training pipeline (data loading, augmentation, evaluation) and the inference service. Most of my project work has be
+  skills: CI/CD(int,14m,e3), Speech Recognition(int,31m,e9), Image Classification(int,13m,e15), Microservices(int,19m,e14), PyTorch(adv,42m,e11), Pinecone(int,32m,e15), Computer Vision(adv,55m,e14), JavaScript(beg,8m,e1), PEFT(adv,25m,e50), Weights & Biases(int,24m,e13), Semantic Search(int,12m,e2), Information Retrieval(adv,25m,e45)
+  signals: last_active=2026-03-25 resp=0.57 otw=False saved=28 gh=-1 notice=120 complete=74.0
+
+### CAND_0044890  [bucket=research]
+  title=AI Research Engineer | yoe=5.0 | Haptik (Conversational AI) | Bhubaneswar, Odisha,India
+  summary: Data scientist / ML engineer with 5.0 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've been working on recommendation-style features but lighter on the deep-learning side — mostly classical methods like collaborative filtering and gradient-boosted models. I'm strongest at the modeling and analysis side; c
+   - AI Research Engineer @ Haptik (Conversational AI) 40m CUR
+       Contributed to ML feature engineering and model deployment for a fraud-detection product. My main role was engineering: building the Flask-based prediction API, integrating with the feature store, and writing the model-serving observability layer. I worked closely with senior dat
+   - Computer Vision Engineer @ Yellow.ai (AI/ML) 19m 
+       Built NLP pipelines for sentiment analysis and document classification — primarily for an internal feedback-analytics dashboard. Started with sklearn-based bag-of-words models, then moved to transformer-based classifiers (DistilBERT) for the harder classes. Comfortable with PyTor
+  skills: FAISS(adv,19m,e57), Rust(int,29m,e2), Forecasting(int,11m,e3), LLMs(int,26m,e10), BentoML(adv,25m,e5), Haystack(adv,47m,e37), TTS(int,30m,e6), LoRA(adv,29m,e48), ASR(int,14m,e3), Apache Beam(int,9m,e8), Recommendation Systems(int,15m,e11), Information Retrieval(int,8m,e3), Redux(int,26m,e13)
+  signals: last_active=2026-03-03 resp=0.79 otw=True saved=30 gh=66.2 notice=90 complete=85.5
+
+### CAND_0070333  [bucket=research]
+  title=AI Research Engineer | yoe=4.7 | TCS (IT Services) | Bhubaneswar, Odisha,India
+  summary: Data scientist / ML engineer with 4.7 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. My current role is split between dashboarding/analytics and shipping production ML models. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm s
+   - AI Research Engineer @ TCS (IT Services) 32m CUR
+       Built recommendation-style features at a mid-stage startup — lighter weight than ranking systems at FAANG, but production. Used a combination of collaborative filtering (matrix factorization in implicit-feedback library) and gradient-boosted re-ranking over engagement signals. Pu
+   - Computer Vision Engineer @ PhonePe (Fintech) 24m 
+       Worked on time-series forecasting models for supply-chain demand prediction at a logistics company. Built models in Prophet, LightGBM, and (for one project) a small LSTM — the LightGBM model ended up shipping. Also ran some reinforcement learning experiments for dynamic pricing b
+  skills: LLMs(adv,57m,e18), FAISS(adv,50m,e56), Reinforcement Learning(adv,20m,e27), Computer Vision(adv,25m,e57), Elasticsearch(int,28m,e5), MLflow(adv,20m,e15), Diffusion Models(adv,31m,e4), Weaviate(adv,42m,e48), Feature Engineering(int,9m,e5), Statistical Modeling(adv,53m,e12), YOLO(adv,37m,e31), Milvus(adv,57m,e40), ASR(adv,27m,e38), Semantic Search(adv,54m,e47), Azure(int,8m,e10)
+  signals: last_active=2026-05-10 resp=0.48 otw=True saved=16 gh=-1 notice=60 complete=54.4
+
+### CAND_0069248  [bucket=research]
+  title=AI Research Engineer | yoe=5.4 | Unacademy (EdTech) | Vizag, Andhra Pradesh,India
+  summary: Data scientist / ML engineer with 5.4 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've been working on recommendation-style features but lighter on the deep-learning side — mostly classical methods like collaborative filtering and gradient-boosted models. I'm strongest at the modeling and analysis side; c
+   - AI Research Engineer @ Unacademy (EdTech) 16m CUR
+       Built recommendation-style features at a mid-stage startup — lighter weight than ranking systems at FAANG, but production. Used a combination of collaborative filtering (matrix factorization in implicit-feedback library) and gradient-boosted re-ranking over engagement signals. Pu
+   - AI Specialist @ PharmEasy (HealthTech) 28m 
+       Built NLP pipelines for sentiment analysis and document classification — primarily for an internal feedback-analytics dashboard. Started with sklearn-based bag-of-words models, then moved to transformer-based classifiers (DistilBERT) for the harder classes. Comfortable with PyTor
+   - AI Specialist @ Sarvam AI (AI/ML) 19m 
+       Worked on customer-facing predictive modeling for an e-commerce platform — churn prediction, conversion likelihood, lifetime value estimation. Used scikit-learn and XGBoost; main models were gradient-boosted trees with ~80 hand-engineered features. The work was split roughly 60/4
+  skills: OpenCV(adv,36m,e57), Illustrator(beg,6m,e2), Computer Vision(int,10m,e6), BentoML(adv,35m,e47), TensorFlow(int,15m,e13), Forecasting(int,12m,e3), Apache Beam(beg,12m,e5), QLoRA(adv,24m,e57), YOLO(adv,25m,e26), Prompt Engineering(int,24m,e14), Statistical Modeling(int,27m,e9), Rust(beg,17m,e14), Image Classification(int,12m,e10), Reinforcement Learning(int,15m,e11), FAISS(adv,26m,e53), PostgreSQL(beg,4m,e1)
+  signals: last_active=2026-04-08 resp=0.75 otw=True saved=17 gh=79.8 notice=120 complete=75.3
+
+### CAND_0051219  [bucket=research]
+  title=AI Research Engineer | yoe=3.8 | Observe.AI (AI/ML) | Bangalore, Karnataka,India
+  summary: Data scientist / ML engineer with 3.8 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've spent the last couple of years building NLP-based classification and information extraction pipelines. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps t
+   - AI Research Engineer @ Observe.AI (AI/ML) 24m CUR
+       Built recommendation-style features at a mid-stage startup — lighter weight than ranking systems at FAANG, but production. Used a combination of collaborative filtering (matrix factorization in implicit-feedback library) and gradient-boosted re-ranking over engagement signals. Pu
+   - Junior ML Engineer @ Zomato (Food Delivery) 21m 
+       Built NLP pipelines for sentiment analysis and document classification — primarily for an internal feedback-analytics dashboard. Started with sklearn-based bag-of-words models, then moved to transformer-based classifiers (DistilBERT) for the harder classes. Comfortable with PyTor
+  skills: YOLO(adv,44m,e46), Hadoop(beg,12m,e10), SQL(beg,18m,e0), Qdrant(int,36m,e8), Forecasting(adv,50m,e12), Reinforcement Learning(adv,54m,e60), ASR(int,14m,e14), Pinecone(adv,48m,e5), LoRA(int,26m,e9), OpenCV(int,34m,e9), Fine-tuning LLMs(adv,45m,e35), Information Retrieval(int,36m,e11), Computer Vision(adv,57m,e19), Next.js(int,12m,e14), SAP(beg,11m,e1)
+  signals: last_active=2026-02-19 resp=0.58 otw=True saved=3 gh=26.8 notice=90 complete=84.8
+
+### CAND_0071821  [bucket=cv]
+  title=Computer Vision Engineer | yoe=6.8 | HCL (IT Services) | New York,USA
+  summary: Data scientist / ML engineer with 6.8 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. Most of my recent work has been on predictive modeling for customer-facing problems — churn, conversion, lifetime value. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and sta
+   - Computer Vision Engineer @ HCL (IT Services) 31m CUR
+       Contributed to ML feature engineering and model deployment for a fraud-detection product. My main role was engineering: building the Flask-based prediction API, integrating with the feature store, and writing the model-serving observability layer. I worked closely with senior dat
+   - AI Research Engineer @ Swiggy (Food Delivery) 31m 
+       Worked on customer-facing predictive modeling for an e-commerce platform — churn prediction, conversion likelihood, lifetime value estimation. Used scikit-learn and XGBoost; main models were gradient-boosted trees with ~80 hand-engineered features. The work was split roughly 60/4
+   - Junior ML Engineer @ Wipro (IT Services) 19m 
+       Contributed to ML feature engineering and model deployment for a fraud-detection product. My main role was engineering: building the Flask-based prediction API, integrating with the feature store, and writing the model-serving observability layer. I worked closely with senior dat
+  skills: Weights & Biases(adv,44m,e6), MLOps(int,21m,e8), Speech Recognition(int,28m,e4), NLP(adv,46m,e12), REST APIs(beg,4m,e15), Feature Engineering(adv,23m,e54), Learning to Rank(adv,24m,e51), Haystack(adv,29m,e30), OpenCV(int,12m,e0), Accounting(int,24m,e5), Redis(beg,3m,e4), Microservices(int,21m,e5), RAG(int,28m,e2), Milvus(int,22m,e2), pgvector(int,11m,e14), Sentence Transformers(adv,43m,e54)
+  signals: last_active=2026-04-22 resp=0.49 otw=False saved=12 gh=-1 notice=60 complete=90.8
+
+### CAND_0013314  [bucket=cv]
+  title=Computer Vision Engineer | yoe=3.6 | Wipro (IT Services) | Bangalore, Karnataka,India
+  summary: Data scientist / ML engineer with 3.6 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. My current role is split between dashboarding/analytics and shipping production ML models. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm s
+   - Computer Vision Engineer @ Wipro (IT Services) 24m CUR
+       Built computer vision models for our product's image moderation feature using PyTorch — fine-tuned ResNet variants on a labeled dataset of ~200K images. Set up the training pipeline (data loading, augmentation, evaluation) and the inference service. Most of my project work has be
+   - ML Engineer @ CRED (Fintech) 19m 
+       Worked on customer-facing predictive modeling for an e-commerce platform — churn prediction, conversion likelihood, lifetime value estimation. Used scikit-learn and XGBoost; main models were gradient-boosted trees with ~80 hand-engineered features. The work was split roughly 60/4
+  skills: PEFT(int,19m,e5), SAP(int,19m,e13), Information Retrieval(adv,28m,e22), Data Science(adv,57m,e23), Pinecone(adv,56m,e34), Elasticsearch(adv,43m,e21), LoRA(adv,45m,e33), Forecasting(adv,51m,e25), LlamaIndex(int,8m,e1), Machine Learning(adv,31m,e15), Salesforce CRM(int,36m,e12), Feature Engineering(adv,46m,e20), Diffusion Models(int,8m,e6), Next.js(int,27m,e1), scikit-learn(int,12m,e0)
+  signals: last_active=2026-04-21 resp=0.32 otw=True saved=36 gh=33.6 notice=120 complete=93.7
+
+### CAND_0077956  [bucket=cv]
+  title=Computer Vision Engineer | yoe=6.4 | Niramai (HealthTech AI) | Chandigarh, Chandigarh,India
+  summary: Data scientist / ML engineer with 6.4 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've spent the last couple of years building NLP-based classification and information extraction pipelines. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps t
+   - Computer Vision Engineer @ Niramai (HealthTech AI) 49m CUR
+       Worked on customer-facing predictive modeling for an e-commerce platform — churn prediction, conversion likelihood, lifetime value estimation. Used scikit-learn and XGBoost; main models were gradient-boosted trees with ~80 hand-engineered features. The work was split roughly 60/4
+   - ML Engineer @ Infosys (IT Services) 27m 
+       Built recommendation-style features at a mid-stage startup — lighter weight than ranking systems at FAANG, but production. Used a combination of collaborative filtering (matrix factorization in implicit-feedback library) and gradient-boosted re-ranking over engagement signals. Pu
+  skills: Milvus(int,32m,e1), TTS(int,24m,e6), SQL(int,24m,e12), Weights & Biases(adv,53m,e16), Hugging Face Transformers(int,33m,e14), Weaviate(adv,59m,e11), LlamaIndex(adv,35m,e31), BentoML(adv,30m,e8), Flask(beg,9m,e2), Feature Engineering(int,8m,e10), LLMs(int,18m,e6), Deep Learning(adv,19m,e59), Computer Vision(int,15m,e1), CNN(adv,39m,e25), MLflow(adv,18m,e40), TensorFlow(adv,37m,e54), Azure(beg,11m,e10), Node.js(int,18m,e6)
+  signals: last_active=2026-05-22 resp=0.88 otw=True saved=19 gh=40.7 notice=120 complete=92.0
+
+### CAND_0008297  [bucket=cv]
+  title=Computer Vision Engineer | yoe=5.3 | Rephrase.ai (AI/ML) | New York,USA
+  summary: Data scientist / ML engineer with 5.3 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've spent the last couple of years building NLP-based classification and information extraction pipelines. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps t
+   - Computer Vision Engineer @ Rephrase.ai (AI/ML) 28m CUR
+       Worked on time-series forecasting models for supply-chain demand prediction at a logistics company. Built models in Prophet, LightGBM, and (for one project) a small LSTM — the LightGBM model ended up shipping. Also ran some reinforcement learning experiments for dynamic pricing b
+   - Senior Software Engineer (ML) @ Tech Mahindra (IT Services) 19m 
+       Contributed to ML feature engineering and model deployment for a fraud-detection product. My main role was engineering: building the Flask-based prediction API, integrating with the feature store, and writing the model-serving observability layer. I worked closely with senior dat
+   - AI Research Engineer @ Dream11 (Gaming) 15m 
+       Worked on time-series forecasting models for supply-chain demand prediction at a logistics company. Built models in Prophet, LightGBM, and (for one project) a small LSTM — the LightGBM model ended up shipping. Also ran some reinforcement learning experiments for dynamic pricing b
+  skills: BentoML(adv,55m,e25), NLP(int,25m,e1), Sales(beg,16m,e2), CNN(adv,22m,e11), GANs(adv,38m,e21), scikit-learn(adv,34m,e13), PyTorch(int,12m,e10), Computer Vision(int,33m,e2), PEFT(adv,39m,e41)
+  signals: last_active=2026-02-25 resp=0.63 otw=True saved=19 gh=52.5 notice=30 complete=92.3
+
+### CAND_0058504  [bucket=cv]
+  title=Computer Vision Engineer | yoe=4.8 | Wipro (IT Services) | Bhubaneswar, Odisha,India
+  summary: Data scientist / ML engineer with 4.8 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. My current role is split between dashboarding/analytics and shipping production ML models. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm s
+   - Computer Vision Engineer @ Wipro (IT Services) 44m CUR
+       Built computer vision models for our product's image moderation feature using PyTorch — fine-tuned ResNet variants on a labeled dataset of ~200K images. Set up the training pipeline (data loading, augmentation, evaluation) and the inference service. Most of my project work has be
+   - ML Engineer @ Dream11 (Gaming) 13m 
+       Contributed to ML feature engineering and model deployment for a fraud-detection product. My main role was engineering: building the Flask-based prediction API, integrating with the feature store, and writing the model-serving observability layer. I worked closely with senior dat
+  skills: Recommendation Systems(adv,37m,e14), NLP(adv,33m,e49), YOLO(int,26m,e8), PEFT(adv,21m,e50), Statistical Modeling(int,22m,e11), Weights & Biases(int,10m,e8), Vector Search(adv,22m,e15), Semantic Search(int,36m,e14), Data Science(adv,24m,e37), Deep Learning(adv,33m,e36), Speech Recognition(int,13m,e4), CNN(adv,24m,e6), Six Sigma(beg,2m,e11), Spark(beg,11m,e9), scikit-learn(int,10m,e9), PyTorch(int,31m,e2)
+  signals: last_active=2026-03-11 resp=0.35 otw=False saved=40 gh=-1 notice=60 complete=57.3
+
+### CAND_0043384  [bucket=cv]
+  title=Computer Vision Engineer | yoe=5.2 | Razorpay (Fintech) | Chennai, Tamil Nadu,India
+  summary: Data scientist / ML engineer with 5.2 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. Most of my recent work has been on predictive modeling for customer-facing problems — churn, conversion, lifetime value. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and sta
+   - Computer Vision Engineer @ Razorpay (Fintech) 49m CUR
+       Worked on time-series forecasting models for supply-chain demand prediction at a logistics company. Built models in Prophet, LightGBM, and (for one project) a small LSTM — the LightGBM model ended up shipping. Also ran some reinforcement learning experiments for dynamic pricing b
+   - Data Scientist @ Meesho (E-commerce) 13m 
+       Built computer vision models for our product's image moderation feature using PyTorch — fine-tuned ResNet variants on a labeled dataset of ~200K images. Set up the training pipeline (data loading, augmentation, evaluation) and the inference service. Most of my project work has be
+  skills: Spring Boot(int,35m,e14), Kubeflow(adv,60m,e52), Hugging Face Transformers(int,21m,e6), LLMs(int,35m,e11), PyTorch(int,27m,e4), QLoRA(int,16m,e12), Diffusion Models(adv,45m,e48), Reinforcement Learning(adv,48m,e13), Speech Recognition(int,27m,e14)
+  signals: last_active=2026-05-25 resp=0.83 otw=True saved=48 gh=63.1 notice=60 complete=97.5
+
+### CAND_0021486  [bucket=cv]
+  title=Computer Vision Engineer | yoe=6.4 | Paytm (Fintech) | Chennai, Tamil Nadu,India
+  summary: Data scientist / ML engineer with 6.4 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've been working on recommendation-style features but lighter on the deep-learning side — mostly classical methods like collaborative filtering and gradient-boosted models. I'm strongest at the modeling and analysis side; c
+   - Computer Vision Engineer @ Paytm (Fintech) 36m CUR
+       Built NLP pipelines for sentiment analysis and document classification — primarily for an internal feedback-analytics dashboard. Started with sklearn-based bag-of-words models, then moved to transformer-based classifiers (DistilBERT) for the harder classes. Comfortable with PyTor
+   - Senior Software Engineer (ML) @ Infosys (IT Services) 40m 
+       Built NLP pipelines for sentiment analysis and document classification — primarily for an internal feedback-analytics dashboard. Started with sklearn-based bag-of-words models, then moved to transformer-based classifiers (DistilBERT) for the harder classes. Comfortable with PyTor
+  skills: GANs(adv,40m,e35), Diffusion Models(int,18m,e0), Feature Engineering(int,12m,e14), REST APIs(int,14m,e14), LoRA(int,28m,e5), Image Classification(int,24m,e9), MLOps(adv,43m,e29), TTS(int,24m,e2), Time Series(int,28m,e2), Milvus(adv,43m,e53), Hugging Face Transformers(int,22m,e0), Haystack(int,24m,e10)
+  signals: last_active=2026-03-07 resp=0.77 otw=False saved=14 gh=38.6 notice=45 complete=54.2
+
+### CAND_0048375  [bucket=cv]
+  title=Computer Vision Engineer | yoe=4.4 | Saarthi.ai (Voice AI) | Indore, Madhya Pradesh,India
+  summary: Data scientist / ML engineer with 4.4 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've spent the last couple of years building NLP-based classification and information extraction pipelines. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps t
+   - Computer Vision Engineer @ Saarthi.ai (Voice AI) 32m CUR
+       Contributed to ML feature engineering and model deployment for a fraud-detection product. My main role was engineering: building the Flask-based prediction API, integrating with the feature store, and writing the model-serving observability layer. I worked closely with senior dat
+   - AI Research Engineer @ Rephrase.ai (AI/ML) 20m 
+       Worked on time-series forecasting models for supply-chain demand prediction at a logistics company. Built models in Prophet, LightGBM, and (for one project) a small LSTM — the LightGBM model ended up shipping. Also ran some reinforcement learning experiments for dynamic pricing b
+  skills: Weights & Biases(adv,44m,e29), Weaviate(int,28m,e0), Reinforcement Learning(int,18m,e8), Python(int,16m,e3), Semantic Search(int,9m,e12), Information Retrieval(int,22m,e13), Hugging Face Transformers(int,34m,e8), Django(beg,15m,e10), Pinecone(int,14m,e13), Feature Engineering(int,13m,e11), BentoML(adv,29m,e3)
+  signals: last_active=2026-03-24 resp=0.83 otw=True saved=26 gh=81.5 notice=60 complete=64.9
+
+### CAND_0066104  [bucket=adjacent_product]
+  title=Software Engineer | yoe=3.0 | Nykaa (E-commerce) | Jaipur, Rajasthan,India
+  summary: Software / data professional with 3.0 years of experience building data pipelines, backend systems, and analytics infrastructure. I've been the engineer who makes ML possible by getting the data pipelines right; now I want to do more of the ML itself. My toolkit is solid on the data engineering side — Python, SQL, Spark, Airflow, warehouse design — and I've completed a couple of self-directed ML p
+   - Software Engineer @ Nykaa (E-commerce) 36m CUR
+       Built and maintained data pipelines on Apache Airflow processing ~500GB of daily transactional data across 12 source systems. Worked extensively with Spark (PySpark) for batch processing and dbt for the transformation/modeling layer in our Snowflake warehouse. Owned the on-call r
+  skills: Statistical Modeling(adv,33m,e46), PowerPoint(beg,12m,e12), Semantic Search(adv,49m,e21), RAG(adv,48m,e47), Data Science(int,28m,e0), Excel(beg,12m,e2), Reinforcement Learning(int,11m,e3), YOLO(adv,51m,e31), Diffusion Models(int,36m,e5), MongoDB(int,11m,e1), Feature Engineering(int,14m,e0), OpenSearch(int,31m,e10), Information Retrieval(adv,35m,e45)
+  signals: last_active=2026-03-07 resp=0.61 otw=True saved=9 gh=41.2 notice=60 complete=60.4
+
+### CAND_0051507  [bucket=adjacent_product]
+  title=Senior Software Engineer | yoe=4.6 | BYJU'S (EdTech) | Jaipur, Rajasthan,India
+  summary: Software / data professional with 4.6 years of experience building data pipelines, backend systems, and analytics infrastructure. Started my career in backend engineering and gradually moved closer to data — first dashboards, then ETL, now some basic ML. My toolkit is solid on the data engineering side — Python, SQL, Spark, Airflow, warehouse design — and I've completed a couple of self-directed M
+   - Senior Software Engineer @ BYJU'S (EdTech) 36m CUR
+       Designed and maintained the analytical data warehouse on Snowflake supporting the BI team's ~50 dashboards. Wrote complex SQL — heavy on window functions, CTEs, and incremental modeling patterns via dbt. Worked on the data modeling side (dimensional modeling, slowly changing dime
+   - Senior Software Engineer @ Nykaa (E-commerce) 19m 
+       Designed and maintained the analytical data warehouse on Snowflake supporting the BI team's ~50 dashboards. Wrote complex SQL — heavy on window functions, CTEs, and incremental modeling patterns via dbt. Worked on the data modeling side (dimensional modeling, slowly changing dime
+  skills: Content Writing(beg,9m,e0), Java(int,29m,e10), Weights & Biases(int,29m,e12), OpenSearch(adv,19m,e14), Rust(beg,11m,e11), GraphQL(int,15m,e7), RAG(adv,18m,e27), Reinforcement Learning(adv,37m,e15), Vector Search(int,34m,e3), Docker(beg,3m,e9), Object Detection(adv,59m,e27), BigQuery(beg,13m,e5), Node.js(int,22m,e15), Kubeflow(adv,27m,e1), Diffusion Models(adv,20m,e42), Qdrant(int,15m,e12), Airflow(int,31m,e0)
+  signals: last_active=2026-05-02 resp=0.4 otw=False saved=3 gh=68.2 notice=30 complete=49.6
+
+### CAND_0055289  [bucket=adjacent_product]
+  title=Backend Engineer | yoe=6.6 | PhonePe (Fintech) | Gurgaon, Haryana,India
+  summary: Software / data professional with 6.6 years of experience building data pipelines, backend systems, and analytics infrastructure. Started my career in backend engineering and gradually moved closer to data — first dashboards, then ETL, now some basic ML. My toolkit is solid on the data engineering side — Python, SQL, Spark, Airflow, warehouse design — and I've completed a couple of self-directed M
+   - Backend Engineer @ PhonePe (Fintech) 33m CUR
+       Mixed data science and analytics-engineering role at a marketing-analytics startup. Spent maybe 30% of my time on lightweight ML (clustering, classification, churn prediction in sklearn/XGBoost) and 70% on data infrastructure and dashboards. Comfortable with the modeling work but
+   - Senior Software Engineer @ TCS (IT Services) 45m 
+       Designed and maintained the analytical data warehouse on Snowflake supporting the BI team's ~50 dashboards. Wrote complex SQL — heavy on window functions, CTEs, and incremental modeling patterns via dbt. Worked on the data modeling side (dimensional modeling, slowly changing dime
+  skills: Django(int,32m,e7), FAISS(int,22m,e4), Semantic Search(adv,24m,e38), FastAPI(int,27m,e8), GCP(int,35m,e12), MLOps(int,22m,e14), OpenCV(adv,55m,e42), Forecasting(adv,28m,e25), CNN(int,17m,e15), Statistical Modeling(int,28m,e2), Angular(beg,12m,e8), Reinforcement Learning(adv,39m,e0), TypeScript(beg,14m,e2), REST APIs(beg,2m,e3), MongoDB(beg,18m,e11), Image Classification(adv,24m,e22), CI/CD(int,23m,e0)
+  signals: last_active=2026-01-19 resp=0.38 otw=False saved=26 gh=53.3 notice=90 complete=70.7
+
+### CAND_0041308  [bucket=adjacent_product]
+  title=Software Engineer | yoe=5.2 | Swiggy (Food Delivery) | Dubai,UAE
+  summary: Software engineer with 5.2 years of experience across web, backend, and cloud systems. Strong fundamentals in software development and system design. I've worked across web frontends, REST APIs, and cloud deployments; comfortable in most parts of a typical SaaS stack. I've been keeping up with AI/ML at a self-learner level — taken some online courses, played with the OpenAI and Anthropic APIs, bui
+   - Software Engineer @ Swiggy (Food Delivery) 36m CUR
+       Java backend development at a large enterprise — Spring Boot microservices, Kafka for inter-service messaging, Postgres + Redis for storage. Worked on the customer onboarding flow which involved orchestrating multiple downstream services. Solid on the Spring ecosystem, transactio
+   - .NET Developer @ Acme Corp (Manufacturing) 26m 
+       Frontend engineering at a media company. React, TypeScript, and the typical surrounding tooling (Webpack, Jest, Cypress). Built the company's design system from scratch and led the migration from a legacy AngularJS app. Strong on the frontend craft — accessibility, performance, a
+  skills: CI/CD(beg,6m,e5), Microservices(int,8m,e15), NLP(adv,35m,e14), FastAPI(beg,15m,e2), Vector Search(int,12m,e12), Photoshop(int,18m,e1), REST APIs(int,11m,e15), CSS(int,25m,e9), Content Writing(beg,11m,e12), Java(int,26m,e6)
+  signals: last_active=2026-04-16 resp=0.84 otw=True saved=16 gh=39.6 notice=120 complete=65.9
+
+### CAND_0070496  [bucket=adjacent_product]
+  title=Senior Software Engineer | yoe=6.0 | PolicyBazaar (Insurance Tech) | Delhi, Delhi,India
+  summary: Software / data professional with 6.0 years of experience building data pipelines, backend systems, and analytics infrastructure. I've been the engineer who makes ML possible by getting the data pipelines right; now I want to do more of the ML itself. My toolkit is solid on the data engineering side — Python, SQL, Spark, Airflow, warehouse design — and I've completed a couple of self-directed ML p
+   - Senior Software Engineer @ PolicyBazaar (Insurance Tech) 39m CUR
+       Built and maintained data pipelines on Apache Airflow processing ~500GB of daily transactional data across 12 source systems. Worked extensively with Spark (PySpark) for batch processing and dbt for the transformation/modeling layer in our Snowflake warehouse. Owned the on-call r
+   - Data Engineer @ InMobi (AdTech) 25m 
+       Implemented streaming data pipelines on Kafka and Spark Streaming for a real-time user-activity processing platform. Designed the schema-registry integration, the watermark/state management approach, and the deduplication logic for late-arriving events. Worked closely with the da
+   - Senior Software Engineer @ Stark Industries (Manufacturing) 7m 
+       Designed and maintained the analytical data warehouse on Snowflake supporting the BI team's ~50 dashboards. Wrote complex SQL — heavy on window functions, CTEs, and incremental modeling patterns via dbt. Worked on the data modeling side (dimensional modeling, slowly changing dime
+  skills: OpenSearch(adv,40m,e53), Accounting(beg,11m,e14), Spark(beg,17m,e2), Information Retrieval(adv,59m,e26), Data Science(adv,18m,e35), CNN(int,21m,e10), Redis(int,22m,e4), Hugging Face Transformers(adv,38m,e46), Forecasting(adv,43m,e29), NLP(adv,52m,e60), TTS(adv,48m,e5)
+  signals: last_active=2026-05-03 resp=0.74 otw=False saved=3 gh=-1 notice=60 complete=63.6
+
+### CAND_0031390  [bucket=adjacent_product]
+  title=Data Engineer | yoe=3.8 | Vedantu (EdTech) | San Francisco,USA
+  summary: Software / data professional with 3.8 years of experience building data pipelines, backend systems, and analytics infrastructure. I've been the engineer who makes ML possible by getting the data pipelines right; now I want to do more of the ML itself. My toolkit is solid on the data engineering side — Python, SQL, Spark, Airflow, warehouse design — and I've completed a couple of self-directed ML p
+   - Data Engineer @ Vedantu (EdTech) 37m CUR
+       Designed and maintained the analytical data warehouse on Snowflake supporting the BI team's ~50 dashboards. Wrote complex SQL — heavy on window functions, CTEs, and incremental modeling patterns via dbt. Worked on the data modeling side (dimensional modeling, slowly changing dime
+   - Software Engineer @ Flipkart (E-commerce) 8m 
+       Backend + data hybrid role at a growth-stage startup. Built the company's first proper data warehouse (migrating from a tangled set of Postgres replicas to a clean Snowflake setup with dbt), the orchestration layer (Airflow), and the BI integration (Looker). Shipped a couple of s
+  skills: YOLO(adv,23m,e29), Kubeflow(adv,32m,e0), Feature Engineering(int,22m,e12), AWS(int,33m,e12), SQL(beg,11m,e11), Flask(beg,8m,e10), Computer Vision(int,22m,e9), QLoRA(adv,39m,e12), Image Classification(adv,36m,e10), LLMs(int,26m,e2), Forecasting(int,9m,e6), ASR(adv,48m,e45), Project Management(int,18m,e14), Learning to Rank(adv,21m,e56), OpenSearch(int,25m,e5)
+  signals: last_active=2026-05-08 resp=0.46 otw=True saved=22 gh=-1 notice=30 complete=87.7
+
+### CAND_0067710  [bucket=adjacent_product]
+  title=Senior Data Engineer | yoe=4.5 | Nykaa (E-commerce) | Kochi, Kerala,India
+  summary: Software / data professional with 4.5 years of experience building data pipelines, backend systems, and analytics infrastructure. Started my career in backend engineering and gradually moved closer to data — first dashboards, then ETL, now some basic ML. My toolkit is solid on the data engineering side — Python, SQL, Spark, Airflow, warehouse design — and I've completed a couple of self-directed M
+   - Senior Data Engineer @ Nykaa (E-commerce) 31m CUR
+       Backend development with Python (FastAPI), PostgreSQL, and Redis at a B2B SaaS product. Owned the analytics-and-reporting service which serves dashboards to ~3K paying customers. Recent work includes integrating a model-serving service (built by another team) into our API layer; 
+   - Analytics Engineer @ upGrad (EdTech) 22m 
+       Implemented streaming data pipelines on Kafka and Spark Streaming for a real-time user-activity processing platform. Designed the schema-registry integration, the watermark/state management approach, and the deduplication logic for late-arriving events. Worked closely with the da
+  skills: scikit-learn(adv,44m,e52), Image Classification(adv,50m,e20), Diffusion Models(int,34m,e2), ASR(int,30m,e9), Airflow(int,35m,e3), Six Sigma(int,31m,e12), Semantic Search(int,14m,e7), PowerPoint(int,34m,e9), Tailwind(int,16m,e3), Computer Vision(int,28m,e5), Webpack(int,28m,e2), Go(int,31m,e10), Salesforce CRM(beg,18m,e1), Content Writing(int,11m,e0), Vector Search(adv,54m,e28)
+  signals: last_active=2026-05-11 resp=0.72 otw=True saved=0 gh=-1 notice=90 complete=71.6
+
+### CAND_0056936  [bucket=adjacent_product]
+  title=Senior Data Engineer | yoe=7.8 | CRED (Fintech) | Dubai,UAE
+  summary: Software / data professional with 7.8 years of experience building data pipelines, backend systems, and analytics infrastructure. Started my career in backend engineering and gradually moved closer to data — first dashboards, then ETL, now some basic ML. My toolkit is solid on the data engineering side — Python, SQL, Spark, Airflow, warehouse design — and I've completed a couple of self-directed M
+   - Senior Data Engineer @ CRED (Fintech) 50m CUR
+       Implemented streaming data pipelines on Kafka and Spark Streaming for a real-time user-activity processing platform. Designed the schema-registry integration, the watermark/state management approach, and the deduplication logic for late-arriving events. Worked closely with the da
+   - Senior Software Engineer @ TCS (IT Services) 43m 
+       Backend + data hybrid role at a growth-stage startup. Built the company's first proper data warehouse (migrating from a tangled set of Postgres replicas to a clean Snowflake setup with dbt), the orchestration layer (Airflow), and the BI integration (Looker). Shipped a couple of s
+  skills: REST APIs(beg,7m,e3), Content Writing(beg,5m,e1), PowerPoint(int,25m,e12), Object Detection(int,14m,e6), Webpack(int,23m,e2), Recommendation Systems(int,12m,e11), Python(adv,30m,e59), Rust(beg,12m,e13), Feature Engineering(int,13m,e2), NLP(adv,44m,e11), ASR(int,15m,e13), Qdrant(adv,23m,e47), SQL(beg,3m,e12)
+  signals: last_active=2026-02-23 resp=0.37 otw=True saved=30 gh=68.3 notice=30 complete=78.8
+
+### CAND_0018320  [bucket=adjacent_product]
+  title=Software Engineer | yoe=7.0 | CRED (Fintech) | New York,USA
+  summary: Software / data professional with 7.0 years of experience building data pipelines, backend systems, and analytics infrastructure. I'm a backend/data hybrid — Spark, Airflow, SQL warehouses are home territory; I'm building competence on the ML side. My toolkit is solid on the data engineering side — Python, SQL, Spark, Airflow, warehouse design — and I've completed a couple of self-directed ML proj
+   - Software Engineer @ CRED (Fintech) 42m CUR
+       Implemented streaming data pipelines on Kafka and Spark Streaming for a real-time user-activity processing platform. Designed the schema-registry integration, the watermark/state management approach, and the deduplication logic for late-arriving events. Worked closely with the da
+   - Backend Engineer @ Flipkart (E-commerce) 26m 
+       Backend development with Python (FastAPI), PostgreSQL, and Redis at a B2B SaaS product. Owned the analytics-and-reporting service which serves dashboards to ~3K paying customers. Recent work includes integrating a model-serving service (built by another team) into our API layer; 
+   - Senior Software Engineer @ Wayne Enterprises (Conglomerate) 15m 
+       Backend + data hybrid role at a growth-stage startup. Built the company's first proper data warehouse (migrating from a tangled set of Postgres replicas to a clean Snowflake setup with dbt), the orchestration layer (Airflow), and the BI integration (Looker). Shipped a couple of s
+  skills: MLOps(int,20m,e2), Reinforcement Learning(adv,55m,e46), FAISS(int,12m,e4), Illustrator(int,10m,e11), Tally(int,31m,e7), PEFT(adv,43m,e21), ASR(adv,26m,e43), NLP(adv,58m,e28), GCP(int,16m,e13), Photoshop(int,18m,e4), OpenCV(adv,49m,e1), TypeScript(int,22m,e3)
+  signals: last_active=2026-03-12 resp=0.75 otw=True saved=19 gh=66.8 notice=90 complete=50.8
+
+### CAND_0092489  [bucket=adjacent_product]
+  title=Software Engineer | yoe=4.5 | Meesho (E-commerce) | Vizag, Andhra Pradesh,India
+  summary: Software / data professional with 4.5 years of experience building data pipelines, backend systems, and analytics infrastructure. Started my career in backend engineering and gradually moved closer to data — first dashboards, then ETL, now some basic ML. My toolkit is solid on the data engineering side — Python, SQL, Spark, Airflow, warehouse design — and I've completed a couple of self-directed M
+   - Software Engineer @ Meesho (E-commerce) 25m CUR
+       Implemented streaming data pipelines on Kafka and Spark Streaming for a real-time user-activity processing platform. Designed the schema-registry integration, the watermark/state management approach, and the deduplication logic for late-arriving events. Worked closely with the da
+   - Software Engineer @ Nykaa (E-commerce) 13m 
+       Backend development with Python (FastAPI), PostgreSQL, and Redis at a B2B SaaS product. Owned the analytics-and-reporting service which serves dashboards to ~3K paying customers. Recent work includes integrating a model-serving service (built by another team) into our API layer; 
+   - Backend Engineer @ Freshworks (SaaS) 15m 
+       Mixed data science and analytics-engineering role at a marketing-analytics startup. Spent maybe 30% of my time on lightweight ML (clustering, classification, churn prediction in sklearn/XGBoost) and 70% on data infrastructure and dashboards. Comfortable with the modeling work but
+  skills: Embeddings(adv,26m,e11), Spark(int,15m,e15), CNN(int,35m,e5), GANs(int,36m,e13), Six Sigma(int,35m,e12), Redis(int,28m,e2), Excel(beg,4m,e10), Object Detection(adv,24m,e0), Image Classification(int,36m,e0), TTS(adv,19m,e5), Statistical Modeling(int,15m,e5), ASR(adv,19m,e15), LLMs(int,14m,e4), Hugging Face Transformers(int,26m,e1)
+  signals: last_active=2026-02-13 resp=0.74 otw=False saved=20 gh=31.6 notice=90 complete=64.0
+
+### CAND_0050741  [bucket=stuffer]
+  title=Marketing Manager | yoe=11.2 | Initech (Software) | Sydney,Australia
+  summary: Marketing Manager with 11.2+ years of experience driving outcomes in my domain. I have built strong functional expertise in the typical responsibilities of the role, including team management, stakeholder communication, and project delivery. Recently I've been excited about how AI and GenAI tools can augment my work. I've been taking online courses on RAG and vector databases, experimenting with L
+   - Marketing Manager @ Initech (Software) 46m CUR
+       Content writing and SEO strategy for a tech-focused publication. Wrote longform articles on developer tools, cloud platforms, and AI/ML topics — including some that ranked on the first page of search for high-competition keywords. Managed a freelance writer pool and the editorial
+   - Operations Manager @ Infosys (IT Services) 32m 
+       Mechanical engineering design role at a hardware-product company. Led the design of two product subsystems through full lifecycle: concept, DFM/DFMA review, prototype, production tooling. Comfortable with CAD (SolidWorks, Creo), FEA (ANSYS), and the typical hardware-development c
+   - Content Writer @ TCS (IT Services) 25m 
+       Business analyst at a consulting firm, working primarily with retail and CPG clients. Conducted business diagnostics, process re-engineering work, and digital transformation strategy projects. Strong on stakeholder management, structured problem-solving, and the typical consultin
+   - HR Manager @ Hooli (Software) 22m 
+       Operations management role at a logistics company. Owned daily fulfillment operations across 3 warehouses, managing a team of 80 across receiving, picking, packing, and outbound. Built and tracked the operational KPIs (on-time fulfillment, accuracy, cost per order) and led the co
+   - Customer Support @ Globex Inc (Manufacturing) 7m 
+       Content writing and SEO strategy for a tech-focused publication. Wrote longform articles on developer tools, cloud platforms, and AI/ML topics — including some that ranked on the first page of search for high-competition keywords. Managed a freelance writer pool and the editorial
+  skills: Snowflake(beg,15m,e2), Computer Vision(adv,34m,e8), PostgreSQL(int,9m,e0), Terraform(beg,10m,e5), Rust(beg,16m,e8), Accounting(beg,9m,e11), Sentence Transformers(adv,15m,e1), Prompt Engineering(adv,8m,e2), RAG(adv,8m,e4), Pinecone(int,5m,e1), Embeddings(adv,11m,e2), Hugging Face Transformers(int,4m,e4), Fine-tuning LLMs(int,6m,e1), LangChain(adv,4m,e0), LLMs(int,5m,e1)
+  signals: last_active=2026-05-26 resp=0.17 otw=True saved=7 gh=-1 notice=120 complete=48.2
+
+### CAND_0001820  [bucket=stuffer]
+  title=Civil Engineer | yoe=8.7 | Infosys (IT Services) | Chennai, Tamil Nadu,India
+  summary: Civil Engineer with 8.7+ years of experience driving outcomes in my domain. I have built strong functional expertise in the typical responsibilities of the role, including team management, stakeholder communication, and project delivery. Recently I've been excited about how AI and GenAI tools can augment my work. I've been taking online courses on RAG and vector databases, experimenting with LangC
+   - Civil Engineer @ Infosys (IT Services) 49m CUR
+       Mechanical engineering design role at a hardware-product company. Led the design of two product subsystems through full lifecycle: concept, DFM/DFMA review, prototype, production tooling. Comfortable with CAD (SolidWorks, Creo), FEA (ANSYS), and the typical hardware-development c
+   - Graphic Designer @ Stark Industries (Manufacturing) 24m 
+       Customer support team lead at a SaaS product. Managed a team of 8 support agents handling tier-1 and tier-2 tickets; owned the escalation process to engineering and the customer-feedback loop to product. Built out the support knowledge base and the agent training program. Strong 
+   - Sales Executive @ Pied Piper (Software) 31m 
+       Content writing and SEO strategy for a tech-focused publication. Wrote longform articles on developer tools, cloud platforms, and AI/ML topics — including some that ranked on the first page of search for high-competition keywords. Managed a freelance writer pool and the editorial
+  skills: FastAPI(beg,6m,e12), Apache Flink(int,27m,e15), Docker(beg,13m,e9), Airflow(int,31m,e8), React(int,27m,e11), Apache Beam(int,8m,e2), Kafka(beg,13m,e2), Photoshop(int,29m,e13), PowerPoint(beg,17m,e14), Prompt Engineering(adv,9m,e3), Sentence Transformers(adv,11m,e3), Embeddings(adv,8m,e4), Hugging Face Transformers(adv,5m,e2), Fine-tuning LLMs(adv,12m,e3), RAG(adv,18m,e3), Vector Search(int,7m,e1), FAISS(adv,17m,e2), LangChain(int,8m,e0), Information Retrieval(adv,5m,e1), Recommendation Systems(adv,9m,e3), LLMs(adv,13m,e1)
+  signals: last_active=2026-02-10 resp=0.14 otw=True saved=11 gh=-1 notice=90 complete=81.1
+
+### CAND_0091938  [bucket=stuffer]
+  title=Project Manager | yoe=2.3 | Globex Inc (Manufacturing) | Toronto,Canada
+  summary: Project Manager with 2.3+ years of experience driving outcomes in my domain. I have built strong functional expertise in the typical responsibilities of the role, including team management, stakeholder communication, and project delivery. Recently I've been excited about how AI and GenAI tools can augment my work. I've been taking online courses on RAG and vector databases, experimenting with Lang
+   - Project Manager @ Globex Inc (Manufacturing) 27m CUR
+       Senior accounting role at a mid-sized company — month-end close, financial reporting, statutory compliance (GAAP / Ind-AS), and tax filings. Owned the GL, fixed-asset register, and the audit-readiness function. Managed a team of 3 staff accountants. Built strong process disciplin
+  skills: BigQuery(int,26m,e13), MongoDB(beg,16m,e3), Data Science(int,15m,e5), CSS(beg,10m,e14), Databricks(beg,7m,e15), GCP(beg,7m,e1), Spark(beg,8m,e11), HTML(int,30m,e6), Sentence Transformers(adv,4m,e0), Embeddings(adv,12m,e1), LangChain(int,14m,e1), Hugging Face Transformers(int,9m,e0), Prompt Engineering(adv,10m,e2), Fine-tuning LLMs(int,5m,e3), RAG(int,13m,e1), LLMs(adv,6m,e0), Recommendation Systems(adv,11m,e4), Vector Search(int,4m,e3)
+  signals: last_active=2026-01-14 resp=0.17 otw=False saved=2 gh=20.0 notice=30 complete=41.8
+
+### CAND_0024835  [bucket=stuffer]
+  title=Marketing Manager | yoe=5.5 | Pied Piper (Software) | Dubai,UAE
+  summary: Marketing Manager with 5.5+ years of experience driving outcomes in my domain. I have built strong functional expertise in the typical responsibilities of the role, including team management, stakeholder communication, and project delivery. Recently I've been excited about how AI and GenAI tools can augment my work. I've been taking online courses on RAG and vector databases, experimenting with La
+   - Marketing Manager @ Pied Piper (Software) 51m CUR
+       Mechanical engineering design role at a hardware-product company. Led the design of two product subsystems through full lifecycle: concept, DFM/DFMA review, prototype, production tooling. Comfortable with CAD (SolidWorks, Creo), FEA (ANSYS), and the typical hardware-development c
+   - Content Writer @ Globex Inc (Manufacturing) 14m 
+       Business analyst at a consulting firm, working primarily with retail and CPG clients. Conducted business diagnostics, process re-engineering work, and digital transformation strategy projects. Strong on stakeholder management, structured problem-solving, and the typical consultin
+  skills: FastAPI(beg,9m,e11), PowerPoint(beg,12m,e6), dbt(beg,16m,e7), JavaScript(beg,9m,e15), SAP(beg,13m,e11), Spark(int,24m,e15), React(beg,6m,e5), GCP(beg,15m,e4), BigQuery(int,30m,e0), Hadoop(int,15m,e10), Fine-tuning LLMs(adv,6m,e0), FAISS(int,7m,e2), LangChain(int,14m,e2), Sentence Transformers(adv,8m,e1), Pinecone(int,7m,e0), Information Retrieval(adv,9m,e0), Prompt Engineering(adv,18m,e2), Vector Search(int,4m,e0)
+  signals: last_active=2025-10-09 resp=0.29 otw=True saved=6 gh=-1 notice=150 complete=28.7
+
+### CAND_0003676  [bucket=stuffer]
+  title=Mechanical Engineer | yoe=13.8 | Acme Corp (Manufacturing) | Pune, Maharashtra,India
+  summary: Mechanical Engineer with 13.8+ years of experience driving outcomes in my domain. I have built strong functional expertise in the typical responsibilities of the role, including team management, stakeholder communication, and project delivery. Recently I've been excited about how AI and GenAI tools can augment my work. I've been taking online courses on RAG and vector databases, experimenting with
+   - Mechanical Engineer @ Acme Corp (Manufacturing) 31m CUR
+       Senior accounting role at a mid-sized company — month-end close, financial reporting, statutory compliance (GAAP / Ind-AS), and tax filings. Owned the GL, fixed-asset register, and the audit-readiness function. Managed a team of 3 staff accountants. Built strong process disciplin
+   - Marketing Manager @ Stark Industries (Manufacturing) 20m 
+       Marketing leadership role at a B2B SaaS company. Owned the demand-generation function — content marketing, paid acquisition, SEO, email nurture. Built and managed a team of 5 across content, performance marketing, and marketing operations. Worked closely with sales on lead-qualit
+   - Customer Support @ Dunder Mifflin (Paper Products) 31m 
+       Mechanical engineering design role at a hardware-product company. Led the design of two product subsystems through full lifecycle: concept, DFM/DFMA review, prototype, production tooling. Comfortable with CAD (SolidWorks, Creo), FEA (ANSYS), and the typical hardware-development c
+   - Customer Support @ Pied Piper (Software) 36m 
+       Content writing and SEO strategy for a tech-focused publication. Wrote longform articles on developer tools, cloud platforms, and AI/ML topics — including some that ranked on the first page of search for high-competition keywords. Managed a freelance writer pool and the editorial
+   - Graphic Designer @ Initech (Software) 46m 
+       Business analyst at a consulting firm, working primarily with retail and CPG clients. Conducted business diagnostics, process re-engineering work, and digital transformation strategy projects. Strong on stakeholder management, structured problem-solving, and the typical consultin
+  skills: TypeScript(int,19m,e11), Django(int,28m,e2), SAP(int,33m,e2), Tailwind(int,9m,e8), SQL(beg,18m,e15), Flask(int,10m,e11), Excel(beg,13m,e6), Kubernetes(beg,7m,e12), Tally(int,34m,e4), Illustrator(beg,4m,e13), LangChain(int,13m,e2), RAG(int,16m,e0), Sentence Transformers(int,17m,e2), Recommendation Systems(adv,7m,e1), Embeddings(int,9m,e2), Semantic Search(adv,6m,e4), Pinecone(adv,11m,e3), Information Retrieval(adv,5m,e3), Prompt Engineering(adv,9m,e2), Hugging Face Transformers(adv,17m,e2), FAISS(adv,5m,e4)
+  signals: last_active=2025-12-17 resp=0.62 otw=False saved=10 gh=-1 notice=120 complete=35.8
+
+### CAND_0047112  [bucket=stuffer]
+  title=Content Writer | yoe=3.6 | Globex Inc (Manufacturing) | Trivandrum, Kerala,India
+  summary: Content Writer with 3.6+ years of experience driving outcomes in my domain. I have built strong functional expertise in the typical responsibilities of the role, including team management, stakeholder communication, and project delivery. Recently I've been excited about how AI and GenAI tools can augment my work. I've been taking online courses on RAG and vector databases, experimenting with LangC
+   - Content Writer @ Globex Inc (Manufacturing) 43m CUR
+       Enterprise sales of cloud software solutions into the mid-market segment. Carried a $1.8M ARR quota and consistently delivered against it across the last three years. Owned the full sales cycle: prospecting, discovery, technical evaluation (with SE support), commercial negotiatio
+  skills: MongoDB(int,27m,e9), Photoshop(beg,6m,e8), Kubernetes(beg,15m,e1), Salesforce CRM(beg,6m,e13), Apache Flink(int,23m,e13), Vue.js(beg,17m,e5), Sentence Transformers(adv,6m,e1), LangChain(int,10m,e4), Embeddings(int,17m,e2), Vector Search(adv,11m,e2), Recommendation Systems(adv,4m,e4), Fine-tuning LLMs(adv,7m,e2), RAG(adv,15m,e3), Semantic Search(int,9m,e2), Hugging Face Transformers(adv,4m,e0), FAISS(int,15m,e4)
+  signals: last_active=2025-11-27 resp=0.73 otw=True saved=10 gh=-1 notice=60 complete=33.2
+
+### CAND_0079201  [bucket=stuffer]
+  title=Marketing Manager | yoe=3.8 | TCS (IT Services) | Berlin,Germany
+  summary: Marketing Manager with 3.8+ years of experience driving outcomes in my domain. I have built strong functional expertise in the typical responsibilities of the role, including team management, stakeholder communication, and project delivery. Recently I've been excited about how AI and GenAI tools can augment my work. I've been taking online courses on RAG and vector databases, experimenting with La
+   - Marketing Manager @ TCS (IT Services) 45m CUR
+       Business analyst at a consulting firm, working primarily with retail and CPG clients. Conducted business diagnostics, process re-engineering work, and digital transformation strategy projects. Strong on stakeholder management, structured problem-solving, and the typical consultin
+  skills: Next.js(beg,7m,e5), JavaScript(beg,6m,e6), PostgreSQL(beg,6m,e1), Snowflake(beg,4m,e9), Illustrator(int,31m,e9), GCP(beg,9m,e11), HTML(beg,12m,e1), ETL(beg,18m,e7), Six Sigma(int,29m,e8), Prompt Engineering(adv,4m,e2), Hugging Face Transformers(adv,9m,e2), Fine-tuning LLMs(adv,11m,e4), Embeddings(adv,4m,e3), RAG(int,10m,e0), FAISS(int,14m,e4), LLMs(adv,5m,e0), LangChain(adv,14m,e3), Pinecone(adv,15m,e0)
+  signals: last_active=2025-12-31 resp=0.2 otw=False saved=9 gh=-1 notice=150 complete=81.7
+
+### CAND_0061686  [bucket=stuffer]
+  title=Project Manager | yoe=7.7 | Hooli (Software) | Coimbatore, Tamil Nadu,India
+  summary: Project Manager with 7.7+ years of experience driving outcomes in my domain. I have built strong functional expertise in the typical responsibilities of the role, including team management, stakeholder communication, and project delivery. Recently I've been excited about how AI and GenAI tools can augment my work. I've been taking online courses on RAG and vector databases, experimenting with Lang
+   - Project Manager @ Hooli (Software) 25m CUR
+       Business analyst at a consulting firm, working primarily with retail and CPG clients. Conducted business diagnostics, process re-engineering work, and digital transformation strategy projects. Strong on stakeholder management, structured problem-solving, and the typical consultin
+   - Business Analyst @ Wipro (IT Services) 24m 
+       Brand design and creative direction at a consumer-products company. Owned brand identity (logo, visual system, typography), packaging design, and digital creative across web and social. Led the recent rebrand and managed a small external agency for production work. Comfortable ac
+   - Operations Manager @ Globex Inc (Manufacturing) 43m 
+       Content writing and SEO strategy for a tech-focused publication. Wrote longform articles on developer tools, cloud platforms, and AI/ML topics — including some that ranked on the first page of search for high-competition keywords. Managed a freelance writer pool and the editorial
+  skills: Forecasting(int,22m,e12), Salesforce CRM(beg,14m,e8), Marketing(beg,8m,e15), Scrum(int,12m,e1), Redis(int,25m,e7), dbt(int,12m,e10), Spark(beg,4m,e11), SEO(int,10m,e5), Tally(int,21m,e11), Fine-tuning LLMs(adv,4m,e0), RAG(int,8m,e4), LangChain(int,4m,e0), Recommendation Systems(adv,12m,e1), Semantic Search(adv,18m,e4), Vector Search(adv,5m,e1), Sentence Transformers(adv,4m,e0), FAISS(adv,16m,e3), Prompt Engineering(adv,14m,e0), LLMs(adv,18m,e0)
+  signals: last_active=2025-11-14 resp=0.11 otw=False saved=0 gh=-1 notice=60 complete=70.5
+
+### CAND_0004569  [bucket=stuffer]
+  title=Mechanical Engineer | yoe=15.0 | Dunder Mifflin (Paper Products) | Singapore,Singapore
+  summary: Mechanical Engineer with 15.0+ years of experience driving outcomes in my domain. I have built strong functional expertise in the typical responsibilities of the role, including team management, stakeholder communication, and project delivery. Recently I've been excited about how AI and GenAI tools can augment my work. I've been taking online courses on RAG and vector databases, experimenting with
+   - Mechanical Engineer @ Dunder Mifflin (Paper Products) 13m CUR
+       Senior accounting role at a mid-sized company — month-end close, financial reporting, statutory compliance (GAAP / Ind-AS), and tax filings. Owned the GL, fixed-asset register, and the audit-readiness function. Managed a team of 3 staff accountants. Built strong process disciplin
+   - Graphic Designer @ Wipro (IT Services) 25m 
+       Brand design and creative direction at a consumer-products company. Owned brand identity (logo, visual system, typography), packaging design, and digital creative across web and social. Led the recent rebrand and managed a small external agency for production work. Comfortable ac
+   - HR Manager @ Dunder Mifflin (Paper Products) 50m 
+       Brand design and creative direction at a consumer-products company. Owned brand identity (logo, visual system, typography), packaging design, and digital creative across web and social. Led the recent rebrand and managed a small external agency for production work. Comfortable ac
+   - Marketing Manager @ Stark Industries (Manufacturing) 31m 
+       Marketing leadership role at a B2B SaaS company. Owned the demand-generation function — content marketing, paid acquisition, SEO, email nurture. Built and managed a team of 5 across content, performance marketing, and marketing operations. Worked closely with sales on lead-qualit
+   - Project Manager @ Wipro (IT Services) 33m 
+       Enterprise sales of cloud software solutions into the mid-market segment. Carried a $1.8M ARR quota and consistently delivered against it across the last three years. Owned the full sales cycle: prospecting, discovery, technical evaluation (with SE support), commercial negotiatio
+   - Content Writer @ Pied Piper (Software) 26m 
+       Operations management role at a logistics company. Owned daily fulfillment operations across 3 warehouses, managing a team of 80 across receiving, picking, packing, and outbound. Built and tracked the operational KPIs (on-time fulfillment, accuracy, cost per order) and led the co
+  skills: Content Writing(int,11m,e8), Microservices(int,31m,e11), gRPC(int,30m,e11), FastAPI(beg,17m,e4), Java(int,14m,e0), Illustrator(int,12m,e2), Tailwind(int,30m,e1), Scrum(beg,17m,e13), REST APIs(beg,9m,e0), Recommendation Systems(int,14m,e3), Pinecone(adv,12m,e2), Hugging Face Transformers(int,15m,e2), Sentence Transformers(adv,5m,e3), Prompt Engineering(adv,11m,e1), Vector Search(adv,8m,e2), LLMs(adv,17m,e2), Fine-tuning LLMs(int,13m,e4)
+  signals: last_active=2026-02-06 resp=0.45 otw=False saved=7 gh=-1 notice=90 complete=76.1
+
+### CAND_0091460  [bucket=stuffer]
+  title=Mechanical Engineer | yoe=1.4 | TCS (IT Services) | Sydney,Australia
+  summary: Mechanical Engineer with 1.4+ years of experience driving outcomes in my domain. I have built strong functional expertise in the typical responsibilities of the role, including team management, stakeholder communication, and project delivery. Recently I've been excited about how AI and GenAI tools can augment my work. I've been taking online courses on RAG and vector databases, experimenting with 
+   - Mechanical Engineer @ TCS (IT Services) 16m CUR
+       Business analyst at a consulting firm, working primarily with retail and CPG clients. Conducted business diagnostics, process re-engineering work, and digital transformation strategy projects. Strong on stakeholder management, structured problem-solving, and the typical consultin
+  skills: Apache Beam(int,24m,e10), Scrum(beg,13m,e15), Rust(int,13m,e0), BigQuery(beg,16m,e0), Spring Boot(beg,7m,e2), Django(beg,13m,e2), PowerPoint(beg,11m,e10), Semantic Search(adv,8m,e2), Prompt Engineering(adv,6m,e4), Sentence Transformers(int,4m,e1), RAG(adv,10m,e1), Embeddings(adv,5m,e4), Information Retrieval(adv,11m,e0), LLMs(adv,12m,e3)
+  signals: last_active=2025-11-14 resp=0.21 otw=False saved=12 gh=-1 notice=90 complete=52.3
+
+### CAND_0047327  [bucket=junior]
+  title=Junior ML Engineer | yoe=5.0 | Vedantu (EdTech) | Gurgaon, Haryana,India
+  summary: Data scientist / ML engineer with 5.0 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. Most of my recent work has been on predictive modeling for customer-facing problems — churn, conversion, lifetime value. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and sta
+   - Junior ML Engineer @ Vedantu (EdTech) 27m CUR
+       Built computer vision models for our product's image moderation feature using PyTorch — fine-tuned ResNet variants on a labeled dataset of ~200K images. Set up the training pipeline (data loading, augmentation, evaluation) and the inference service. Most of my project work has be
+   - Data Scientist @ PharmEasy (HealthTech) 26m 
+       Worked on time-series forecasting models for supply-chain demand prediction at a logistics company. Built models in Prophet, LightGBM, and (for one project) a small LSTM — the LightGBM model ended up shipping. Also ran some reinforcement learning experiments for dynamic pricing b
+   - Junior ML Engineer @ TCS (IT Services) 6m 
+       Built recommendation-style features at a mid-stage startup — lighter weight than ranking systems at FAANG, but production. Used a combination of collaborative filtering (matrix factorization in implicit-feedback library) and gradient-boosted re-ranking over engagement signals. Pu
+  skills: Time Series(int,28m,e9), OpenCV(int,15m,e13), BM25(int,10m,e1), OpenSearch(adv,37m,e55), QLoRA(int,22m,e13), Qdrant(adv,30m,e14), ASR(int,19m,e3), Semantic Search(adv,27m,e7), REST APIs(beg,15m,e11), Statistical Modeling(int,21m,e6), Object Detection(int,9m,e3), CNN(int,14m,e2), PowerPoint(beg,13m,e12), Elasticsearch(adv,24m,e35), Flask(int,10m,e15), FAISS(int,19m,e15)
+  signals: last_active=2026-05-03 resp=0.6 otw=False saved=13 gh=-1 notice=60 complete=70.9
+
+### CAND_0043304  [bucket=junior]
+  title=Junior ML Engineer | yoe=6.5 | TCS (IT Services) | Trivandrum, Kerala,India
+  summary: Data scientist / ML engineer with 6.5 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've spent the last couple of years building NLP-based classification and information extraction pipelines. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps t
+   - Junior ML Engineer @ TCS (IT Services) 16m CUR
+       Worked on customer-facing predictive modeling for an e-commerce platform — churn prediction, conversion likelihood, lifetime value estimation. Used scikit-learn and XGBoost; main models were gradient-boosted trees with ~80 hand-engineered features. The work was split roughly 60/4
+   - Junior ML Engineer @ Locobuzz (AI/ML) 43m 
+       Worked on time-series forecasting models for supply-chain demand prediction at a logistics company. Built models in Prophet, LightGBM, and (for one project) a small LSTM — the LightGBM model ended up shipping. Also ran some reinforcement learning experiments for dynamic pricing b
+   - AI Research Engineer @ PolicyBazaar (Insurance Tech) 17m 
+       Built recommendation-style features at a mid-stage startup — lighter weight than ranking systems at FAANG, but production. Used a combination of collaborative filtering (matrix factorization in implicit-feedback library) and gradient-boosted re-ranking over engagement signals. Pu
+  skills: LangChain(int,36m,e8), Sentence Transformers(adv,60m,e7), Machine Learning(adv,33m,e46), Diffusion Models(adv,32m,e36), Kubeflow(adv,19m,e42), BM25(adv,55m,e49), FastAPI(beg,12m,e1), LoRA(int,24m,e15), TTS(int,25m,e13), Qdrant(int,22m,e8), Weights & Biases(adv,23m,e15), Reinforcement Learning(adv,38m,e52), React(beg,11m,e4), YOLO(int,20m,e1), Hugging Face Transformers(adv,21m,e19)
+  signals: last_active=2026-02-21 resp=0.75 otw=True saved=20 gh=67.6 notice=90 complete=91.9
+
+### CAND_0068393  [bucket=junior]
+  title=Junior ML Engineer | yoe=4.4 | Haptik (Conversational AI) | Indore, Madhya Pradesh,India
+  summary: Data scientist / ML engineer with 4.4 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've spent the last couple of years building NLP-based classification and information extraction pipelines. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps t
+   - Junior ML Engineer @ Haptik (Conversational AI) 36m CUR
+       Worked on time-series forecasting models for supply-chain demand prediction at a logistics company. Built models in Prophet, LightGBM, and (for one project) a small LSTM — the LightGBM model ended up shipping. Also ran some reinforcement learning experiments for dynamic pricing b
+   - Computer Vision Engineer @ HCL (IT Services) 16m 
+       Contributed to ML feature engineering and model deployment for a fraud-detection product. My main role was engineering: building the Flask-based prediction API, integrating with the feature store, and writing the model-serving observability layer. I worked closely with senior dat
+  skills: Information Retrieval(adv,25m,e36), ASR(int,24m,e15), Qdrant(adv,25m,e0), GANs(int,22m,e6), Project Management(int,9m,e6), Azure(beg,8m,e11), CNN(adv,45m,e54), FAISS(adv,57m,e57), MLflow(adv,24m,e7), Python(adv,40m,e2)
+  signals: last_active=2026-02-23 resp=0.62 otw=True saved=37 gh=-1 notice=60 complete=46.2
+
+### CAND_0084090  [bucket=junior]
+  title=Junior ML Engineer | yoe=3.9 | Ola (Transportation) | Indore, Madhya Pradesh,India
+  summary: Data scientist / ML engineer with 3.9 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. Most of my recent work has been on predictive modeling for customer-facing problems — churn, conversion, lifetime value. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and sta
+   - Junior ML Engineer @ Ola (Transportation) 40m CUR
+       Contributed to ML feature engineering and model deployment for a fraud-detection product. My main role was engineering: building the Flask-based prediction API, integrating with the feature store, and writing the model-serving observability layer. I worked closely with senior dat
+   - ML Engineer @ Aganitha (AI/ML) 6m 
+       Built computer vision models for our product's image moderation feature using PyTorch — fine-tuned ResNet variants on a labeled dataset of ~200K images. Set up the training pipeline (data loading, augmentation, evaluation) and the inference service. Most of my project work has be
+  skills: Computer Vision(adv,49m,e51), LlamaIndex(int,19m,e4), CI/CD(beg,18m,e5), NLP(int,19m,e8), Feature Engineering(adv,20m,e54), MLflow(int,32m,e13), TensorFlow(int,20m,e8), TTS(int,28m,e14), OpenCV(adv,19m,e59), Qdrant(adv,59m,e39), pgvector(int,9m,e9), QLoRA(int,35m,e8), Python(adv,55m,e32), Vue.js(int,25m,e4), CNN(int,8m,e7), Vector Search(int,18m,e11)
+  signals: last_active=2026-05-26 resp=0.74 otw=True saved=38 gh=20.0 notice=60 complete=71.2
+
+### CAND_0080189  [bucket=junior]
+  title=Junior ML Engineer | yoe=4.4 | Saarthi.ai (Voice AI) | Chandigarh, Chandigarh,India
+  summary: Data scientist / ML engineer with 4.4 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. Most of my recent work has been on predictive modeling for customer-facing problems — churn, conversion, lifetime value. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and sta
+   - Junior ML Engineer @ Saarthi.ai (Voice AI) 15m CUR
+       Worked on time-series forecasting models for supply-chain demand prediction at a logistics company. Built models in Prophet, LightGBM, and (for one project) a small LSTM — the LightGBM model ended up shipping. Also ran some reinforcement learning experiments for dynamic pricing b
+   - AI Research Engineer @ Swiggy (Food Delivery) 37m 
+       Worked on customer-facing predictive modeling for an e-commerce platform — churn prediction, conversion likelihood, lifetime value estimation. Used scikit-learn and XGBoost; main models were gradient-boosted trees with ~80 hand-engineered features. The work was split roughly 60/4
+  skills: PEFT(adv,57m,e19), Vue.js(beg,7m,e3), TensorFlow(int,23m,e6), Deep Learning(adv,29m,e7), Forecasting(adv,35m,e7), BentoML(int,15m,e6), Computer Vision(adv,56m,e6), YOLO(adv,39m,e28), CNN(int,25m,e14), Reinforcement Learning(adv,57m,e12), BM25(int,18m,e3), Time Series(int,12m,e15), MLflow(int,26m,e6), Docker(beg,16m,e8), QLoRA(int,31m,e11), Sales(int,36m,e9), Next.js(int,20m,e15)
+  signals: last_active=2026-04-29 resp=0.83 otw=True saved=44 gh=-1 notice=60 complete=59.4
+
+### CAND_0054100  [bucket=junior]
+  title=Junior ML Engineer | yoe=6.0 | Zoho (SaaS) | Kolkata, West Bengal,India
+  summary: Data scientist / ML engineer with 6.0 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. My current role is split between dashboarding/analytics and shipping production ML models. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm s
+   - Junior ML Engineer @ Zoho (SaaS) 26m CUR
+       Built computer vision models for our product's image moderation feature using PyTorch — fine-tuned ResNet variants on a labeled dataset of ~200K images. Set up the training pipeline (data loading, augmentation, evaluation) and the inference service. Most of my project work has be
+   - ML Engineer @ Unacademy (EdTech) 31m 
+       Built NLP pipelines for sentiment analysis and document classification — primarily for an internal feedback-analytics dashboard. Started with sklearn-based bag-of-words models, then moved to transformer-based classifiers (DistilBERT) for the harder classes. Comfortable with PyTor
+   - Computer Vision Engineer @ Freshworks (SaaS) 14m 
+       Built NLP pipelines for sentiment analysis and document classification — primarily for an internal feedback-analytics dashboard. Started with sklearn-based bag-of-words models, then moved to transformer-based classifiers (DistilBERT) for the harder classes. Comfortable with PyTor
+  skills: Vector Search(adv,31m,e16), Reinforcement Learning(adv,29m,e1), Time Series(adv,30m,e12), Prompt Engineering(int,24m,e13), Snowflake(beg,15m,e1), Hadoop(int,15m,e7), GANs(adv,45m,e25), Marketing(int,25m,e5), YOLO(int,14m,e6), Semantic Search(adv,43m,e50), QLoRA(int,35m,e3), Deep Learning(adv,34m,e31), Pinecone(int,20m,e0), GCP(int,14m,e9), Image Classification(adv,34m,e29), Computer Vision(int,28m,e1), Weaviate(adv,22m,e22), Fine-tuning LLMs(int,17m,e15)
+  signals: last_active=2026-05-25 resp=0.79 otw=True saved=30 gh=73.2 notice=60 complete=97.6
+
+### CAND_0005668  [bucket=nontech_plain]
+  title=Civil Engineer | yoe=7.0 | Initech (Software) | Austin,USA
+  summary: Professional with 7.0+ years of experience. I've spent my career in marketing manager roles, mostly focused on driving outcomes through process, people, and customer relationships. Lately I've been curious about how AI tools could augment my work — I've experimented with ChatGPT and a few other tools for productivity and content creation, and I think the space is exciting. Open to roles where I ca
+   - Civil Engineer @ Initech (Software) 16m CUR
+       Mechanical engineering design role at a hardware-product company. Led the design of two product subsystems through full lifecycle: concept, DFM/DFMA review, prototype, production tooling. Comfortable with CAD (SolidWorks, Creo), FEA (ANSYS), and the typical hardware-development c
+   - Customer Support @ Acme Corp (Manufacturing) 32m 
+       Business analyst at a consulting firm, working primarily with retail and CPG clients. Conducted business diagnostics, process re-engineering work, and digital transformation strategy projects. Strong on stakeholder management, structured problem-solving, and the typical consultin
+   - Content Writer @ Wipro (IT Services) 34m 
+       Enterprise sales of cloud software solutions into the mid-market segment. Carried a $1.8M ARR quota and consistently delivered against it across the last three years. Owned the full sales cycle: prospecting, discovery, technical evaluation (with SE support), commercial negotiatio
+  skills: Kafka(int,36m,e10), Microservices(beg,12m,e10), gRPC(int,13m,e0), Databricks(beg,15m,e1), Sales(beg,8m,e12), Java(beg,6m,e4)
+  signals: last_active=2026-03-13 resp=0.28 otw=False saved=8 gh=11.8 notice=90 complete=54.9
+
+### CAND_0092120  [bucket=nontech_plain]
+  title=Sales Executive | yoe=10.9 | Wipro (IT Services) | Pune, Maharashtra,India
+  summary: Professional with 10.9+ years of experience. I'm a marketing manager with substantial experience in cross-functional collaboration, stakeholder management, and execution. Lately I've been curious about how AI tools could augment my work — I've experimented with ChatGPT and a few other tools for productivity and content creation, and I think the space is exciting. Open to roles where I can apply my
+   - Sales Executive @ Wipro (IT Services) 31m CUR
+       Marketing leadership role at a B2B SaaS company. Owned the demand-generation function — content marketing, paid acquisition, SEO, email nurture. Built and managed a team of 5 across content, performance marketing, and marketing operations. Worked closely with sales on lead-qualit
+   - Business Analyst @ Infosys (IT Services) 34m 
+       Operations management role at a logistics company. Owned daily fulfillment operations across 3 warehouses, managing a team of 80 across receiving, picking, packing, and outbound. Built and tracked the operational KPIs (on-time fulfillment, accuracy, cost per order) and led the co
+   - Operations Manager @ Pied Piper (Software) 51m 
+       Customer support team lead at a SaaS product. Managed a team of 8 support agents handling tier-1 and tier-2 tickets; owned the escalation process to engineering and the customer-feedback loop to product. Built out the support knowledge base and the agent training program. Strong 
+   - Marketing Manager @ Hooli (Software) 13m 
+       Operations management role at a logistics company. Owned daily fulfillment operations across 3 warehouses, managing a team of 80 across receiving, picking, packing, and outbound. Built and tracked the operational KPIs (on-time fulfillment, accuracy, cost per order) and led the co
+  skills: Agile(int,32m,e0), Salesforce CRM(beg,15m,e8), TypeScript(beg,9m,e8), Excel(int,25m,e9), Illustrator(int,21m,e7), Java(beg,4m,e5)
+  signals: last_active=2026-01-03 resp=0.73 otw=False saved=0 gh=-1 notice=150 complete=41.8
+
+### CAND_0075347  [bucket=nontech_plain]
+  title=Customer Support | yoe=11.7 | Infosys (IT Services) | Hyderabad, Telangana,India
+  summary: Professional with 11.7+ years of experience. I'm a marketing manager with substantial experience in cross-functional collaboration, stakeholder management, and execution. Lately I've been curious about how AI tools could augment my work — I've experimented with ChatGPT and a few other tools for productivity and content creation, and I think the space is exciting. Open to roles where I can apply my
+   - Customer Support @ Infosys (IT Services) 49m CUR
+       Business analyst at a consulting firm, working primarily with retail and CPG clients. Conducted business diagnostics, process re-engineering work, and digital transformation strategy projects. Strong on stakeholder management, structured problem-solving, and the typical consultin
+   - Operations Manager @ Initech (Software) 49m 
+       Content writing and SEO strategy for a tech-focused publication. Wrote longform articles on developer tools, cloud platforms, and AI/ML topics — including some that ranked on the first page of search for high-competition keywords. Managed a freelance writer pool and the editorial
+   - Content Writer @ Wayne Enterprises (Conglomerate) 42m 
+       Operations management role at a logistics company. Owned daily fulfillment operations across 3 warehouses, managing a team of 80 across receiving, picking, packing, and outbound. Built and tracked the operational KPIs (on-time fulfillment, accuracy, cost per order) and led the co
+  skills: GCP(beg,10m,e3), Docker(int,28m,e3), Terraform(beg,7m,e5), Django(int,30m,e6), Figma(int,16m,e10), GraphQL(beg,4m,e10), Redux(int,8m,e12), Reinforcement Learning(adv,21m,e36), SAP(int,19m,e3)
+  signals: last_active=2025-10-05 resp=0.33 otw=False saved=5 gh=22.6 notice=120 complete=55.8
+
+### CAND_0080568  [bucket=nontech_plain]
+  title=HR Manager | yoe=6.9 | Globex Inc (Manufacturing) | San Francisco,USA
+  summary: Professional with 6.9+ years of experience. My professional background is in marketing manager — I've built and led teams, owned KPIs, and driven business outcomes in this domain. Lately I've been curious about how AI tools could augment my work — I've experimented with ChatGPT and a few other tools for productivity and content creation, and I think the space is exciting. Open to roles where I can
+   - HR Manager @ Globex Inc (Manufacturing) 40m CUR
+       Customer support team lead at a SaaS product. Managed a team of 8 support agents handling tier-1 and tier-2 tickets; owned the escalation process to engineering and the customer-feedback loop to product. Built out the support knowledge base and the agent training program. Strong 
+   - Civil Engineer @ Stark Industries (Manufacturing) 42m 
+       Enterprise sales of cloud software solutions into the mid-market segment. Carried a $1.8M ARR quota and consistently delivered against it across the last three years. Owned the full sales cycle: prospecting, discovery, technical evaluation (with SE support), commercial negotiatio
+  skills: Photoshop(int,27m,e13), Accounting(beg,2m,e10), React(int,19m,e13), gRPC(beg,8m,e1), Salesforce CRM(int,31m,e9), Object Detection(int,25m,e12), Scrum(beg,15m,e13), Next.js(beg,14m,e13), Apache Beam(int,13m,e10)
+  signals: last_active=2026-02-08 resp=0.08 otw=False saved=7 gh=-1 notice=90 complete=82.4
+
+### CAND_0005176  [bucket=nontech_plain]
+  title=Business Analyst | yoe=11.7 | Dunder Mifflin (Paper Products) | Kolkata, West Bengal,India
+  summary: Professional with 11.7+ years of experience. My professional background is in marketing manager — I've built and led teams, owned KPIs, and driven business outcomes in this domain. Lately I've been curious about how AI tools could augment my work — I've experimented with ChatGPT and a few other tools for productivity and content creation, and I think the space is exciting. Open to roles where I ca
+   - Business Analyst @ Dunder Mifflin (Paper Products) 42m CUR
+       Brand design and creative direction at a consumer-products company. Owned brand identity (logo, visual system, typography), packaging design, and digital creative across web and social. Led the recent rebrand and managed a small external agency for production work. Comfortable ac
+   - Project Manager @ Stark Industries (Manufacturing) 39m 
+       Senior accounting role at a mid-sized company — month-end close, financial reporting, statutory compliance (GAAP / Ind-AS), and tax filings. Owned the GL, fixed-asset register, and the audit-readiness function. Managed a team of 3 staff accountants. Built strong process disciplin
+   - Sales Executive @ TCS (IT Services) 30m 
+       Enterprise sales of cloud software solutions into the mid-market segment. Carried a $1.8M ARR quota and consistently delivered against it across the last three years. Owned the full sales cycle: prospecting, discovery, technical evaluation (with SE support), commercial negotiatio
+   - Civil Engineer @ Initech (Software) 28m 
+       Mechanical engineering design role at a hardware-product company. Led the design of two product subsystems through full lifecycle: concept, DFM/DFMA review, prototype, production tooling. Comfortable with CAD (SolidWorks, Creo), FEA (ANSYS), and the typical hardware-development c
+  skills: Azure(beg,4m,e13), Hadoop(beg,16m,e5), Databricks(int,34m,e8), gRPC(int,34m,e3), Redux(beg,8m,e4), Figma(int,15m,e5), GCP(int,35m,e14), JavaScript(beg,9m,e0), Tally(int,35m,e12), ETL(int,12m,e3)
+  signals: last_active=2026-02-28 resp=0.61 otw=False saved=5 gh=-1 notice=150 complete=40.2
+
