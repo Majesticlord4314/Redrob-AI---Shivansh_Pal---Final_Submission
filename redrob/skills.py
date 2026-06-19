@@ -70,20 +70,29 @@ def analyze(rec):
                 nlp_signal = True
 
     must_have_hits = len(trusted_domains & MUST_HAVE)
-    # coverage score: must-haves dominate, ranking/llm add a little
-    cov = must_have_hits / 3.0
-    if "ranking" in trusted_domains:
-        cov += 0.10
-    if "llm" in trusted_domains:
-        cov += 0.05
+    relevant = {"embeddings", "vector_db", "nlp_ir", "ranking", "llm"}
+    n_relevant_trusted = len(trusted_domains & relevant)
+
+    # assessment corroboration: relevant skills with a real Redrob assessment score
+    assess_hits = 0
+    for s in rec["skills"]:
+        if DOMAIN.get(s.get("name")) in relevant:
+            nm = s.get("name")
+            if nm in assessments and (assessments.get(nm) or 0) >= 50:
+                assess_hits += 1
+    assess_factor = min(assess_hits / 2.0, 1.0)
+
+    # finer, continuous coverage: must-haves dominate, breadth + assessment add depth
+    cov = 0.55 * (must_have_hits / 3.0) + 0.30 * min(n_relevant_trusted / 5.0, 1.0) + 0.15 * assess_factor
     cov = min(cov, 1.0)
 
     return {
         "trusted_domains": trusted_domains,
         "must_have_hits": must_have_hits,
+        "n_relevant_trusted": n_relevant_trusted,
+        "assess_factor": assess_factor,
         "coverage": cov,
         "cv_signal": cv_signal,
         "nlp_signal": nlp_signal,
-        "n_ai_skills_raw": sum(1 for s in rec["skills"] if DOMAIN.get(s.get("name")) in
-                               {"embeddings", "vector_db", "nlp_ir", "ranking", "llm"}),
+        "n_ai_skills_raw": sum(1 for s in rec["skills"] if DOMAIN.get(s.get("name")) in relevant),
     }

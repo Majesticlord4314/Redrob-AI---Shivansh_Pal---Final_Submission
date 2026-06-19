@@ -36,6 +36,7 @@ def run(path, out):
             "m": m,
             "title": rec["title"],
             "family": sc["family"],
+            "archetype": sc["archetype"],
             "yoe": rec["yoe"],
             "company": rec["current_company"],
             "industry": rec["current_industry"],
@@ -44,7 +45,7 @@ def run(path, out):
             "domains": ",".join(sc["trusted_domains"]),
             "must_have": sc["must_have_hits"],
             "n_ai_raw": sc["n_ai_skills_raw"],
-            "g_role": sc["g_role"], "g_sub": sc["g_sub"], "g_dom": sc["g_dom"],
+            "g_role": sc["g_role"], "g_arch": sc["g_arch"], "g_dom": sc["g_dom"],
             "g_comp": sc["g_comp"], "g_yoe": sc["g_yoe"], "g_loc": sc["g_loc"],
             "penalties": "|".join(sc["penalties"]),
             "notes": "|".join(notes),
@@ -72,9 +73,9 @@ def run(path, out):
             w.writerow([row["candidate_id"], i + 1, f"{row['score_out']:.6f}", ""])
 
     dbg = out + ".debug.csv"
-    cols = ["candidate_id", "final", "fit", "m", "title", "family", "yoe", "company",
-            "industry", "location", "country", "domains", "must_have", "n_ai_raw",
-            "g_role", "g_sub", "g_dom", "g_comp", "g_yoe", "g_loc", "penalties",
+    cols = ["candidate_id", "final", "fit", "m", "title", "family", "archetype", "yoe",
+            "company", "industry", "location", "country", "domains", "must_have", "n_ai_raw",
+            "g_role", "g_arch", "g_dom", "g_comp", "g_yoe", "g_loc", "penalties",
             "notes", "hard_reasons"]
     with open(dbg, "w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=["rank"] + cols)
