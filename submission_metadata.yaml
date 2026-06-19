@@ -11,10 +11,6 @@ primary_contact:
   email: "pratik.piyush@iitg.ac.in"     # confirm
   phone: "+91-PLACEHOLDER"
 
-team_members:
-  - name: "PLACEHOLDER Full Name"
-    email: "pratik.piyush@iitg.ac.in"
-    role: "ML Engineer"
 
 # ============================================================================
 # Code and reproducibility

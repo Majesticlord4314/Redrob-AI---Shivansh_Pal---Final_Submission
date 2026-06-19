@@ -4,12 +4,16 @@ Only logically-impossible rules (low false-positive), with tolerance buffers
 absorbing rounding / gaps / history-truncation. A hard_reject candidate is
 forced out of the output set entirely. See ARCHITECTURE.md Stage B.
 """
+from . import companies
+
+REF_YEAR = 2026
 
 # tolerance buffers (months)
 BUF_DOC_VS_YOE = 14
 BUF_DOC_VS_ELAPSED = 14
 BUF_ROLE_VS_YOE = 6
 BUF_YOE_VS_ELAPSED = 30
+BUF_TENURE_VS_COMPANY = 12  # H6: absorbs founding-year uncertainty
 
 
 def check(rec):
@@ -56,6 +60,16 @@ def check(rec):
                 break
         except (TypeError, ValueError):
             pass
+
+    # H6: tenure at a real company exceeds the company's age (impossible).
+    # Only the duration>age impossibility is used — the dataset does not respect
+    # start-date vs founding, so "started before founding" is noise and NOT used.
+    for ch in rec["career"]:
+        max_t = companies.max_tenure_months(ch["company"], REF_YEAR)
+        if max_t is not None and ch["duration_months"] > max_t + BUF_TENURE_VS_COMPANY:
+            reasons.append(
+                f"H6:tenure({ch['duration_months']}m)>{ch['company']}_age({max_t}m)")
+            break
 
     hard_reject = len(reasons) > 0
 
