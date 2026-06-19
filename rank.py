@@ -11,7 +11,7 @@ import argparse
 import csv
 import time
 
-from redrob import loader, consistency, scoring, behavioral
+from redrob import loader, consistency, scoring, behavioral, reasoning
 
 
 def run(path, out):
@@ -29,11 +29,23 @@ def run(path, out):
             continue  # never rank honeypots / irrelevant
         m, notes = behavioral.modifier(rec)
         final = sc["fit"] * m
+        rec_min = {
+            "candidate_id": rec["candidate_id"],
+            "title": rec["title"],
+            "yoe": rec["yoe"],
+            "current_company": rec["current_company"],
+            "current_industry": rec["current_industry"],
+            "signals": {k: rec["signals"].get(k) for k in
+                        ("recruiter_response_rate", "last_active_date",
+                         "open_to_work_flag", "notice_period_days")},
+        }
         scored.append({
             "candidate_id": rec["candidate_id"],
             "final": final,
             "fit": sc["fit"],
             "m": m,
+            "rec_min": rec_min,
+            "sc": sc,
             "title": rec["title"],
             "family": sc["family"],
             "archetype": sc["archetype"],
@@ -66,11 +78,14 @@ def run(path, out):
         row["score_out"] = s
         prev = s
 
+    for i, row in enumerate(top):
+        row["reasoning"] = reasoning.generate(row["rec_min"], row["sc"], i + 1)
+
     with open(out, "w", encoding="utf-8", newline="") as f:
         w = csv.writer(f)
         w.writerow(["candidate_id", "rank", "score", "reasoning"])
         for i, row in enumerate(top):
-            w.writerow([row["candidate_id"], i + 1, f"{row['score_out']:.6f}", ""])
+            w.writerow([row["candidate_id"], i + 1, f"{row['score_out']:.6f}", row["reasoning"]])
 
     dbg = out + ".debug.csv"
     cols = ["candidate_id", "final", "fit", "m", "title", "family", "archetype", "yoe",

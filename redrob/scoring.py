@@ -94,7 +94,10 @@ def score(rec, hard_reject, soft_penalty):
         "g_role": g_role, "g_arch": g_arch, "g_dom": g_dom,
         "g_comp": g_comp, "g_yoe": g_yoe, "g_loc": g_loc,
         "trusted_domains": sorted(sk["trusted_domains"]),
+        "trusted_relevant": sk["trusted_relevant"],
         "must_have_hits": sk["must_have_hits"],
+        "nlp_signal": sk["nlp_signal"],
+        "cv_signal": sk["cv_signal"],
         "n_ai_skills_raw": sk["n_ai_skills_raw"],
         "penalties": penalties,
     }

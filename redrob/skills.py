@@ -58,16 +58,22 @@ def analyze(rec):
     trusted_domains = set()
     cv_signal = False
     nlp_signal = False
+    relevant_set = {"embeddings", "vector_db", "nlp_ir", "ranking", "llm"}
+    trusted_relevant = []  # (trust, name, proficiency, domain) for reasoning
     for s in rec["skills"]:
         dom = DOMAIN.get(s.get("name"))
         if dom is None:
             continue
-        if _trust(s, assessments) >= TRUST_THRESHOLD:
+        t = _trust(s, assessments)
+        if t >= TRUST_THRESHOLD:
             trusted_domains.add(dom)
             if dom == "cv":
                 cv_signal = True
             if dom in ("nlp_ir", "ranking", "embeddings"):
                 nlp_signal = True
+            if dom in relevant_set:
+                trusted_relevant.append((t, s.get("name"), s.get("proficiency"), dom))
+    trusted_relevant.sort(reverse=True)
 
     must_have_hits = len(trusted_domains & MUST_HAVE)
     relevant = {"embeddings", "vector_db", "nlp_ir", "ranking", "llm"}
@@ -90,6 +96,7 @@ def analyze(rec):
         "trusted_domains": trusted_domains,
         "must_have_hits": must_have_hits,
         "n_relevant_trusted": n_relevant_trusted,
+        "trusted_relevant": [(nm, prof, dom) for (_, nm, prof, dom) in trusted_relevant],
         "assess_factor": assess_factor,
         "coverage": cov,
         "cv_signal": cv_signal,
