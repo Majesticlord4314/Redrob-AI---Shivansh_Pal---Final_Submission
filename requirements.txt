@@ -1,0 +1,7 @@
+# Ranking step (rank.py) requires NO third-party packages — Python 3.11 standard
+# library only (json, csv, re, math, hashlib, datetime, argparse). This file is
+# intentionally dependency-free so Stage-3 reproduction is trivial and exact.
+#
+# Optional extras:
+#   - tools/ experiments (exp_semantic.py): see requirements-dev.txt
+#   - hosted sandbox (app.py):              see requirements-sandbox.txt

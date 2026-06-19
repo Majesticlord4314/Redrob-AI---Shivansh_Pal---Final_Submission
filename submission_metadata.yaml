@@ -1,0 +1,85 @@
+# Redrob Hackathon — Submission Metadata
+# >>> FILL the PLACEHOLDER identity fields before submitting. Everything else is ready. <<<
+
+# ============================================================================
+# Team identity   (PLACEHOLDERs — confirm/replace)
+# ============================================================================
+team_name: "PLACEHOLDER-team-name"
+
+primary_contact:
+  name: "PLACEHOLDER Full Name"
+  email: "pratik.piyush@iitg.ac.in"     # confirm
+  phone: "+91-PLACEHOLDER"
+
+team_members:
+  - name: "PLACEHOLDER Full Name"
+    email: "pratik.piyush@iitg.ac.in"
+    role: "ML Engineer"
+
+# ============================================================================
+# Code and reproducibility
+# ============================================================================
+github_repo: "https://github.com/PLACEHOLDER_USER/redrob-ranker"   # must be reachable at Stage 3
+sandbox_link: "https://huggingface.co/spaces/PLACEHOLDER_USER/redrob-ranker"   # deploy app.py (see README)
+
+reproduce_command: "python rank.py --candidates ./candidates.jsonl --out ./submission.csv"
+# Pure stdlib, no pip install. ~16s for 100k on CPU. Byte-identical across runs.
+
+# ============================================================================
+# Compute environment
+# ============================================================================
+compute:
+  platform: "MacBook Pro (Apple Silicon)"
+  cpu_cores: 8
+  ram_gb: 16
+  python_version: "3.12.2"          # also runs on 3.10+/3.11 (Docker pins 3.11)
+  os: "macOS (Darwin 25.5)"
+  uses_gpu_for_inference: false     # ranker uses no GPU
+  has_network_during_ranking: false # no API calls / downloads at rank time
+  pre_computation_required: false   # no precomputed embeddings/models
+  pre_computation_time_minutes: 0
+
+# ============================================================================
+# AI tools declaration (transparency only)
+# ============================================================================
+ai_tools_used:
+  - "Claude"        # Claude Code — recon, architecture, implementation, review
+
+ai_usage_summary: |
+  Built with Claude Code as a pair-engineer: dataset reconnaissance, architecture
+  design, implementation, and iterative debugging. All design decisions were made
+  by inspecting real data and measuring against a hand-tiered gold set. No
+  candidate data was sent to any hosted LLM, and the ranking step makes no LLM
+  calls (it is pure Python stdlib).
+
+# ============================================================================
+# Approach summary
+# ============================================================================
+methodology_summary: |
+  Rule-based, consistency-gated ranker (pure Python stdlib, ~16s/100k, CPU only).
+  Pipeline: stream candidates -> internal-consistency gate dropping ~70 honeypots
+  (expert skill with 0 months; documented months exceeding stated experience or
+  calendar; a single role longer than the whole career; experience exceeding time
+  since the first job; date corruption) -> title->role-family classification that
+  GATES all free-text signals, so AI keywords on a non-AI title count as stuffing,
+  not fit -> trusted skill-DOMAIN coverage (a skill counts only when corroborated
+  by duration/endorsements/assessment; we score distinct trusted domains —
+  embeddings, vector DB, NLP/IR — not skill count) -> company product-vs-services
+  career-arc -> summary-archetype quality signal -> weighted fit -> bounded
+  behavioral availability modifier (x0.6-1.1; -1 sentinels treated as unknown).
+  Top-100 is emitted with strictly-decreasing scores and feature-grounded
+  reasoning generated only from facts present in each profile (no hallucination by
+  construction). Validated on a 104-candidate hand-tiered gold set (composite 0.99,
+  NDCG@10 1.0); top-10 stable under +/-20% weight perturbation; top-100 honeypot
+  rate 0%. Embeddings and learning-to-rank were tested and did not beat the rules
+  (and are indefensible without real labels), so they were dropped.
+
+# ============================================================================
+# Declarations
+# ============================================================================
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: true         # consistency gate; 0 honeypots in top-100
+  reproduction_tested: true         # verified byte-identical across runs + Docker
