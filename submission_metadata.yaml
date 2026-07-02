@@ -15,7 +15,7 @@ primary_contact:
 # ============================================================================
 # Code and reproducibility
 # ============================================================================
-github_repo: "https://github.com/PLACEHOLDER_USER/redrob-ranker"   # must be reachable at Stage 3
+github_repo: "https://github.com/Majesticlord4314/Redrob-AI---Shivansh_Pal---Final_Submission"   # must be reachable at Stage 3
 sandbox_link: "https://huggingface.co/spaces/PLACEHOLDER_USER/redrob-ranker"   # deploy app.py (see README)
 
 reproduce_command: "python rank.py --candidates ./candidates.jsonl --out ./submission.csv"
