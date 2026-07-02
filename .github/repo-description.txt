@@ -1,0 +1,1 @@
+AI-powered candidate ranking system that identifies the top-100 candidates from a 100,000-candidate pool for Senior AI Engineer roles. Rule-based, consistency-gated, fully transparent — pure Python standard library, CPU-only, no network, ~16s for 100k candidates.
